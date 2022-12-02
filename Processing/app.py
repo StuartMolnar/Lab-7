@@ -53,8 +53,9 @@ returns_data = []
 def populate_stats():
     """ Periodically update stats """
     
+    logger.info('Starting populate stats call')
     now = datetime.datetime.now()
-    logger.info(f'{now}')
+    #logger.info(f'{now}')
 
     # logic for newly added entries
     # -----
@@ -66,8 +67,9 @@ def populate_stats():
 
     
     for response in withdrawals_response.json():
-        logger.debug(f"inside response for loop - response = {response}")
+        #logger.debug(f"inside response for loop - response = {response}")
         withdrawals_data.append(response)
+
 
     if withdrawals_response.status_code != 200:
         logger.info('Status code is not 200')
@@ -99,9 +101,9 @@ def populate_stats():
     longest_book_withdrawn = 0
     
     
-    logger.debug(f'returns_data = {returns_data}')
+    #logger.debug(f'returns_data = {returns_data}')
     for bkreturn in returns_data:
-        logger.debug(f"bkreturn = {bkreturn}")
+        #logger.debug(f"bkreturn = {bkreturn}")
         
         if bkreturn['days_overdue'] > max_overdue_length:
             max_overdue_length = bkreturn['days_overdue']
