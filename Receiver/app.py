@@ -62,6 +62,7 @@ def return_book(body):
             "payload" : body
           }
     msg_str = json.dumps(msg)
+    logger.debug('json.dumps(msg):', msg_str)
     producer.produce(msg_str.encode('utf-8'))
 
     
