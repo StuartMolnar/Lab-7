@@ -64,6 +64,7 @@ def return_book(body):
     logger.debug(f'msg: {msg}')
     msg_str = json.dumps(msg)
     producer.produce(msg_str.encode('utf-8'))
+    logger.debug(f'msg produced')
 
     
     logger.info(f"Returned event ReturnEvent response (id: {trace_id}) with status {201}")
