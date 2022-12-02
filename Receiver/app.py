@@ -61,8 +61,8 @@ def return_book(body):
             "datetime" : datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
             "payload" : body
           }
+    logger.debug(f'msg: {msg}')
     msg_str = json.dumps(msg)
-    logger.debug('json.dumps(msg):', msg_str)
     producer.produce(msg_str.encode('utf-8'))
 
     
