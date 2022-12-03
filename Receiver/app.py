@@ -20,7 +20,7 @@ with open('log_conf.yml', 'r') as f:
 logger = logging.getLogger('basicLogger')
 
 def withdraw_book(body):
-    """ Recieves a book withdraw event """
+    """ Recieves a book withdrawal event """
     
     trace_id = str(uuid.uuid4())
     logger.info(f"Received event WithdrawalEvent with a trace id of {trace_id}")
@@ -33,14 +33,15 @@ def withdraw_book(body):
     producer = topic.get_sync_producer()
 
     msg = { "type": "WithdrawalEvent",
-            "datetime" : datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
-            "payload" : body
-          }
+            "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+            "payload": body } 
+    
     msg_str = json.dumps(msg)
     producer.produce(msg_str.encode('utf-8'))
 
-
-    logger.info(f"Returned event WithdrawalEvent response (id: {trace_id}) with status {201}")
+    
+    
+    logger.info(f"Returned event WithdrawalEvent response (id: {trace_id}) with status 201")
 
     return NoContent, 201
 
@@ -58,16 +59,14 @@ def return_book(body):
     producer = topic.get_sync_producer()
 
     msg = { "type": "ReturnEvent",
-            "datetime" : datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
-            "payload" : body
-          }
-    logger.debug(f'msg: {msg}')
+            "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+            "payload": body } 
+    
     msg_str = json.dumps(msg)
     producer.produce(msg_str.encode('utf-8'))
-    logger.debug(f'msg produced')
 
     
-    logger.info(f"Returned event ReturnEvent response (id: {trace_id}) with status {201}")
+    logger.info(f"Returned event ReturnEvent response (id: {trace_id}) with status 201")
 
     return NoContent, 201
 

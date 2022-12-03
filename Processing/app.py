@@ -41,7 +41,7 @@ def get_stats():
 
 
     if stats_list == []:
-        logger.error(f"Statistics do not exist {404}")
+        logger.error("Statistics do not exist ", 404)
         return "Statistics do not exist ", 404
     
     logger.info("GET request completed")
@@ -53,36 +53,29 @@ returns_data = []
 def populate_stats():
     """ Periodically update stats """
     
-    logger.info('Starting populate stats call')
     now = datetime.datetime.now()
-    #logger.info(f'{now}')
+    logger.info(f'{now}')
+    now = now.strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # logic for newly added entries
     # -----
-    withdrawals_endpoint = f"{app_config['eventstore']['url']}/books/withdrawals?timestamp={now.strftime('%Y-%m-%dT%H:%M:%SZ')}"
+    withdrawals_endpoint = f"{app_config['eventstore']['url']}/books/withdrawals?timestamp={now}"
     withdrawals_response = requests.get(withdrawals_endpoint)
 
-    logger.debug(f'withdrawals_endpoint = {withdrawals_endpoint}')
-    logger.debug(f'withdrawals_response = {withdrawals_response}')
-
     
+    logger.debug(f'withdrawals_response.json(): {withdrawals_response.json()}')
     for response in withdrawals_response.json():
-        #logger.debug(f"inside response for loop - response = {response}")
         withdrawals_data.append(response)
-
 
     if withdrawals_response.status_code != 200:
         logger.info('Status code is not 200')
         
-    logger.debug(f"withdrawals_data = {withdrawals_data}")
+
 
     #-------------------------------
 
-    returns_endpoint = f"{app_config['eventstore']['url']}/books/returns?timestamp={now.strftime('%Y-%m-%dT%H:%M:%SZ')}"
+    returns_endpoint = f"{app_config['eventstore']['url']}/books/returns?timestamp={now}"
     returns_response = requests.get(returns_endpoint)
-
-    logger.debug(f'returns_endpoint = {returns_endpoint}')
-    logger.debug(f'returns_response = {returns_response}')
 
     for response in returns_response.json():
         returns_data.append(response)
@@ -90,21 +83,21 @@ def populate_stats():
     if returns_response.status_code != 200:
         logger.info('Status code is not 200')
 
-    logger.debug(f"returns_data = {returns_data}")
+
     #--------------------------------
     
     num_bk_withdrawals = len(withdrawals_data)
+    logger.debug(f'withdrawalsdata: {withdrawals_data}')
     num_bk_returns = len(returns_data)
+    logger.debug(f'returns_data: {returns_data}')
 
     max_overdue_length = 0
     max_overdue_fine = 0.00
     longest_book_withdrawn = 0
     
     
-    #logger.debug(f'returns_data = {returns_data}')
+    
     for bkreturn in returns_data:
-        #logger.debug(f"bkreturn = {bkreturn}")
-        
         if bkreturn['days_overdue'] > max_overdue_length:
             max_overdue_length = bkreturn['days_overdue']
         if bkreturn['expected_fine'] > max_overdue_fine:

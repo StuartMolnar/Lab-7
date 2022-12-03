@@ -1876,80 +1876,1117 @@ WHERE book_return.date_created >= %(date_created_1)s
 2022-10-26 22:11:38,166 - basicLogger - INFO - Query for Book Return events after 2022-10-26T22:11:34Z returns 0 results
 2022-10-26 22:11:41,068 - basicLogger - INFO - Query for Book Withdrawal events after 2022-10-26T22:11:39Z returns 0 results
 2022-10-26 22:11:43,130 - basicLogger - INFO - Query for Book Return events after 2022-10-26T22:11:39Z returns 0 results
-2022-10-30 04:38:36,259 - basicLogger - INFO - Connecting to DB. Hostname:lab6.eastus.cloudapp.azure.com, Port:3306
-2022-10-30 04:38:36,399 - basicLogger - INFO - Connecting to DB. Hostname:lab6.eastus.cloudapp.azure.com, Port:3306
-2022-10-30 04:39:53,254 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of f610a6b1-7db9-43aa-8010-233cdb2dbdd8
-2022-11-01 01:02:20,752 - basicLogger - INFO - Connecting to DB. Hostname:lab6.eastus.cloudapp.azure.com, Port:3306
-2022-11-01 01:02:20,840 - basicLogger - INFO - Connecting to DB. Hostname:lab6.eastus.cloudapp.azure.com, Port:3306
-2022-11-01 01:18:17,099 - basicLogger - INFO - Connecting to DB. Hostname:lab6.eastus.cloudapp.azure.com, Port:3306
-2022-11-01 01:18:17,165 - basicLogger - INFO - Connecting to DB. Hostname:lab6.eastus.cloudapp.azure.com, Port:3306
-2022-11-01 01:29:59,374 - basicLogger - INFO - Connecting to DB. Hostname:lab6.eastus.cloudapp.azure.com, Port:3306
-2022-11-01 01:29:59,455 - basicLogger - INFO - Connecting to DB. Hostname:lab6.eastus.cloudapp.azure.com, Port:3306
-2022-11-01 01:30:14,783 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T01:30:14', 'payload': {'withdrawal_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'genre': 'High Fantasy', 'num_of_pages': 694, 'days_allowed': 14, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '889f1923-5f82-4e78-a491-f0627fad9719'}}
-2022-11-01 01:30:16,000 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 889f1923-5f82-4e78-a491-f0627fad9719
-2022-11-01 01:32:34,787 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:32:34', 'payload': {'return_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'days_overdue': 3, 'expected_fine': 5.99, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '90a054fb-5c38-4be3-a376-dd2bc3a963a5'}}
-2022-11-01 01:32:35,046 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 90a054fb-5c38-4be3-a376-dd2bc3a963a5
-2022-11-01 01:34:49,207 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:34:49', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 13, 'expected_fine': 23.9, 'return_id': 'd99f8913-9636-4e1d-aba3-1e3ebdb26b0b', 'timestamp': '01/11/2022', 'trace_id': '35711234-80e1-47d1-8818-f0506a4de0d7'}}
-2022-11-01 01:34:49,444 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 35711234-80e1-47d1-8818-f0506a4de0d7
-2022-11-01 01:34:49,446 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:34:49', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 12, 'expected_fine': 49.34, 'return_id': 'df01b2bb-672f-4b18-a38a-7adbbe878e5d', 'timestamp': '01/11/2022', 'trace_id': '13f5dc31-47d9-4af8-98a8-a27ff58a3b40'}}
-2022-11-01 01:34:49,688 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 13f5dc31-47d9-4af8-98a8-a27ff58a3b40
-2022-11-01 01:34:54,735 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T01:34:54', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 2, 'genre': 'High Fantasy', 'num_of_pages': 718, 'timestamp': '01/11/2022', 'withdrawal_id': '611bb1b3-29cc-4791-8fdb-0153bedde14b', 'trace_id': '73bb0ef8-ce6c-4223-aae9-05429229e215'}}
-2022-11-01 01:34:54,968 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 73bb0ef8-ce6c-4223-aae9-05429229e215
-2022-11-01 01:34:54,969 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T01:34:54', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 7, 'genre': 'High Fantasy', 'num_of_pages': 958, 'timestamp': '01/11/2022', 'withdrawal_id': '781a4eff-738a-4229-ae22-d90920184f93', 'trace_id': '5473acf9-3097-400d-bdd8-7fd9897ee7d1'}}
-2022-11-01 01:34:55,211 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 5473acf9-3097-400d-bdd8-7fd9897ee7d1
-2022-11-01 01:35:00,332 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:35:00', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 7, 'expected_fine': 11.96, 'return_id': '8a257d77-46df-4555-a88f-ef6b01a07477', 'timestamp': '01/11/2022', 'trace_id': 'f4085399-21a3-4760-9867-e9e9b3b56ced'}}
-2022-11-01 01:35:00,575 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of f4085399-21a3-4760-9867-e9e9b3b56ced
-2022-11-01 01:35:00,579 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:35:00', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 4, 'expected_fine': 25.76, 'return_id': '7e66cef1-7e2c-471f-bb44-574cea837c1a', 'timestamp': '01/11/2022', 'trace_id': '6da3e1cc-100c-494d-86b6-fd9dce686eb3'}}
-2022-11-01 01:35:00,820 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 6da3e1cc-100c-494d-86b6-fd9dce686eb3
-2022-11-01 01:35:05,878 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T01:35:05', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 22, 'genre': 'High Fantasy', 'num_of_pages': 372, 'timestamp': '01/11/2022', 'withdrawal_id': '99c6f48a-18f7-457f-84b2-0191f0e10d4c', 'trace_id': '8d158951-7154-46a5-8c35-c9b7f982ff1d'}}
-2022-11-01 01:35:06,116 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 8d158951-7154-46a5-8c35-c9b7f982ff1d
-2022-11-01 01:35:06,118 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T01:35:05', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 8, 'genre': 'High Fantasy', 'num_of_pages': 99, 'timestamp': '01/11/2022', 'withdrawal_id': '3e49dc70-650f-4d6a-a2b9-6bd39bb104c8', 'trace_id': '2ad4d786-7b02-4706-befd-97ac7614375f'}}
-2022-11-01 01:35:06,350 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2ad4d786-7b02-4706-befd-97ac7614375f
-2022-11-01 01:35:58,745 - basicLogger - INFO - Query for Book Return events after 2022-10-25T09:52:45Z returns 5 results
-2022-11-01 01:36:19,240 - basicLogger - INFO - Query for Book Withdrawal events after 2022-10-25T09:52:45Z returns 6 results
-2022-11-01 01:38:40,522 - basicLogger - INFO - Connecting to DB. Hostname:lab6.eastus.cloudapp.azure.com, Port:3306
-2022-11-01 01:38:40,620 - basicLogger - INFO - Connecting to DB. Hostname:lab6.eastus.cloudapp.azure.com, Port:3306
-2022-11-01 01:38:41,713 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T01:30:14', 'payload': {'withdrawal_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'genre': 'High Fantasy', 'num_of_pages': 694, 'days_allowed': 14, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '889f1923-5f82-4e78-a491-f0627fad9719'}}
-2022-11-01 01:38:42,942 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 889f1923-5f82-4e78-a491-f0627fad9719
-2022-11-01 01:38:43,026 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:32:34', 'payload': {'return_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'days_overdue': 3, 'expected_fine': 5.99, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '90a054fb-5c38-4be3-a376-dd2bc3a963a5'}}
-2022-11-01 01:38:43,301 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 90a054fb-5c38-4be3-a376-dd2bc3a963a5
-2022-11-01 01:38:43,383 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:34:49', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 13, 'expected_fine': 23.9, 'return_id': 'd99f8913-9636-4e1d-aba3-1e3ebdb26b0b', 'timestamp': '01/11/2022', 'trace_id': '35711234-80e1-47d1-8818-f0506a4de0d7'}}
-2022-11-01 01:38:43,641 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 35711234-80e1-47d1-8818-f0506a4de0d7
-2022-11-01 01:38:43,726 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:34:49', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 12, 'expected_fine': 49.34, 'return_id': 'df01b2bb-672f-4b18-a38a-7adbbe878e5d', 'timestamp': '01/11/2022', 'trace_id': '13f5dc31-47d9-4af8-98a8-a27ff58a3b40'}}
-2022-11-01 01:38:43,978 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 13f5dc31-47d9-4af8-98a8-a27ff58a3b40
-2022-11-01 01:38:44,067 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T01:34:54', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 2, 'genre': 'High Fantasy', 'num_of_pages': 718, 'timestamp': '01/11/2022', 'withdrawal_id': '611bb1b3-29cc-4791-8fdb-0153bedde14b', 'trace_id': '73bb0ef8-ce6c-4223-aae9-05429229e215'}}
-2022-11-01 01:38:44,325 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 73bb0ef8-ce6c-4223-aae9-05429229e215
-2022-11-01 01:38:44,405 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T01:34:54', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 7, 'genre': 'High Fantasy', 'num_of_pages': 958, 'timestamp': '01/11/2022', 'withdrawal_id': '781a4eff-738a-4229-ae22-d90920184f93', 'trace_id': '5473acf9-3097-400d-bdd8-7fd9897ee7d1'}}
-2022-11-01 01:38:44,660 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 5473acf9-3097-400d-bdd8-7fd9897ee7d1
-2022-11-01 01:38:44,740 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:35:00', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 7, 'expected_fine': 11.96, 'return_id': '8a257d77-46df-4555-a88f-ef6b01a07477', 'timestamp': '01/11/2022', 'trace_id': 'f4085399-21a3-4760-9867-e9e9b3b56ced'}}
-2022-11-01 01:38:44,998 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of f4085399-21a3-4760-9867-e9e9b3b56ced
-2022-11-01 01:38:45,080 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:35:00', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 4, 'expected_fine': 25.76, 'return_id': '7e66cef1-7e2c-471f-bb44-574cea837c1a', 'timestamp': '01/11/2022', 'trace_id': '6da3e1cc-100c-494d-86b6-fd9dce686eb3'}}
-2022-11-01 01:38:45,340 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 6da3e1cc-100c-494d-86b6-fd9dce686eb3
-2022-11-01 01:38:45,422 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T01:35:05', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 22, 'genre': 'High Fantasy', 'num_of_pages': 372, 'timestamp': '01/11/2022', 'withdrawal_id': '99c6f48a-18f7-457f-84b2-0191f0e10d4c', 'trace_id': '8d158951-7154-46a5-8c35-c9b7f982ff1d'}}
-2022-11-01 01:38:45,679 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 8d158951-7154-46a5-8c35-c9b7f982ff1d
-2022-11-01 01:38:45,761 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T01:35:05', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 8, 'genre': 'High Fantasy', 'num_of_pages': 99, 'timestamp': '01/11/2022', 'withdrawal_id': '3e49dc70-650f-4d6a-a2b9-6bd39bb104c8', 'trace_id': '2ad4d786-7b02-4706-befd-97ac7614375f'}}
-2022-11-01 01:38:46,021 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2ad4d786-7b02-4706-befd-97ac7614375f
-2022-11-01 01:40:01,404 - basicLogger - INFO - Query for Book Return events after 2022-10-25T09:52:45Z returns 10 results
-2022-11-01 01:41:40,984 - basicLogger - INFO - Connecting to DB. Hostname:lab6.eastus.cloudapp.azure.com, Port:3306
-2022-11-01 01:41:41,132 - basicLogger - INFO - Connecting to DB. Hostname:lab6.eastus.cloudapp.azure.com, Port:3306
-2022-11-01 01:41:47,358 - basicLogger - INFO - Query for Book Withdrawal events after 2022-10-25T09:52:45Z returns 0 results
-2022-11-01 01:41:53,595 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:41:53', 'payload': {'return_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'days_overdue': 3, 'expected_fine': 5.99, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': 'f9a23673-8a14-4a29-9557-beacd5b40ae9'}}
-2022-11-01 01:41:54,752 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of f9a23673-8a14-4a29-9557-beacd5b40ae9
-2022-11-01 01:42:04,691 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T01:42:04', 'payload': {'withdrawal_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'genre': 'High Fantasy', 'num_of_pages': 694, 'days_allowed': 14, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '5eb5d987-ad40-4f13-b3ce-2beccf3c24cd'}}
-2022-11-01 01:42:04,934 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 5eb5d987-ad40-4f13-b3ce-2beccf3c24cd
-2022-11-01 01:42:10,271 - basicLogger - INFO - Query for Book Return events after 2022-10-25T09:52:45Z returns 1 results
-2022-11-01 01:42:12,835 - basicLogger - INFO - Query for Book Withdrawal events after 2022-10-25T09:52:45Z returns 1 results
-2022-11-01 01:42:19,516 - basicLogger - INFO - Connecting to DB. Hostname:lab6.eastus.cloudapp.azure.com, Port:3306
-2022-11-01 01:42:19,606 - basicLogger - INFO - Connecting to DB. Hostname:lab6.eastus.cloudapp.azure.com, Port:3306
-2022-11-01 01:42:25,902 - basicLogger - INFO - Query for Book Withdrawal events after 2022-10-25T09:52:45Z returns 1 results
-2022-11-01 01:42:29,257 - basicLogger - INFO - Query for Book Return events after 2022-10-25T09:52:45Z returns 1 results
-2022-11-01 02:06:47,626 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-01T02:06:47', 'payload': {'return_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'days_overdue': 3, 'expected_fine': 5.99, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '5ade5b8f-e7a9-4813-afe1-fa3821824c5a'}}
-2022-11-01 02:06:48,782 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 5ade5b8f-e7a9-4813-afe1-fa3821824c5a
-2022-11-01 02:33:32,710 - basicLogger - INFO - Connecting to DB. Hostname:lab6.eastus.cloudapp.azure.com, Port:3306
-2022-11-01 02:33:32,797 - basicLogger - INFO - Connecting to DB. Hostname:lab6.eastus.cloudapp.azure.com, Port:3306
-2022-11-01 02:33:49,826 - basicLogger - INFO - Query for Book Withdrawal events after 2022-10-25T09:52:45Z returns 1 results
-2022-11-01 02:33:56,988 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T02:33:56', 'payload': {'withdrawal_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'genre': 'High Fantasy', 'num_of_pages': 694, 'days_allowed': 14, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '471bc81c-9731-4d4e-8e44-81295827af04'}}
-2022-11-01 02:33:58,198 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 471bc81c-9731-4d4e-8e44-81295827af04
-2022-11-01 02:34:00,485 - basicLogger - INFO - Query for Book Withdrawal events after 2022-10-25T09:52:45Z returns 2 results
-2022-11-01 02:34:55,577 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T02:34:55', 'payload': {'withdrawal_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'genre': 'High Fantasy', 'num_of_pages': 694, 'days_allowed': 14, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': 'eab1b53a-e2f5-4380-90fe-77ee2c9808f1'}}
-2022-11-01 02:34:55,828 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of eab1b53a-e2f5-4380-90fe-77ee2c9808f1
+2022-11-08 11:19:39,588 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:19:37Z returns 0 results
+2022-11-08 11:19:41,653 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:19:37Z returns 0 results
+2022-11-08 11:19:44,351 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:19:42Z returns 0 results
+2022-11-08 11:19:46,419 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:19:42Z returns 0 results
+2022-11-08 11:19:49,346 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:19:47Z returns 0 results
+2022-11-08 11:19:51,417 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:19:47Z returns 0 results
+2022-11-08 11:19:54,350 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:19:52Z returns 0 results
+2022-11-08 11:19:56,406 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:19:52Z returns 0 results
+2022-11-08 11:19:59,346 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:19:57Z returns 0 results
+2022-11-08 11:20:01,401 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:19:57Z returns 0 results
+2022-11-08 11:20:04,356 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:20:02Z returns 0 results
+2022-11-08 11:20:06,423 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:20:02Z returns 0 results
+2022-11-08 11:20:09,344 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:20:07Z returns 0 results
+2022-11-08 11:20:11,401 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:20:07Z returns 0 results
+2022-11-08 11:20:14,356 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:20:12Z returns 0 results
+2022-11-08 11:20:16,414 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:20:12Z returns 0 results
+2022-11-08 11:20:19,351 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:20:17Z returns 0 results
+2022-11-08 11:20:21,426 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:20:17Z returns 0 results
+2022-11-08 11:20:21,603 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 8dcedeb5-87c9-4767-81d5-d0a93fd46ac3
+2022-11-08 11:20:21,790 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of f6c541e0-dd42-4c43-a68a-f540f9ece1b3
+2022-11-08 11:20:22,000 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of e3fa328c-2476-4fce-b744-86f864e619e6
+2022-11-08 11:20:22,202 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 90a53f26-2f9b-4adc-bb30-505ca4f88f38
+2022-11-08 11:20:22,387 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c2b19f4a-e128-4be5-b6a6-062066ce25f7
+2022-11-08 11:20:23,688 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 62d317a3-331e-4db3-8ae0-3515bcd6c0d8
+2022-11-08 11:20:23,885 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c2047281-18bc-4be8-a74f-75657130ca0e
+2022-11-08 11:20:24,074 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of feb1770f-2b34-4158-a903-2bb6d8652fef
+2022-11-08 11:20:24,271 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of d0d90efc-539a-494d-9f7d-2c9861159a53
+2022-11-08 11:20:24,344 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:20:22Z returns 4 results
+2022-11-08 11:20:24,454 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of eab99212-35d3-46be-b8e7-e75fa44e5fcf
+2022-11-08 11:20:25,770 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 41a3a3cc-d26a-4901-b827-da99cfb76190
+2022-11-08 11:20:25,956 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 3c35da45-0ec9-4781-9a59-8fb25c814bc0
+2022-11-08 11:20:26,144 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 45798476-e4be-4d73-b603-5f1e9526e863
+2022-11-08 11:20:26,347 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of a73c2604-3c82-4d95-a2c3-a4c4aa4c1794
+2022-11-08 11:20:26,402 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:20:22Z returns 6 results
+2022-11-08 11:20:26,530 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 3fde49e9-ba9a-46db-9abc-af0fca24d6d4
+2022-11-08 11:20:27,846 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of cfe27cb4-a211-4484-97fb-d9403aec1495
+2022-11-08 11:20:28,020 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 9f64dd9f-ca11-452c-98a4-fc68267327a5
+2022-11-08 11:20:28,234 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 774b3f6c-bec3-4953-8eaf-16ecad89dbf2
+2022-11-08 11:20:28,416 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2853824d-b1c7-4358-97b9-d5836b3aeeca
+2022-11-08 11:20:28,606 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 681933a7-f79b-4307-af0c-998e09b3ba21
+2022-11-08 11:20:29,357 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:20:27Z returns 5 results
+2022-11-08 11:20:31,415 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:20:27Z returns 0 results
+2022-11-08 11:20:34,353 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:20:32Z returns 0 results
+2022-11-08 11:20:36,411 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:20:32Z returns 0 results
+2022-11-08 11:20:39,346 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:20:37Z returns 0 results
+2022-11-08 11:20:41,291 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 325cc03d-a318-4af2-a332-06a80b375dfe
+2022-11-08 11:20:41,411 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:20:37Z returns 1 results
+2022-11-08 11:20:41,476 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of b36c3017-2b7f-4c37-bd6d-6dd71a205b62
+2022-11-08 11:20:41,675 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of acedc100-a447-4af0-bcc7-9a54fad753ad
+2022-11-08 11:20:41,886 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 756be5e0-dbe1-475f-abce-8d5a12f7de9a
+2022-11-08 11:20:42,058 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 30df461a-39b1-4ca7-8a24-df09cf3198e0
+2022-11-08 11:20:43,375 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of d3250b50-ce33-4f07-8cbc-6ce1613290b3
+2022-11-08 11:20:43,563 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 6f97fbba-19b9-4564-83c2-9f90e3792523
+2022-11-08 11:20:43,748 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 322dbe4e-298f-45bd-849b-24467223f5e4
+2022-11-08 11:20:43,973 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ea680aa4-4b32-4773-9a0c-7129c04cb754
+2022-11-08 11:20:44,129 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 50998855-29bb-4b06-821c-4b8604df9221
+2022-11-08 11:20:44,391 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:20:42Z returns 5 results
+2022-11-08 11:20:45,478 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 4c1fb899-ed37-4824-9dee-ceaa4db2a55a
+2022-11-08 11:20:45,664 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 85eb3130-8c37-4b93-b3f8-4b43d4288385
+2022-11-08 11:20:45,843 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 8c472d99-c900-4000-89e5-2a2f53f072f5
+2022-11-08 11:20:46,044 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ff62ea58-6402-448f-a984-cb4e27868e14
+2022-11-08 11:20:46,200 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ca56ccd9-b83e-4f4b-9be5-f80afb26622f
+2022-11-08 11:20:46,461 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:20:42Z returns 6 results
+2022-11-08 11:20:47,562 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 7fbc1c00-4d65-4c81-97bc-c6bcdf1e6d1b
+2022-11-08 11:20:47,762 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 7ad79e9b-7ce1-49b5-bcf7-eb23a9663c7b
+2022-11-08 11:20:47,917 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 06bd83ba-8a1d-4a23-a356-08fa2bf7740b
+2022-11-08 11:20:48,117 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2c3c49ce-8f48-4665-8999-19a72ed4b0ca
+2022-11-08 11:20:48,290 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c06c80b0-2ee3-4aad-a142-c4a8b519540f
+2022-11-08 11:20:49,355 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:20:47Z returns 5 results
+2022-11-08 11:20:51,414 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:20:47Z returns 0 results
+2022-11-08 11:20:54,354 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:20:52Z returns 0 results
+2022-11-08 11:20:56,411 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:20:52Z returns 0 results
+2022-11-08 11:20:59,340 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:20:57Z returns 0 results
+2022-11-08 11:21:01,398 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:20:57Z returns 0 results
+2022-11-08 11:21:22,212 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of d4b47ce4-c7f4-4078-9484-124bcdafff0c
+2022-11-08 11:21:22,409 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 50beb3e9-a6ee-4e27-bcc5-b147f1d223a9
+2022-11-08 11:21:22,598 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 16c2140c-c6dd-438c-a986-0d9fdbf6cb68
+2022-11-08 11:21:22,796 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 507842b4-cea4-421b-ba9c-dc11788c4cca
+2022-11-08 11:21:22,998 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c888e683-544a-418b-9869-cd2b8473043e
+2022-11-08 11:21:24,293 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 156ac559-e58e-4cf1-b289-1a81ee639621
+2022-11-08 11:21:24,495 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 51eecf90-5fc6-4763-b1c8-706d7ba71252
+2022-11-08 11:21:24,673 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ed0bc282-2d35-4c31-89e8-450387a0a9af
+2022-11-08 11:21:24,880 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ea037efd-41a0-419f-bd3e-ca7fb7d2c5ad
+2022-11-08 11:21:25,072 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of f21a2b63-99bf-4a9e-8384-842b90b1ac6c
+2022-11-08 11:21:26,399 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of b1945c12-c5f5-419e-a27d-298d0565cdb0
+2022-11-08 11:21:26,601 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 1177cf3f-2e81-4e3f-a878-fcc235fdc0e2
+2022-11-08 11:21:26,771 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of f019fa36-f9b2-4cbc-bb40-6616fba3c5ab
+2022-11-08 11:21:26,964 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 5104bd5e-7043-431e-86bf-8407e82e6125
+2022-11-08 11:21:27,169 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 973dffed-92d6-4c18-9ab8-dcfcd2cc7b70
+2022-11-08 11:21:28,488 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 99b9f903-ba3f-49e2-9b62-1f9b4c1e5c08
+2022-11-08 11:21:28,685 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 6053abc6-936f-46fc-b579-b8b7c4f6fc4e
+2022-11-08 11:21:28,862 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2bc7e852-86f7-4539-986a-77d0a3961c70
+2022-11-08 11:21:29,033 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 24fc3d5c-c8c5-4838-a306-9604f39fed20
+2022-11-08 11:21:29,240 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 0619ccd1-eab8-435e-98e9-9b02094277ac
+2022-11-08 11:21:49,768 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:21:47Z returns 0 results
+2022-11-08 11:21:49,904 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 413aba95-ea5d-4164-879a-402d462aaffb
+2022-11-08 11:21:50,098 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 27bddb30-c895-452b-843a-62693320ec36
+2022-11-08 11:21:50,278 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 1024184b-10b2-40f9-9ff8-45818bcbfca0
+2022-11-08 11:21:50,490 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of badccda9-17ec-41d1-9a79-2430714ebc8e
+2022-11-08 11:21:50,693 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of a6a1ed31-9160-4c4c-9b96-488afa07291c
+2022-11-08 11:21:51,839 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:21:47Z returns 5 results
+2022-11-08 11:21:52,017 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 8d7fbaa8-ef84-4fcd-a1fa-46cbda122605
+2022-11-08 11:21:52,233 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 276d0ffa-859d-4a15-92ad-58e2ab92ae59
+2022-11-08 11:21:52,372 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 9ae02eae-6a04-472c-900d-57aa30953c6d
+2022-11-08 11:21:52,603 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 50797c59-960a-454c-bd94-626901e3938b
+2022-11-08 11:21:52,800 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ec87eb1d-6632-4635-b84c-e067ed76ce17
+2022-11-08 11:21:54,116 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 588f4d4e-e2e3-4c0c-b650-4e40dcbe4e76
+2022-11-08 11:21:54,333 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 868cff3e-716f-4fb1-a836-374c958fab67
+2022-11-08 11:21:54,474 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2d80f932-2f64-4493-9dc3-fe3bdc5857bc
+2022-11-08 11:21:54,703 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of b093f9fc-fb71-4dbc-b996-82fefef68332
+2022-11-08 11:21:54,784 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:21:52Z returns 5 results
+2022-11-08 11:21:54,906 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of f8595f95-8357-4ea1-981d-b1a220db6b12
+2022-11-08 11:21:56,189 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 36c6b8ac-f8ab-4b1d-921b-b15a50fe03a5
+2022-11-08 11:21:56,408 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ce07b518-3336-4938-adc2-c4195cdec54e
+2022-11-08 11:21:56,563 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of b42120ab-fd11-4f37-abd0-c9ed0b211dce
+2022-11-08 11:21:56,773 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2ac2844e-884c-4219-a16e-940a5d14fe69
+2022-11-08 11:21:56,851 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:21:52Z returns 5 results
+2022-11-08 11:21:56,997 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 0d604f72-b1c5-44e8-864b-01058213c8be
+2022-11-08 11:21:59,761 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:21:57Z returns 0 results
+2022-11-08 11:22:01,834 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:21:57Z returns 0 results
+2022-11-08 11:22:04,742 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:22:02Z returns 0 results
+2022-11-08 11:22:06,818 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:22:02Z returns 0 results
+2022-11-08 11:22:09,766 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:22:07Z returns 0 results
+2022-11-08 11:22:11,827 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:22:07Z returns 0 results
+2022-11-08 11:22:14,773 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:22:12Z returns 0 results
+2022-11-08 11:22:16,845 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:22:12Z returns 0 results
+2022-11-08 11:22:19,744 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:22:17Z returns 0 results
+2022-11-08 11:22:21,802 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:22:17Z returns 0 results
+2022-11-08 11:22:24,765 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:22:22Z returns 0 results
+2022-11-08 11:22:26,822 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:22:22Z returns 0 results
+2022-11-08 11:22:29,735 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:22:27Z returns 0 results
+2022-11-08 11:22:31,795 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:22:27Z returns 0 results
+2022-11-08 11:22:34,751 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:22:32Z returns 0 results
+2022-11-08 11:22:36,805 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:22:32Z returns 0 results
+2022-11-08 11:22:39,760 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:22:37Z returns 0 results
+2022-11-08 11:22:41,829 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:22:37Z returns 0 results
+2022-11-08 11:22:44,764 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:22:42Z returns 0 results
+2022-11-08 11:22:46,834 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:22:42Z returns 0 results
+2022-11-08 11:22:49,765 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:22:47Z returns 0 results
+2022-11-08 11:22:51,883 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:22:47Z returns 0 results
+2022-11-08 11:22:54,772 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:22:52Z returns 0 results
+2022-11-08 11:22:56,844 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:22:52Z returns 0 results
+2022-11-08 11:22:59,743 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:22:57Z returns 0 results
+2022-11-08 11:23:01,806 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:22:57Z returns 0 results
+2022-11-08 11:23:04,763 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:23:02Z returns 0 results
+2022-11-08 11:23:06,824 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:23:02Z returns 0 results
+2022-11-08 11:23:09,754 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:23:07Z returns 0 results
+2022-11-08 11:23:11,816 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:23:07Z returns 0 results
+2022-11-08 11:23:14,761 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:23:12Z returns 0 results
+2022-11-08 11:23:16,823 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:23:12Z returns 0 results
+2022-11-08 11:23:19,752 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:23:17Z returns 0 results
+2022-11-08 11:23:21,811 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:23:17Z returns 0 results
+2022-11-08 11:23:24,743 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:23:22Z returns 0 results
+2022-11-08 11:23:26,816 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:23:22Z returns 0 results
+2022-11-08 11:23:29,764 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:23:27Z returns 0 results
+2022-11-08 11:23:31,840 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:23:27Z returns 0 results
+2022-11-08 11:23:34,750 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:23:32Z returns 0 results
+2022-11-08 11:23:36,811 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:23:32Z returns 0 results
+2022-11-08 11:23:39,755 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:23:37Z returns 0 results
+2022-11-08 11:23:41,814 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:23:37Z returns 0 results
+2022-11-08 11:23:44,759 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:23:42Z returns 0 results
+2022-11-08 11:23:46,823 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:23:42Z returns 0 results
+2022-11-08 11:23:49,766 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:23:47Z returns 0 results
+2022-11-08 11:23:51,830 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:23:47Z returns 0 results
+2022-11-08 11:23:54,757 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:23:52Z returns 0 results
+2022-11-08 11:23:56,815 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:23:52Z returns 0 results
+2022-11-08 11:23:59,760 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:23:57Z returns 0 results
+2022-11-08 11:24:01,819 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:23:57Z returns 0 results
+2022-11-08 11:24:04,768 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:24:02Z returns 0 results
+2022-11-08 11:24:06,843 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:24:02Z returns 0 results
+2022-11-08 11:24:09,752 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:24:07Z returns 0 results
+2022-11-08 11:24:11,813 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:24:07Z returns 0 results
+2022-11-08 11:24:14,757 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:24:12Z returns 0 results
+2022-11-08 11:24:16,820 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:24:12Z returns 0 results
+2022-11-08 11:24:19,749 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:24:17Z returns 0 results
+2022-11-08 11:24:21,823 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:24:17Z returns 0 results
+2022-11-08 11:24:24,752 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:24:22Z returns 0 results
+2022-11-08 11:24:26,813 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:24:22Z returns 0 results
+2022-11-08 11:24:29,757 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:24:27Z returns 0 results
+2022-11-08 11:24:31,818 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:24:27Z returns 0 results
+2022-11-08 11:24:34,764 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:24:32Z returns 0 results
+2022-11-08 11:24:36,841 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:24:32Z returns 0 results
+2022-11-08 11:24:39,752 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:24:37Z returns 0 results
+2022-11-08 11:24:41,817 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:24:37Z returns 0 results
+2022-11-08 11:24:44,739 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:24:42Z returns 0 results
+2022-11-08 11:24:46,804 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:24:42Z returns 0 results
+2022-11-08 11:24:49,761 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:24:47Z returns 0 results
+2022-11-08 11:24:51,824 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:24:47Z returns 0 results
+2022-11-08 11:24:54,755 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:24:52Z returns 0 results
+2022-11-08 11:24:56,831 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:24:52Z returns 0 results
+2022-11-08 11:24:59,758 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:24:57Z returns 0 results
+2022-11-08 11:25:01,820 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:24:57Z returns 0 results
+2022-11-08 11:25:04,765 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:25:02Z returns 0 results
+2022-11-08 11:25:06,835 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:25:02Z returns 0 results
+2022-11-08 11:25:09,749 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:25:07Z returns 0 results
+2022-11-08 11:25:11,818 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:25:07Z returns 0 results
+2022-11-08 11:27:53,990 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:27:51Z returns 0 results
+2022-11-08 11:27:54,256 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 6e25cb4d-2369-46ec-89e9-5399b2a2baed
+2022-11-08 11:27:54,450 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 9c4405c5-b621-4a4e-ae0c-a43a8d63982d
+2022-11-08 11:27:54,638 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c19366f4-8e15-42ef-95df-e1b47e31fbf1
+2022-11-08 11:27:54,840 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 08c12c46-951f-4921-994f-a8d4eb1c2b47
+2022-11-08 11:27:55,038 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2d709b81-1b09-4916-8fb7-e3dea88a98b9
+2022-11-08 11:27:56,062 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:27:51Z returns 5 results
+2022-11-08 11:27:56,350 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 5a27f064-2401-42d9-a4e2-dc9b305bca73
+2022-11-08 11:27:56,534 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 74b9a9e1-6399-4537-aa92-004e559ed58e
+2022-11-08 11:27:56,726 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 5831e8ae-d5f9-4db6-8f78-0abcb2a17ee4
+2022-11-08 11:27:56,937 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 7d9cb23c-a507-4d77-9be9-53b318acfc23
+2022-11-08 11:27:57,120 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 1822dd63-b295-4042-beea-77334a2bcf8a
+2022-11-08 11:27:58,432 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ee09ca71-f1ae-4561-824e-064ac782be37
+2022-11-08 11:27:58,619 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of f17650bf-bdca-4b77-9b73-539b7a8e3e76
+2022-11-08 11:27:58,820 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ca119828-094c-470b-be84-2fd4a7d92f44
+2022-11-08 11:27:58,943 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:27:56Z returns 5 results
+2022-11-08 11:27:59,019 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 95870fa4-d59d-480c-921b-c0dc68cb8b05
+2022-11-08 11:27:59,214 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of a9bcdf0f-5a15-4a23-9a41-8aee6c8d67e2
+2022-11-08 11:28:00,519 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 34f77a7d-32e9-4a55-a8b2-0418bb8ad927
+2022-11-08 11:28:00,716 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 6807bfd4-6042-4ccb-9365-bb090c56e51d
+2022-11-08 11:28:00,892 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of f9ec3aba-b86f-4066-aea0-e1092bb361ab
+2022-11-08 11:28:01,021 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:27:56Z returns 5 results
+2022-11-08 11:28:01,103 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of f2bc812a-9a9a-4bb7-b695-14217502190e
+2022-11-08 11:28:01,332 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of bb11b368-7f5a-48cb-97bd-d87ddcbd962f
+2022-11-08 11:28:03,937 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:28:01Z returns 2 results
+2022-11-08 11:28:06,011 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:28:01Z returns 0 results
+2022-11-08 11:28:08,933 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:28:06Z returns 0 results
+2022-11-08 11:28:10,992 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:28:06Z returns 0 results
+2022-11-08 11:28:13,932 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:28:11Z returns 0 results
+2022-11-08 11:28:15,991 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:28:11Z returns 0 results
+2022-11-08 11:28:18,931 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:28:16Z returns 0 results
+2022-11-08 11:28:20,985 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:28:16Z returns 0 results
+2022-11-08 11:28:23,927 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:28:21Z returns 0 results
+2022-11-08 11:28:25,979 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:28:21Z returns 0 results
+2022-11-08 11:28:28,938 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:28:26Z returns 0 results
+2022-11-08 11:28:31,011 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:28:26Z returns 0 results
+2022-11-08 11:28:33,933 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:28:31Z returns 0 results
+2022-11-08 11:28:35,992 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:28:31Z returns 0 results
+2022-11-08 11:28:36,900 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of e8fa14df-af51-47cd-acab-5eeb61ad1fe6
+2022-11-08 11:28:37,114 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 17325ea0-ef9c-46b5-b93b-421e173d640a
+2022-11-08 11:28:37,313 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2d21f159-742a-47d6-a865-ad0b952f7dc2
+2022-11-08 11:28:37,490 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 59ee503d-b412-4d77-818c-0c7873be8a50
+2022-11-08 11:28:37,690 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of e5cfa043-3c32-43d3-9a16-cc6e800a401b
+2022-11-08 11:28:38,983 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c5f95e30-5ff4-4729-b61f-2ddcf121b67c
+2022-11-08 11:28:38,988 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:28:36Z returns 1 results
+2022-11-08 11:28:39,202 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 3faa3daa-dca8-488b-990b-359525625eb1
+2022-11-08 11:28:39,404 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ce61c69d-d9ce-4505-839c-fb76fb92307e
+2022-11-08 11:28:39,576 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of d8e828c2-d794-4472-93bc-416980e04d39
+2022-11-08 11:28:39,805 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 624f5788-9c9a-4fd9-af4f-1123f3c606aa
+2022-11-08 11:28:41,052 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:28:36Z returns 5 results
+2022-11-08 11:28:41,076 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 4aaaab1b-47c1-4c9d-ae47-38ca6470a443
+2022-11-08 11:28:41,290 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2575846b-2853-4b03-8551-1965ad7afcf2
+2022-11-08 11:28:41,497 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 3f7295e9-1c58-4b25-87fb-a0d779a73e56
+2022-11-08 11:28:41,677 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of d1a28152-a7ea-4791-a294-1d14bfe2501c
+2022-11-08 11:28:41,896 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c9ed2b32-fc09-4589-bcc3-f87c233d5df9
+2022-11-08 11:28:43,157 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 413ba3d1-bd82-4449-8e76-f002401f7de2
+2022-11-08 11:28:43,383 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 1f54c56d-c3ab-478c-b6f5-30cb34853009
+2022-11-08 11:28:43,601 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2fbef31e-9c7b-49c7-9b3e-cd802c17b77d
+2022-11-08 11:28:43,769 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c5a73b9f-41f2-464c-a5a4-41704249df9e
+2022-11-08 11:28:43,931 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:28:41Z returns 4 results
+2022-11-08 11:28:43,987 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 9a2b8f64-a917-4502-8942-3884ceebd5a6
+2022-11-08 11:28:45,992 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:28:41Z returns 5 results
+2022-11-08 11:28:48,933 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:28:46Z returns 0 results
+2022-11-08 11:28:51,015 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:28:46Z returns 0 results
+2022-11-08 11:28:53,938 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:28:51Z returns 0 results
+2022-11-08 11:28:55,997 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:28:51Z returns 0 results
+2022-11-08 11:28:58,928 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:28:56Z returns 0 results
+2022-11-08 11:29:01,006 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:28:56Z returns 0 results
+2022-11-08 11:29:03,936 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:29:01Z returns 0 results
+2022-11-08 11:29:05,995 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:29:01Z returns 0 results
+2022-11-08 11:29:08,921 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:29:06Z returns 0 results
+2022-11-08 11:29:10,974 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:29:06Z returns 0 results
+2022-11-08 11:29:11,848 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c5e78439-5b46-419f-813d-7dd6b68aa132
+2022-11-08 11:29:12,053 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ab0ccd7d-156a-4d64-a3b0-f8abb0a94902
+2022-11-08 11:29:12,254 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2f1c75d4-bbc6-4f8a-8643-a1ec58c5d204
+2022-11-08 11:29:12,438 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c971d5a9-3690-41d1-9063-f3813a812389
+2022-11-08 11:29:12,657 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 9e2c13b1-e6c7-4091-8854-f2053659168b
+2022-11-08 11:29:13,936 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:29:11Z returns 0 results
+2022-11-08 11:29:13,940 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 29512b7e-5107-4180-a4ab-86000b286d11
+2022-11-08 11:29:14,141 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ea00d1d9-a19f-4622-a8d3-5c02a0f30b24
+2022-11-08 11:29:14,325 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 9fbcd2ae-0f98-462c-9e24-3347c8665f29
+2022-11-08 11:29:14,520 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 55448318-d1de-4736-b9dd-1864f0d313b7
+2022-11-08 11:29:14,745 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 182d63a3-0ba1-476e-a062-f49f8c790271
+2022-11-08 11:29:16,009 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:29:11Z returns 5 results
+2022-11-08 11:29:16,046 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 22238e16-296e-4302-a76a-9b3941d0e4b4
+2022-11-08 11:29:16,235 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2c0a48c5-68ce-4734-b7d2-31ffa14661c5
+2022-11-08 11:29:16,405 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 976502e4-97f3-40c1-a552-ab570b0d2645
+2022-11-08 11:29:16,605 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of b2706f7d-a340-44f5-b383-2fdb24f320c7
+2022-11-08 11:29:16,824 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 6132433c-3389-4e05-998a-0fd0e0589168
+2022-11-08 11:29:18,149 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 29215cfa-7441-4a9f-89fd-280fdfae00e3
+2022-11-08 11:29:18,334 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of cacaa7a5-deb0-4797-9f82-9d234a0cef1e
+2022-11-08 11:29:18,521 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 4ea92237-c625-4308-8f9e-43ef43461620
+2022-11-08 11:29:18,708 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2dad5346-fd31-4784-8200-da6af65cebbd
+2022-11-08 11:29:18,907 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 4a191330-5311-4395-acf9-7bdf16d07339
+2022-11-08 11:29:18,933 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:29:16Z returns 5 results
+2022-11-08 11:29:21,010 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:29:16Z returns 5 results
+2022-11-08 11:29:23,933 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:29:21Z returns 0 results
+2022-11-08 11:29:25,993 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:29:21Z returns 0 results
+2022-11-08 11:29:28,937 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:29:26Z returns 0 results
+2022-11-08 11:29:30,996 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:29:26Z returns 0 results
+2022-11-08 11:29:33,924 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:29:31Z returns 0 results
+2022-11-08 11:29:35,980 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:29:31Z returns 0 results
+2022-11-08 11:29:38,915 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:29:36Z returns 0 results
+2022-11-08 11:29:40,976 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:29:36Z returns 0 results
+2022-11-08 11:29:43,937 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:29:41Z returns 0 results
+2022-11-08 11:29:45,995 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:29:41Z returns 0 results
+2022-11-08 11:29:48,925 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:29:46Z returns 0 results
+2022-11-08 11:29:50,986 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:29:46Z returns 0 results
+2022-11-08 11:29:53,927 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:29:51Z returns 0 results
+2022-11-08 11:29:55,993 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:29:51Z returns 0 results
+2022-11-08 11:29:58,940 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:29:56Z returns 0 results
+2022-11-08 11:30:01,006 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:29:56Z returns 0 results
+2022-11-08 11:30:03,935 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:30:01Z returns 0 results
+2022-11-08 11:30:05,997 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:30:01Z returns 0 results
+2022-11-08 11:30:08,924 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:30:06Z returns 0 results
+2022-11-08 11:30:10,986 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:30:06Z returns 0 results
+2022-11-08 11:30:13,917 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:30:11Z returns 0 results
+2022-11-08 11:30:15,975 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:30:11Z returns 0 results
+2022-11-08 11:30:18,922 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:30:16Z returns 0 results
+2022-11-08 11:30:20,986 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:30:16Z returns 0 results
+2022-11-08 11:30:23,925 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:30:21Z returns 0 results
+2022-11-08 11:30:25,987 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:30:21Z returns 0 results
+2022-11-08 11:30:28,978 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:30:26Z returns 0 results
+2022-11-08 11:30:31,035 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:30:26Z returns 0 results
+2022-11-08 11:30:33,932 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:30:31Z returns 0 results
+2022-11-08 11:30:35,992 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:30:31Z returns 0 results
+2022-11-08 11:30:38,936 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:30:36Z returns 0 results
+2022-11-08 11:30:40,997 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:30:36Z returns 0 results
+2022-11-08 11:30:43,929 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:30:41Z returns 0 results
+2022-11-08 11:30:46,000 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:30:41Z returns 0 results
+2022-11-08 11:30:48,929 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:30:46Z returns 0 results
+2022-11-08 11:30:50,988 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:30:46Z returns 0 results
+2022-11-08 11:30:53,933 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:30:51Z returns 0 results
+2022-11-08 11:30:56,008 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:30:51Z returns 0 results
+2022-11-08 11:30:58,926 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:30:56Z returns 0 results
+2022-11-08 11:31:01,007 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:30:56Z returns 0 results
+2022-11-08 11:31:03,927 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:31:01Z returns 0 results
+2022-11-08 11:31:05,991 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:31:01Z returns 0 results
+2022-11-08 11:31:08,934 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:31:06Z returns 0 results
+2022-11-08 11:31:10,993 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:31:06Z returns 0 results
+2022-11-08 11:31:13,934 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:31:11Z returns 0 results
+2022-11-08 11:31:15,994 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:31:11Z returns 0 results
+2022-11-08 11:31:18,909 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:31:16Z returns 0 results
+2022-11-08 11:31:20,969 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:31:16Z returns 0 results
+2022-11-08 11:31:23,928 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:31:21Z returns 0 results
+2022-11-08 11:31:25,987 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:31:21Z returns 0 results
+2022-11-08 11:31:28,932 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:31:26Z returns 0 results
+2022-11-08 11:31:30,993 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:31:26Z returns 0 results
+2022-11-08 11:31:33,928 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:31:31Z returns 0 results
+2022-11-08 11:31:35,986 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:31:31Z returns 0 results
+2022-11-08 11:31:38,916 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:31:36Z returns 0 results
+2022-11-08 11:31:40,976 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:31:36Z returns 0 results
+2022-11-08 11:31:43,922 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:31:41Z returns 0 results
+2022-11-08 11:31:45,981 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:31:41Z returns 0 results
+2022-11-08 11:31:48,925 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:31:46Z returns 0 results
+2022-11-08 11:31:50,987 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:31:46Z returns 0 results
+2022-11-08 11:31:53,915 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:31:51Z returns 0 results
+2022-11-08 11:31:55,976 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:31:51Z returns 0 results
+2022-11-08 11:31:58,939 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:31:56Z returns 0 results
+2022-11-08 11:32:01,011 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:31:56Z returns 0 results
+2022-11-08 11:32:03,925 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:32:01Z returns 0 results
+2022-11-08 11:32:05,982 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:32:01Z returns 0 results
+2022-11-08 11:32:08,920 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:32:06Z returns 0 results
+2022-11-08 11:32:10,982 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:32:06Z returns 0 results
+2022-11-08 11:32:13,942 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:32:11Z returns 0 results
+2022-11-08 11:32:16,002 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:32:11Z returns 0 results
+2022-11-08 11:32:18,929 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:32:16Z returns 0 results
+2022-11-08 11:32:20,990 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:32:16Z returns 0 results
+2022-11-08 11:32:23,937 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:32:21Z returns 0 results
+2022-11-08 11:32:25,996 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:32:21Z returns 0 results
+2022-11-08 11:32:28,923 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:32:26Z returns 0 results
+2022-11-08 11:32:30,986 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:32:26Z returns 0 results
+2022-11-08 11:32:33,933 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:32:31Z returns 0 results
+2022-11-08 11:32:35,991 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:32:31Z returns 0 results
+2022-11-08 11:32:38,936 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:32:36Z returns 0 results
+2022-11-08 11:32:40,994 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:32:36Z returns 0 results
+2022-11-08 11:32:43,907 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:32:41Z returns 0 results
+2022-11-08 11:32:45,968 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:32:41Z returns 0 results
+2022-11-08 11:32:48,932 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:32:46Z returns 0 results
+2022-11-08 11:32:51,003 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:32:46Z returns 0 results
+2022-11-08 11:32:53,933 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:32:51Z returns 0 results
+2022-11-08 11:32:55,991 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:32:51Z returns 0 results
+2022-11-08 11:32:58,934 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:32:56Z returns 0 results
+2022-11-08 11:33:00,995 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:32:56Z returns 0 results
+2022-11-08 11:33:03,926 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:33:01Z returns 0 results
+2022-11-08 11:33:05,983 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:33:01Z returns 0 results
+2022-11-08 11:33:08,928 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:33:06Z returns 0 results
+2022-11-08 11:33:10,988 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:33:06Z returns 0 results
+2022-11-08 11:33:13,931 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:33:11Z returns 0 results
+2022-11-08 11:33:16,007 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:33:11Z returns 0 results
+2022-11-08 11:33:18,936 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:33:16Z returns 0 results
+2022-11-08 11:33:20,996 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:33:16Z returns 0 results
+2022-11-08 11:33:23,937 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:33:21Z returns 0 results
+2022-11-08 11:33:25,998 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:33:21Z returns 0 results
+2022-11-08 11:33:28,912 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:33:26Z returns 0 results
+2022-11-08 11:33:30,970 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:33:26Z returns 0 results
+2022-11-08 11:33:33,928 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:33:31Z returns 0 results
+2022-11-08 11:33:35,988 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:33:31Z returns 0 results
+2022-11-08 11:33:38,918 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:33:36Z returns 0 results
+2022-11-08 11:33:40,976 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:33:36Z returns 0 results
+2022-11-08 11:33:43,933 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:33:41Z returns 0 results
+2022-11-08 11:33:45,993 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:33:41Z returns 0 results
+2022-11-08 11:33:48,937 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:33:46Z returns 0 results
+2022-11-08 11:33:50,996 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:33:46Z returns 0 results
+2022-11-08 11:33:53,911 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:33:51Z returns 0 results
+2022-11-08 11:33:55,975 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:33:51Z returns 0 results
+2022-11-08 11:33:58,932 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:33:56Z returns 0 results
+2022-11-08 11:34:01,008 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:33:56Z returns 0 results
+2022-11-08 11:34:03,935 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:34:01Z returns 0 results
+2022-11-08 11:34:05,996 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:34:01Z returns 0 results
+2022-11-08 11:34:08,925 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:34:06Z returns 0 results
+2022-11-08 11:34:10,987 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:34:06Z returns 0 results
+2022-11-08 11:34:13,929 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:34:11Z returns 0 results
+2022-11-08 11:34:15,991 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:34:11Z returns 0 results
+2022-11-08 11:34:18,935 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:34:16Z returns 0 results
+2022-11-08 11:34:20,991 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:34:16Z returns 0 results
+2022-11-08 11:34:23,933 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:34:21Z returns 0 results
+2022-11-08 11:34:25,995 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:34:21Z returns 0 results
+2022-11-08 11:34:28,937 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:34:26Z returns 0 results
+2022-11-08 11:34:30,999 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:34:26Z returns 0 results
+2022-11-08 11:34:33,925 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:34:31Z returns 0 results
+2022-11-08 11:34:35,985 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:34:31Z returns 0 results
+2022-11-08 11:34:38,928 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:34:36Z returns 0 results
+2022-11-08 11:34:40,989 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:34:36Z returns 0 results
+2022-11-08 11:34:43,936 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:34:41Z returns 0 results
+2022-11-08 11:34:45,996 - basicLogger - INFO - Query for Book Return events after 2022-11-08T11:34:41Z returns 0 results
+2022-11-08 11:34:48,934 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-08T11:34:46Z returns 0 results
+2022-11-21 17:16:58,258 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:16:56Z returns 0 results
+2022-11-21 17:17:00,301 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:16:56Z returns 0 results
+2022-11-21 17:17:03,240 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:17:01Z returns 0 results
+2022-11-21 17:17:05,306 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:17:01Z returns 0 results
+2022-11-21 17:17:08,254 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:17:06Z returns 0 results
+2022-11-21 17:17:10,309 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:17:06Z returns 0 results
+2022-11-21 17:17:13,230 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:17:11Z returns 0 results
+2022-11-21 17:17:15,291 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:17:11Z returns 0 results
+2022-11-21 17:17:18,246 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:17:16Z returns 0 results
+2022-11-21 17:17:20,288 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:17:16Z returns 0 results
+2022-11-21 17:17:23,246 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:17:21Z returns 0 results
+2022-11-21 17:17:25,300 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:17:21Z returns 0 results
+2022-11-21 17:17:28,236 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:17:26Z returns 0 results
+2022-11-21 17:17:30,284 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:17:26Z returns 0 results
+2022-11-21 17:17:33,239 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:17:31Z returns 0 results
+2022-11-21 17:17:35,286 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:17:31Z returns 0 results
+2022-11-21 17:17:38,225 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:17:36Z returns 0 results
+2022-11-21 17:17:40,277 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:17:36Z returns 0 results
+2022-11-21 17:17:43,247 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:17:41Z returns 0 results
+2022-11-21 17:17:45,295 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:17:41Z returns 0 results
+2022-11-21 17:18:06,975 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:18:04Z returns 0 results
+2022-11-21 17:18:09,019 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:18:04Z returns 0 results
+2022-11-21 17:18:11,977 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:18:09Z returns 0 results
+2022-11-21 17:18:14,021 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:18:09Z returns 0 results
+2022-11-21 17:18:16,965 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:18:14Z returns 0 results
+2022-11-21 17:18:19,012 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:18:14Z returns 0 results
+2022-11-21 17:18:21,968 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:18:19Z returns 0 results
+2022-11-21 17:18:24,012 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:18:19Z returns 0 results
+2022-11-21 17:18:26,972 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:18:24Z returns 0 results
+2022-11-21 17:18:29,031 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:18:24Z returns 0 results
+2022-11-21 17:18:31,976 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:18:29Z returns 0 results
+2022-11-21 17:18:34,035 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:18:29Z returns 0 results
+2022-11-21 17:18:36,966 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:18:34Z returns 0 results
+2022-11-21 17:18:39,027 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:18:34Z returns 0 results
+2022-11-21 17:18:41,969 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:18:39Z returns 0 results
+2022-11-21 17:18:44,014 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:18:39Z returns 0 results
+2022-11-21 17:18:46,974 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:18:44Z returns 0 results
+2022-11-21 17:18:49,024 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:18:44Z returns 0 results
+2022-11-21 17:18:51,979 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:18:49Z returns 0 results
+2022-11-21 17:18:54,025 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:18:49Z returns 0 results
+2022-11-21 17:18:56,968 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:18:54Z returns 0 results
+2022-11-21 17:18:59,012 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:18:54Z returns 0 results
+2022-11-21 17:19:01,971 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:18:59Z returns 0 results
+2022-11-21 17:19:04,015 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:18:59Z returns 0 results
+2022-11-21 17:19:06,973 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:19:04Z returns 0 results
+2022-11-21 17:19:09,018 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:19:04Z returns 0 results
+2022-11-21 17:19:11,979 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:19:09Z returns 0 results
+2022-11-21 17:19:14,024 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:19:09Z returns 0 results
+2022-11-21 17:19:16,967 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:19:14Z returns 0 results
+2022-11-21 17:19:19,013 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:19:14Z returns 0 results
+2022-11-21 17:19:21,972 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:19:19Z returns 0 results
+2022-11-21 17:19:24,007 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 9da01749-412f-4f67-8cbe-fbe79f4a9dc8
+2022-11-21 17:19:24,031 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:19:19Z returns 1 results
+2022-11-21 17:19:26,078 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 45cec7dd-7405-40ab-85a6-7c44e807ddc4
+2022-11-21 17:19:26,974 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:19:24Z returns 1 results
+2022-11-21 17:19:29,019 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:19:24Z returns 0 results
+2022-11-21 17:19:31,979 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:19:29Z returns 0 results
+2022-11-21 17:19:34,027 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:19:29Z returns 0 results
+2022-11-21 17:19:36,987 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:19:34Z returns 0 results
+2022-11-21 17:19:39,046 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:19:34Z returns 0 results
+2022-11-21 17:19:41,974 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:19:39Z returns 0 results
+2022-11-21 17:19:44,018 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:19:39Z returns 0 results
+2022-11-21 17:19:46,977 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:19:44Z returns 0 results
+2022-11-21 17:19:49,021 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:19:44Z returns 0 results
+2022-11-21 17:19:51,965 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:19:49Z returns 0 results
+2022-11-21 17:19:54,008 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:19:49Z returns 0 results
+2022-11-21 17:19:56,966 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:19:54Z returns 0 results
+2022-11-21 17:19:59,011 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:19:54Z returns 0 results
+2022-11-21 17:20:01,970 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:19:59Z returns 0 results
+2022-11-21 17:20:04,015 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:19:59Z returns 0 results
+2022-11-21 17:20:06,974 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:20:04Z returns 0 results
+2022-11-21 17:20:09,018 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:20:04Z returns 0 results
+2022-11-21 17:20:11,976 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:20:09Z returns 0 results
+2022-11-21 17:20:14,036 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:20:09Z returns 0 results
+2022-11-21 17:20:16,963 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:20:14Z returns 0 results
+2022-11-21 17:20:19,009 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:20:14Z returns 0 results
+2022-11-21 17:20:21,986 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:20:19Z returns 0 results
+2022-11-21 17:20:24,042 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:20:19Z returns 0 results
+2022-11-21 17:20:26,970 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:20:24Z returns 0 results
+2022-11-21 17:20:29,030 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:20:24Z returns 0 results
+2022-11-21 17:20:31,975 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:20:29Z returns 0 results
+2022-11-21 17:20:34,019 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:20:29Z returns 0 results
+2022-11-21 17:20:36,978 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:20:34Z returns 0 results
+2022-11-21 17:20:39,022 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:20:34Z returns 0 results
+2022-11-21 17:20:41,966 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:20:39Z returns 0 results
+2022-11-21 17:20:44,012 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:20:39Z returns 0 results
+2022-11-21 17:20:46,971 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:20:44Z returns 0 results
+2022-11-21 17:20:49,015 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:20:44Z returns 0 results
+2022-11-21 17:20:51,973 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:20:49Z returns 0 results
+2022-11-21 17:20:54,017 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:20:49Z returns 0 results
+2022-11-21 17:20:56,975 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:20:54Z returns 0 results
+2022-11-21 17:20:59,019 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:20:54Z returns 0 results
+2022-11-21 17:20:59,803 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 9434a1c0-54d5-4a2c-ad61-e8404378cc32
+2022-11-21 17:20:59,889 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 9672e908-17ca-413b-85e8-d899082bc8fc
+2022-11-21 17:20:59,982 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of b3638cad-64c8-4ae7-9bd6-f0f97ea90d55
+2022-11-21 17:21:00,091 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of fb397838-931d-4f68-9e19-8a29af5355fe
+2022-11-21 17:21:00,182 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of b9972680-f916-4c5e-8d0a-c02ace410003
+2022-11-21 17:21:00,291 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 3235091d-e492-438f-be8d-2465dc7888c9
+2022-11-21 17:21:00,384 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of e25e934a-0873-493f-bf23-3169dfa02073
+2022-11-21 17:21:00,478 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of b6d28682-5494-423a-bcf6-d7e76c438b7f
+2022-11-21 17:21:00,590 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 31732f53-1c4e-4e14-b0b1-b8fcb47c3967
+2022-11-21 17:21:00,680 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 70472c0a-b184-4a66-a81f-b4023aa79180
+2022-11-21 17:21:01,863 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of de4ee449-45f8-4836-92bf-d9f76d1b48ed
+2022-11-21 17:21:01,949 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 36c402dd-36cd-41d6-80bf-33d07eeb636a
+2022-11-21 17:21:01,963 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:20:59Z returns 2 results
+2022-11-21 17:21:02,042 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of fb24342e-b0be-4f17-a1c3-84fab0ac1727
+2022-11-21 17:21:02,150 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 0a22f090-b597-45fb-a277-f1acbe2ba0fd
+2022-11-21 17:21:02,242 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 80e3e94f-12b0-4636-8d2a-1b96b3aed532
+2022-11-21 17:21:02,352 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 11fb4d3b-74f6-4d0b-b817-908b3685b622
+2022-11-21 17:21:02,446 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c9a710f2-91ed-4abd-a2ea-a34e5b602416
+2022-11-21 17:21:02,542 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 31bad32e-1c05-4c91-bc63-f3dbadfd0fcf
+2022-11-21 17:21:02,646 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 19830ac5-684f-4f00-84e1-e76bd8193c04
+2022-11-21 17:21:02,739 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of f202e154-fe62-47d6-8f36-5ab0ef8c4c22
+2022-11-21 17:21:03,916 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 11f3a6f1-1dac-467e-9b2b-ca38800f3e1b
+2022-11-21 17:21:04,009 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:20:59Z returns 11 results
+2022-11-21 17:21:04,016 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 789b4bb4-4013-40e0-80e1-b987197f615a
+2022-11-21 17:21:04,102 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 3b59905b-3dc2-43ba-8c9b-fbdbd5067327
+2022-11-21 17:21:04,210 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 1e8fa7da-4058-4ee1-8e59-94303cbd4f41
+2022-11-21 17:21:04,303 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 495029d8-d858-4091-b700-421f3381dd48
+2022-11-21 17:21:04,427 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of fbe34519-c101-45b9-91fa-c356d6aaf7ea
+2022-11-21 17:21:04,506 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2df08bc3-5059-4001-99db-0f3a8a85ba83
+2022-11-21 17:21:04,598 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 8b8751ab-1444-4d42-93a9-bacfdffbcfbc
+2022-11-21 17:21:04,707 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 6ee3231b-2dbf-4ca4-8c50-9ed864f85aee
+2022-11-21 17:21:04,800 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c30fbd00-cef1-4141-9894-793e4b9a7af2
+2022-11-21 17:21:05,984 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 10c391fa-6f4f-487e-b8d2-678df5af0c3c
+2022-11-21 17:21:06,069 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of cfd627b3-c59d-4c5d-a5ae-f3718b98d12b
+2022-11-21 17:21:06,162 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ce87e343-110b-4300-9f57-d58f48d6246f
+2022-11-21 17:21:06,270 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 253dc560-c6c4-4c01-9f3f-4f0f3d247bf5
+2022-11-21 17:21:06,364 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 0374616a-7fca-4c2a-8895-394f65dccc45
+2022-11-21 17:21:06,489 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 7ee0c997-2462-44bf-a546-9cf6a50ac25a
+2022-11-21 17:21:06,566 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of b813fa09-0d01-40f1-bc5f-eebda5cbc5ce
+2022-11-21 17:21:06,659 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 4781a218-6797-4bbf-80dd-0e3eca0a3a46
+2022-11-21 17:21:06,767 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ee305330-37e0-46d5-9808-67b1fe93398f
+2022-11-21 17:21:06,860 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 96e2747d-df4e-484d-ab72-bc4f4621c56b
+2022-11-21 17:21:06,967 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:21:04Z returns 10 results
+2022-11-21 17:21:09,028 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:21:04Z returns 9 results
+2022-11-21 17:21:11,970 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:21:09Z returns 0 results
+2022-11-21 17:21:14,015 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:21:09Z returns 0 results
+2022-11-21 17:21:16,973 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:21:14Z returns 0 results
+2022-11-21 17:21:19,019 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:21:14Z returns 0 results
+2022-11-21 17:21:21,978 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:21:19Z returns 0 results
+2022-11-21 17:21:24,038 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:21:19Z returns 0 results
+2022-11-21 17:21:26,966 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:21:24Z returns 0 results
+2022-11-21 17:21:29,024 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:21:24Z returns 0 results
+2022-11-21 17:21:31,968 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:21:29Z returns 0 results
+2022-11-21 17:21:34,016 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:21:29Z returns 0 results
+2022-11-21 17:21:36,972 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:21:34Z returns 0 results
+2022-11-21 17:21:39,033 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:21:34Z returns 0 results
+2022-11-21 17:21:41,975 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:21:39Z returns 0 results
+2022-11-21 17:21:44,019 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:21:39Z returns 0 results
+2022-11-21 17:21:46,965 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:21:44Z returns 0 results
+2022-11-21 17:21:49,025 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:21:44Z returns 0 results
+2022-11-21 17:21:51,968 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:21:49Z returns 0 results
+2022-11-21 17:21:54,012 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:21:49Z returns 0 results
+2022-11-21 17:21:56,970 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:21:54Z returns 0 results
+2022-11-21 17:21:59,011 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:21:54Z returns 0 results
+2022-11-21 17:22:01,970 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:21:59Z returns 0 results
+2022-11-21 17:22:04,014 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:21:59Z returns 0 results
+2022-11-21 17:22:06,974 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:22:04Z returns 0 results
+2022-11-21 17:22:09,020 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:22:04Z returns 0 results
+2022-11-21 17:22:11,975 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:22:09Z returns 0 results
+2022-11-21 17:22:14,036 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:22:09Z returns 0 results
+2022-11-21 17:22:16,965 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:22:14Z returns 0 results
+2022-11-21 17:22:19,022 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:22:14Z returns 0 results
+2022-11-21 17:22:21,966 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:22:19Z returns 0 results
+2022-11-21 17:22:24,026 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:22:19Z returns 0 results
+2022-11-21 17:22:26,969 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:22:24Z returns 0 results
+2022-11-21 17:22:29,013 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:22:24Z returns 0 results
+2022-11-21 17:22:31,971 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:22:29Z returns 0 results
+2022-11-21 17:22:34,016 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:22:29Z returns 0 results
+2022-11-21 17:22:36,974 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:22:34Z returns 0 results
+2022-11-21 17:22:39,019 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:22:34Z returns 0 results
+2022-11-21 17:22:41,977 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:22:39Z returns 0 results
+2022-11-21 17:22:44,026 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:22:39Z returns 0 results
+2022-11-21 17:22:46,964 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:22:44Z returns 0 results
+2022-11-21 17:22:49,008 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:22:44Z returns 0 results
+2022-11-21 17:22:51,968 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:22:49Z returns 0 results
+2022-11-21 17:22:54,012 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:22:49Z returns 0 results
+2022-11-21 17:22:56,969 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:22:54Z returns 0 results
+2022-11-21 17:22:59,013 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:22:54Z returns 0 results
+2022-11-21 17:23:01,972 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:22:59Z returns 0 results
+2022-11-21 17:23:04,017 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:22:59Z returns 0 results
+2022-11-21 17:23:06,976 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:23:04Z returns 0 results
+2022-11-21 17:23:09,019 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:23:04Z returns 0 results
+2022-11-21 17:23:11,963 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:23:09Z returns 0 results
+2022-11-21 17:23:14,007 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:23:09Z returns 0 results
+2022-11-21 17:23:16,965 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:23:14Z returns 0 results
+2022-11-21 17:23:19,009 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:23:14Z returns 0 results
+2022-11-21 17:23:21,969 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:23:19Z returns 0 results
+2022-11-21 17:23:24,015 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:23:19Z returns 0 results
+2022-11-21 17:23:26,972 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:23:24Z returns 0 results
+2022-11-21 17:23:29,017 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:23:24Z returns 0 results
+2022-11-21 17:23:31,975 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:23:29Z returns 0 results
+2022-11-21 17:23:34,019 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:23:29Z returns 0 results
+2022-11-21 17:23:36,962 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:23:34Z returns 0 results
+2022-11-21 17:23:39,008 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:23:34Z returns 0 results
+2022-11-21 17:23:41,966 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:23:39Z returns 0 results
+2022-11-21 17:23:44,010 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:23:39Z returns 0 results
+2022-11-21 17:23:46,968 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:23:44Z returns 0 results
+2022-11-21 17:23:49,013 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:23:44Z returns 0 results
+2022-11-21 17:23:51,971 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:23:49Z returns 0 results
+2022-11-21 17:23:54,015 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:23:49Z returns 0 results
+2022-11-21 17:23:56,981 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:23:54Z returns 0 results
+2022-11-21 17:23:59,038 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:23:54Z returns 0 results
+2022-11-21 17:24:01,964 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:23:59Z returns 0 results
+2022-11-21 17:24:04,012 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:23:59Z returns 0 results
+2022-11-21 17:24:06,978 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:24:04Z returns 0 results
+2022-11-21 17:24:09,026 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:24:04Z returns 0 results
+2022-11-21 17:24:11,954 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:24:09Z returns 0 results
+2022-11-21 17:24:13,990 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:24:09Z returns 0 results
+2022-11-21 17:24:16,983 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:24:14Z returns 0 results
+2022-11-21 17:24:19,025 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:24:14Z returns 0 results
+2022-11-21 17:24:21,959 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:24:19Z returns 0 results
+2022-11-21 17:24:24,004 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:24:19Z returns 0 results
+2022-11-21 17:24:26,967 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:24:24Z returns 0 results
+2022-11-21 17:24:29,019 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:24:24Z returns 0 results
+2022-11-21 17:24:31,982 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:24:29Z returns 0 results
+2022-11-21 17:24:34,025 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:24:29Z returns 0 results
+2022-11-21 17:24:36,982 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:24:34Z returns 0 results
+2022-11-21 17:24:39,029 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:24:34Z returns 0 results
+2022-11-21 17:24:41,961 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:24:39Z returns 0 results
+2022-11-21 17:24:44,009 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:24:39Z returns 0 results
+2022-11-21 17:24:46,984 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:24:44Z returns 0 results
+2022-11-21 17:24:49,025 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:24:44Z returns 0 results
+2022-11-21 17:24:51,976 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:24:49Z returns 0 results
+2022-11-21 17:24:54,021 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:24:49Z returns 0 results
+2022-11-21 17:24:56,971 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:24:54Z returns 0 results
+2022-11-21 17:24:59,020 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:24:54Z returns 0 results
+2022-11-21 17:25:01,975 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:24:59Z returns 0 results
+2022-11-21 17:25:04,015 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:24:59Z returns 0 results
+2022-11-21 17:25:06,968 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T17:25:04Z returns 0 results
+2022-11-21 17:25:09,017 - basicLogger - INFO - Query for Book Return events after 2022-11-21T17:25:04Z returns 0 results
+2022-11-21 20:12:55,809 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:12:52Z returns 0 results
+2022-11-21 20:12:58,081 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:12:52Z returns 0 results
+2022-11-21 20:13:04,866 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:13:02Z returns 0 results
+2022-11-21 20:13:07,149 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:13:02Z returns 0 results
+2022-11-21 20:13:09,888 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:13:07Z returns 0 results
+2022-11-21 20:13:12,163 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:13:07Z returns 0 results
+2022-11-21 20:13:14,878 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:13:12Z returns 0 results
+2022-11-21 20:13:17,147 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:13:12Z returns 0 results
+2022-11-21 20:13:19,862 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:13:17Z returns 0 results
+2022-11-21 20:13:22,140 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:13:17Z returns 0 results
+2022-11-21 20:13:24,876 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:13:22Z returns 0 results
+2022-11-21 20:13:27,142 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:13:22Z returns 0 results
+2022-11-21 20:13:29,863 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:13:27Z returns 0 results
+2022-11-21 20:13:32,146 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:13:27Z returns 0 results
+2022-11-21 20:13:34,856 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:13:32Z returns 0 results
+2022-11-21 20:13:37,135 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:13:32Z returns 0 results
+2022-11-21 20:13:39,858 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:13:37Z returns 0 results
+2022-11-21 20:13:42,140 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:13:37Z returns 0 results
+2022-11-21 20:13:44,867 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:13:42Z returns 0 results
+2022-11-21 20:13:47,146 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:13:42Z returns 0 results
+2022-11-21 20:13:49,856 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:13:47Z returns 0 results
+2022-11-21 20:13:52,139 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:13:47Z returns 0 results
+2022-11-21 20:13:54,854 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:13:52Z returns 0 results
+2022-11-21 20:13:57,135 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:13:52Z returns 0 results
+2022-11-21 20:13:57,634 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 438480cb-7b17-42ad-90e7-3d2d42cbca7a
+2022-11-21 20:13:57,923 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 0bf38075-f511-4341-9c3c-84ef11ae9f4c
+2022-11-21 20:13:58,137 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 91429a90-0c96-4b19-9081-4064123f37c5
+2022-11-21 20:13:58,143 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 36d6f77a-50c3-4d92-ad1a-f868de6ef330
+2022-11-21 20:13:58,143 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 160b108c-c8d6-4464-9d30-7119c71e6a93
+2022-11-21 20:13:58,144 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of b32fbce1-7fe4-44b9-a471-29f20d8351e0
+2022-11-21 20:13:58,178 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of dae27f19-d217-4b89-8ca3-1ba9727e6200
+2022-11-21 20:13:58,184 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of a2843478-d1ad-4073-bee2-63888c826898
+2022-11-21 20:13:58,214 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of eb426077-9e5f-4e6f-8a04-707e06278882
+2022-11-21 20:13:58,407 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2395577c-2fd8-4660-81be-6df44d1559c8
+2022-11-21 20:13:59,854 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:13:57Z returns 0 results
+2022-11-21 20:13:59,927 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 34aad074-536b-400a-a4c9-80283b2159a4
+2022-11-21 20:14:00,221 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c02405eb-b3e1-42b2-83af-a1af213a84c7
+2022-11-21 20:14:00,450 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 93f5a26e-d6cf-4aa1-a022-9aff80b654cf
+2022-11-21 20:14:00,451 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 196fc5b1-cf18-42d8-8844-f8589a5893bd
+2022-11-21 20:14:00,451 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 03671524-4ddf-4057-9f44-420b1756bbe2
+2022-11-21 20:14:00,453 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 3692496b-193e-412f-bef6-07fcfb4cfff8
+2022-11-21 20:14:00,465 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c66a28aa-c1c8-4adb-8336-73808de0643f
+2022-11-21 20:14:00,698 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of aadc1396-d940-4746-bd17-23bc93107a4b
+2022-11-21 20:14:00,885 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 026ebe7a-a91c-40b2-89bc-4c209ad24092
+2022-11-21 20:14:00,895 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 5e9ecb6f-a977-4524-816c-3956c80b27a3
+2022-11-21 20:14:02,132 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:13:57Z returns 10 results
+2022-11-21 20:14:02,224 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 5b08b066-902a-4011-af3e-9e454562b0ec
+2022-11-21 20:14:02,518 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2b57a80d-42de-4582-b14b-0a6539bc14b9
+2022-11-21 20:14:02,769 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 38e25cd7-1870-4f34-b92a-1004a6480595
+2022-11-21 20:14:02,769 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of acfa4a88-2963-4fed-ab61-7ae5b87a5346
+2022-11-21 20:14:02,772 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 4850b66b-8b78-4c85-afd6-7a88bf02961c
+2022-11-21 20:14:02,773 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ed98f505-eea2-480a-bd66-2389b08efbe8
+2022-11-21 20:14:02,784 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 1c08d12d-73a8-4874-a436-ec5940a2e4ad
+2022-11-21 20:14:03,182 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 023c5b31-d2e9-4523-b6b6-83a38254063e
+2022-11-21 20:14:03,193 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 06866b57-4e50-4d94-9e3e-333a5eaaa640
+2022-11-21 20:14:03,413 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 3f62ed00-ecf7-4f70-afb9-0c77d470cc04
+2022-11-21 20:14:04,504 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 9324d7c9-54d2-41e6-bca0-8ce6e7246656
+2022-11-21 20:14:04,796 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of b17882dc-23e1-4487-9965-bacd991da6bd
+2022-11-21 20:14:04,855 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:14:02Z returns 1 results
+2022-11-21 20:14:05,062 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 3a6e26a1-dade-4e0d-b519-94d1b785adcf
+2022-11-21 20:14:05,067 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of a59f7bcd-70dc-4f27-bac4-4a35b805c963
+2022-11-21 20:14:05,081 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 6f19b38d-00f4-40a7-98bd-cba053fac914
+2022-11-21 20:14:05,088 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of bb2e9d58-788a-4814-9eb3-37b48f9fc861
+2022-11-21 20:14:05,088 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ee4e530d-74ad-4499-898b-6ec33f416adb
+2022-11-21 20:14:05,463 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 781b62b3-5d48-4e69-b9e8-ff8694199799
+2022-11-21 20:14:05,492 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of a79007e5-7c69-4ae9-99d3-1be4afd33e7d
+2022-11-21 20:14:05,699 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of e8ffdb46-c4ad-42d3-8480-3dfb8d7a82da
+2022-11-21 20:14:07,131 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:14:02Z returns 9 results
+2022-11-21 20:14:09,859 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:14:07Z returns 0 results
+2022-11-21 20:14:12,132 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:14:07Z returns 0 results
+2022-11-21 20:14:14,864 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:14:12Z returns 0 results
+2022-11-21 20:14:17,153 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:14:12Z returns 0 results
+2022-11-21 20:14:19,867 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:14:17Z returns 0 results
+2022-11-21 20:14:22,139 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:14:17Z returns 0 results
+2022-11-21 20:14:24,865 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:14:22Z returns 0 results
+2022-11-21 20:14:27,139 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:14:22Z returns 0 results
+2022-11-21 20:14:29,859 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:14:27Z returns 0 results
+2022-11-21 20:14:32,127 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:14:27Z returns 0 results
+2022-11-21 20:14:34,876 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:14:32Z returns 0 results
+2022-11-21 20:14:37,145 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:14:32Z returns 0 results
+2022-11-21 20:14:39,866 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:14:37Z returns 0 results
+2022-11-21 20:14:42,131 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:14:37Z returns 0 results
+2022-11-21 20:14:44,866 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:14:42Z returns 0 results
+2022-11-21 20:14:47,140 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:14:42Z returns 0 results
+2022-11-21 20:14:49,873 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:14:47Z returns 0 results
+2022-11-21 20:14:52,141 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:14:47Z returns 0 results
+2022-11-21 20:14:54,852 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:14:52Z returns 0 results
+2022-11-21 20:14:57,132 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:14:52Z returns 0 results
+2022-11-21 20:14:59,855 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:14:57Z returns 0 results
+2022-11-21 20:15:02,135 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:14:57Z returns 0 results
+2022-11-21 20:15:04,860 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:15:02Z returns 0 results
+2022-11-21 20:15:07,133 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:15:02Z returns 0 results
+2022-11-21 20:15:09,854 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:15:07Z returns 0 results
+2022-11-21 20:15:12,119 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:15:07Z returns 0 results
+2022-11-21 20:15:14,860 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:15:12Z returns 0 results
+2022-11-21 20:15:17,140 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:15:12Z returns 0 results
+2022-11-21 20:15:19,868 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:15:17Z returns 0 results
+2022-11-21 20:15:22,146 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:15:17Z returns 0 results
+2022-11-21 20:15:24,856 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:15:22Z returns 0 results
+2022-11-21 20:15:27,131 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:15:22Z returns 0 results
+2022-11-21 20:15:29,862 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:15:27Z returns 0 results
+2022-11-21 20:15:32,152 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:15:27Z returns 0 results
+2022-11-21 20:15:34,861 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:15:32Z returns 0 results
+2022-11-21 20:15:37,137 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:15:32Z returns 0 results
+2022-11-21 20:15:39,855 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:15:37Z returns 0 results
+2022-11-21 20:15:42,123 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:15:37Z returns 0 results
+2022-11-21 20:15:44,851 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:15:42Z returns 0 results
+2022-11-21 20:15:47,135 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:15:42Z returns 0 results
+2022-11-21 20:15:49,855 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:15:47Z returns 0 results
+2022-11-21 20:15:52,133 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:15:47Z returns 0 results
+2022-11-21 20:15:54,872 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:15:52Z returns 0 results
+2022-11-21 20:15:57,138 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:15:52Z returns 0 results
+2022-11-21 20:15:59,871 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:15:57Z returns 0 results
+2022-11-21 20:16:02,150 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:15:57Z returns 0 results
+2022-11-21 20:16:04,854 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:16:02Z returns 0 results
+2022-11-21 20:16:07,135 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:16:02Z returns 0 results
+2022-11-21 20:16:09,862 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:16:07Z returns 0 results
+2022-11-21 20:16:12,133 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:16:07Z returns 0 results
+2022-11-21 20:16:14,860 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T20:16:12Z returns 0 results
+2022-11-21 20:16:17,140 - basicLogger - INFO - Query for Book Return events after 2022-11-21T20:16:12Z returns 0 results
+2022-11-21 21:03:34,863 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:03:31Z returns 0 results
+2022-11-21 21:03:37,148 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:03:31Z returns 0 results
+2022-11-21 21:03:43,535 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:43', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 12, 'expected_fine': 45.87, 'return_id': '151b034f-2269-4ef8-a2bd-3e8871fbda36', 'timestamp': '21/11/2022', 'trace_id': 'd8bd7da6-e0f0-4bb2-93a0-9d3a4fc0c78f'}}
+2022-11-21 21:03:43,867 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:03:41Z returns 0 results
+2022-11-21 21:03:44,648 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of d8bd7da6-e0f0-4bb2-93a0-9d3a4fc0c78f
+2022-11-21 21:03:44,726 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:43', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 4, 'expected_fine': 45.9, 'return_id': '13bd9ae1-1f0b-436d-ba25-0b579363b237', 'timestamp': '21/11/2022', 'trace_id': 'cae0662b-d346-4211-bba8-cdb580cc21f9'}}
+2022-11-21 21:03:44,958 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of cae0662b-d346-4211-bba8-cdb580cc21f9
+2022-11-21 21:03:45,042 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:43', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 8, 'expected_fine': 44.31, 'return_id': '650c8662-2c99-48f7-a5bb-1f510abddaca', 'timestamp': '21/11/2022', 'trace_id': '6606692a-6b14-4d6e-bd26-a88905585e1e'}}
+2022-11-21 21:03:45,267 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 6606692a-6b14-4d6e-bd26-a88905585e1e
+2022-11-21 21:03:45,345 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:43', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 4, 'expected_fine': 16.6, 'return_id': 'eee7139d-9aeb-4336-9d48-0e3bc56e974d', 'timestamp': '21/11/2022', 'trace_id': 'a8e32b76-12ae-4c82-9e66-b163d248cda3'}}
+2022-11-21 21:03:45,575 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of a8e32b76-12ae-4c82-9e66-b163d248cda3
+2022-11-21 21:03:45,655 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:43', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 11, 'expected_fine': 28.91, 'return_id': 'b2efbba8-8168-4582-9ab8-607be8a5eda6', 'timestamp': '21/11/2022', 'trace_id': 'ae326395-b4a4-41ff-bdc0-e4756af1c977'}}
+2022-11-21 21:03:45,879 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ae326395-b4a4-41ff-bdc0-e4756af1c977
+2022-11-21 21:03:45,959 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:43', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 9, 'expected_fine': 29.18, 'return_id': '5ea43747-3d55-4f80-8680-11e6540b90d8', 'timestamp': '21/11/2022', 'trace_id': '8fc618e2-468c-4ffd-81e7-2da0e90556b9'}}
+2022-11-21 21:03:46,151 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:03:41Z returns 5 results
+2022-11-21 21:03:46,188 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 8fc618e2-468c-4ffd-81e7-2da0e90556b9
+2022-11-21 21:03:46,266 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:43', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 12, 'expected_fine': 37.32, 'return_id': 'cff38375-1f22-4690-a396-cc0ab9b1c8f4', 'timestamp': '21/11/2022', 'trace_id': 'bc693139-0db7-4549-a529-3a4738eb97e7'}}
+2022-11-21 21:03:46,493 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of bc693139-0db7-4549-a529-3a4738eb97e7
+2022-11-21 21:03:46,570 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:43', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 2, 'expected_fine': 50.27, 'return_id': 'acd5365c-ee7c-4aa3-b76c-badabd016323', 'timestamp': '21/11/2022', 'trace_id': '898c1161-0ec7-40b7-ba22-bc9c52e6bc36'}}
+2022-11-21 21:03:46,800 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 898c1161-0ec7-40b7-ba22-bc9c52e6bc36
+2022-11-21 21:03:46,877 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:44', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 1, 'expected_fine': 2.6, 'return_id': '7e39694f-a87d-4a7d-80dc-128f480a9a8b', 'timestamp': '21/11/2022', 'trace_id': 'd5854545-b86a-4c3b-a117-8f569f5d2f04'}}
+2022-11-21 21:03:47,105 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of d5854545-b86a-4c3b-a117-8f569f5d2f04
+2022-11-21 21:03:47,182 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:44', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 5, 'expected_fine': 2.26, 'return_id': 'fd74faee-65c0-480f-842d-6fdd88332894', 'timestamp': '21/11/2022', 'trace_id': '190a8291-c457-4521-a974-fe40c53c2f78'}}
+2022-11-21 21:03:47,415 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 190a8291-c457-4521-a974-fe40c53c2f78
+2022-11-21 21:03:48,867 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:03:46Z returns 0 results
+2022-11-21 21:03:49,073 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:03:48', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 18, 'genre': 'High Fantasy', 'num_of_pages': 939, 'timestamp': '21/11/2022', 'withdrawal_id': '0269b718-589c-41a2-b3ac-06b787110894', 'trace_id': '170b1162-5b7b-43a4-81ba-7db735d8672c'}}
+2022-11-21 21:03:49,305 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 170b1162-5b7b-43a4-81ba-7db735d8672c
+2022-11-21 21:03:49,381 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:03:49', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 6, 'genre': 'High Fantasy', 'num_of_pages': 864, 'timestamp': '21/11/2022', 'withdrawal_id': '58286d5f-12ec-4044-bdb7-667abd6c8af8', 'trace_id': '3aade87e-9893-463d-aaf3-e1e34cc791d4'}}
+2022-11-21 21:03:49,621 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 3aade87e-9893-463d-aaf3-e1e34cc791d4
+2022-11-21 21:03:49,701 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:03:49', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 20, 'genre': 'High Fantasy', 'num_of_pages': 380, 'timestamp': '21/11/2022', 'withdrawal_id': 'f61a095d-59b7-49bb-9ae6-a1076ebe08c5', 'trace_id': 'aac4ec65-d525-4771-81b3-d372d9ebb05a'}}
+2022-11-21 21:03:49,927 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of aac4ec65-d525-4771-81b3-d372d9ebb05a
+2022-11-21 21:03:50,003 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:03:49', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 18, 'genre': 'High Fantasy', 'num_of_pages': 1383, 'timestamp': '21/11/2022', 'withdrawal_id': 'c434a224-60f7-4549-9b03-193fc3239f5f', 'trace_id': '6fda9dc6-aa83-46fa-90c0-6cdffb6bb048'}}
+2022-11-21 21:03:50,237 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 6fda9dc6-aa83-46fa-90c0-6cdffb6bb048
+2022-11-21 21:03:50,313 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:03:49', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 13, 'genre': 'High Fantasy', 'num_of_pages': 1078, 'timestamp': '21/11/2022', 'withdrawal_id': '8e95379f-ab66-490f-9873-df1bcd4f64e8', 'trace_id': 'df5a75a9-18ec-4d66-945f-9f38b1583c77'}}
+2022-11-21 21:03:50,545 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of df5a75a9-18ec-4d66-945f-9f38b1583c77
+2022-11-21 21:03:50,623 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:03:49', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 6, 'genre': 'High Fantasy', 'num_of_pages': 278, 'timestamp': '21/11/2022', 'withdrawal_id': '10e3be55-6c7d-4eec-bd98-13b87c8ddaf1', 'trace_id': '08c29f44-41d0-45f3-9bd6-de52d9679e50'}}
+2022-11-21 21:03:50,848 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 08c29f44-41d0-45f3-9bd6-de52d9679e50
+2022-11-21 21:03:50,925 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:03:49', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 11, 'genre': 'High Fantasy', 'num_of_pages': 646, 'timestamp': '21/11/2022', 'withdrawal_id': 'b95ef1d1-ec39-4f53-8188-e899e4982b5f', 'trace_id': 'eddaf46d-3f45-440b-bf10-7881b1cbc80b'}}
+2022-11-21 21:03:51,153 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of eddaf46d-3f45-440b-bf10-7881b1cbc80b
+2022-11-21 21:03:51,162 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:03:46Z returns 4 results
+2022-11-21 21:03:51,228 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:03:49', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 26, 'genre': 'High Fantasy', 'num_of_pages': 1327, 'timestamp': '21/11/2022', 'withdrawal_id': 'b51068c8-acc0-45df-997b-72922e33c26c', 'trace_id': 'f8c86d91-5c06-4f3d-a5ae-7eb597ef7139'}}
+2022-11-21 21:03:51,454 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of f8c86d91-5c06-4f3d-a5ae-7eb597ef7139
+2022-11-21 21:03:51,530 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:03:49', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 16, 'genre': 'High Fantasy', 'num_of_pages': 1230, 'timestamp': '21/11/2022', 'withdrawal_id': '2edd7ca5-4f88-4a61-992a-03c9d6220391', 'trace_id': 'bc1eb8e6-498c-4f85-9735-5de0ccdc5ba6'}}
+2022-11-21 21:03:51,761 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of bc1eb8e6-498c-4f85-9735-5de0ccdc5ba6
+2022-11-21 21:03:51,837 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:03:49', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 19, 'genre': 'High Fantasy', 'num_of_pages': 1045, 'timestamp': '21/11/2022', 'withdrawal_id': '35bd4df3-035f-4c13-91d7-9e780bc7d857', 'trace_id': '417ba53f-9339-4eef-b4e8-d9aa3028fb12'}}
+2022-11-21 21:03:52,064 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 417ba53f-9339-4eef-b4e8-d9aa3028fb12
+2022-11-21 21:03:53,863 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:03:51Z returns 3 results
+2022-11-21 21:03:54,699 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:54', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 11, 'expected_fine': 28.73, 'return_id': '0789125c-e1bf-454f-9c11-d423d5cdc02d', 'timestamp': '21/11/2022', 'trace_id': '5f9eddb0-affb-4f35-9787-620328d754df'}}
+2022-11-21 21:03:54,932 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 5f9eddb0-affb-4f35-9787-620328d754df
+2022-11-21 21:03:55,014 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:54', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 6, 'expected_fine': 25.28, 'return_id': 'a744ca59-3bb0-4ec9-a136-026b56a1c5a6', 'timestamp': '21/11/2022', 'trace_id': '1ea3ff59-179e-43c0-b994-a3430c38301d'}}
+2022-11-21 21:03:55,242 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 1ea3ff59-179e-43c0-b994-a3430c38301d
+2022-11-21 21:03:55,319 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:54', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 2, 'expected_fine': 20.16, 'return_id': 'fad777e0-5ba9-409e-bb1f-e1287650c5a6', 'timestamp': '21/11/2022', 'trace_id': '9eb543b3-0247-48c3-99f9-a93783e22011'}}
+2022-11-21 21:03:55,546 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 9eb543b3-0247-48c3-99f9-a93783e22011
+2022-11-21 21:03:55,626 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:54', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 7, 'expected_fine': 26.73, 'return_id': '342e6f52-fd2d-4d49-97ce-5317f8b802f2', 'timestamp': '21/11/2022', 'trace_id': '7cbdb8da-21f9-4c3f-ac49-efa055646354'}}
+2022-11-21 21:03:55,852 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 7cbdb8da-21f9-4c3f-ac49-efa055646354
+2022-11-21 21:03:55,929 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:54', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 8, 'expected_fine': 16.78, 'return_id': '112bd5d4-39a1-45fb-97ef-54d0ee7821f2', 'timestamp': '21/11/2022', 'trace_id': 'c5c9bc84-0b3e-40c1-a358-bafbb15c3ae3'}}
+2022-11-21 21:03:56,153 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:03:51Z returns 4 results
+2022-11-21 21:03:56,154 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c5c9bc84-0b3e-40c1-a358-bafbb15c3ae3
+2022-11-21 21:03:56,231 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:54', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 11, 'expected_fine': 30.94, 'return_id': '30a642f8-6991-4070-9ba5-1d1522291603', 'timestamp': '21/11/2022', 'trace_id': '473ca4de-ae5e-4e6e-ba49-616ab910dcf3'}}
+2022-11-21 21:03:56,470 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 473ca4de-ae5e-4e6e-ba49-616ab910dcf3
+2022-11-21 21:03:56,549 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:54', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 10, 'expected_fine': 31.85, 'return_id': '21923d76-931e-459a-8ce0-90de59193bcd', 'timestamp': '21/11/2022', 'trace_id': 'fe6b04e3-f347-4406-9e21-2373f8c3dffb'}}
+2022-11-21 21:03:56,786 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of fe6b04e3-f347-4406-9e21-2373f8c3dffb
+2022-11-21 21:03:56,861 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:55', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 3, 'expected_fine': 33.18, 'return_id': '1aec7fb5-c2c0-4768-8019-4dd32667367d', 'timestamp': '21/11/2022', 'trace_id': '84e99540-3780-4358-9d3e-b1028be13fa3'}}
+2022-11-21 21:03:57,089 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 84e99540-3780-4358-9d3e-b1028be13fa3
+2022-11-21 21:03:57,165 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:55', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 8, 'expected_fine': 16.57, 'return_id': '911e35da-0069-44c2-9824-3c1e41fcd1b9', 'timestamp': '21/11/2022', 'trace_id': '90e66073-e975-4ad1-b653-4a7efb6b918b'}}
+2022-11-21 21:03:57,394 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 90e66073-e975-4ad1-b653-4a7efb6b918b
+2022-11-21 21:03:57,472 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:03:55', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 11, 'expected_fine': 42.54, 'return_id': 'aa8cbc07-5a86-48f4-8e0c-b65c837638ab', 'timestamp': '21/11/2022', 'trace_id': 'ff332070-907f-4492-bd5d-a2c5d5dbe655'}}
+2022-11-21 21:03:57,700 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ff332070-907f-4492-bd5d-a2c5d5dbe655
+2022-11-21 21:03:58,858 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:03:56Z returns 0 results
+2022-11-21 21:04:00,241 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:04:00', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 10, 'genre': 'High Fantasy', 'num_of_pages': 1165, 'timestamp': '21/11/2022', 'withdrawal_id': '19e4b8b0-8ce7-42d9-b7e1-632953c2a42d', 'trace_id': 'e304ee67-8221-4232-bec7-ef7ec16885ee'}}
+2022-11-21 21:04:00,471 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of e304ee67-8221-4232-bec7-ef7ec16885ee
+2022-11-21 21:04:00,549 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:04:00', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 14, 'genre': 'High Fantasy', 'num_of_pages': 1022, 'timestamp': '21/11/2022', 'withdrawal_id': 'fa48061f-c50a-4bd6-be8b-2ff082db9d19', 'trace_id': 'ee8386ec-48a2-433c-bc7f-c733e6455448'}}
+2022-11-21 21:04:00,775 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ee8386ec-48a2-433c-bc7f-c733e6455448
+2022-11-21 21:04:00,850 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:04:00', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 4, 'genre': 'High Fantasy', 'num_of_pages': 924, 'timestamp': '21/11/2022', 'withdrawal_id': 'ca09f674-3e2f-4a04-9eb6-d17b7e6aaeb3', 'trace_id': 'fa189cdf-0186-4fa3-96b3-b551520e4e27'}}
+2022-11-21 21:04:01,079 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of fa189cdf-0186-4fa3-96b3-b551520e4e27
+2022-11-21 21:04:01,155 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:04:00', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 11, 'genre': 'High Fantasy', 'num_of_pages': 384, 'timestamp': '21/11/2022', 'withdrawal_id': 'babef0bd-164c-45d1-88d7-fd77f987708d', 'trace_id': '1f7e745b-8254-4a69-b6e5-e86fbab8c76a'}}
+2022-11-21 21:04:01,159 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:03:56Z returns 5 results
+2022-11-21 21:04:01,390 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 1f7e745b-8254-4a69-b6e5-e86fbab8c76a
+2022-11-21 21:04:01,468 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:04:00', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 2, 'genre': 'High Fantasy', 'num_of_pages': 160, 'timestamp': '21/11/2022', 'withdrawal_id': '290b50c5-8e28-4753-93db-be63f17c7b5a', 'trace_id': '965c6fa3-b15f-48c4-bb4e-c625476e8349'}}
+2022-11-21 21:04:01,707 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 965c6fa3-b15f-48c4-bb4e-c625476e8349
+2022-11-21 21:04:01,788 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:04:00', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 9, 'genre': 'High Fantasy', 'num_of_pages': 898, 'timestamp': '21/11/2022', 'withdrawal_id': '70f3c224-8a3a-4712-8b14-623a22551a43', 'trace_id': '84e2e127-9d91-4a74-a815-73db277d109e'}}
+2022-11-21 21:04:02,027 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 84e2e127-9d91-4a74-a815-73db277d109e
+2022-11-21 21:04:02,104 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:04:00', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 20, 'genre': 'High Fantasy', 'num_of_pages': 1016, 'timestamp': '21/11/2022', 'withdrawal_id': 'f51de13a-70b0-41b0-afba-9d5ea4972240', 'trace_id': '40f362ed-d7e9-4ba8-bc19-505495e74dbe'}}
+2022-11-21 21:04:02,332 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 40f362ed-d7e9-4ba8-bc19-505495e74dbe
+2022-11-21 21:04:02,409 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:04:00', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 10, 'genre': 'High Fantasy', 'num_of_pages': 1147, 'timestamp': '21/11/2022', 'withdrawal_id': 'bc742beb-ae37-4022-ab84-62eba43ba474', 'trace_id': '5f12a782-0a98-4ddb-9115-1b12bad884f0'}}
+2022-11-21 21:04:02,637 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 5f12a782-0a98-4ddb-9115-1b12bad884f0
+2022-11-21 21:04:02,714 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:04:00', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 10, 'genre': 'High Fantasy', 'num_of_pages': 1005, 'timestamp': '21/11/2022', 'withdrawal_id': 'e15e0e43-77ed-477c-9afe-0db1adadd75a', 'trace_id': '57bf23ab-0f96-4ada-95ad-66997bcf9bf1'}}
+2022-11-21 21:04:02,947 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 57bf23ab-0f96-4ada-95ad-66997bcf9bf1
+2022-11-21 21:04:03,023 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:04:00', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 23, 'genre': 'High Fantasy', 'num_of_pages': 432, 'timestamp': '21/11/2022', 'withdrawal_id': 'e4a2a2b0-abed-4e8e-b2a5-80772a643bc1', 'trace_id': '194aa09b-2ed3-4b67-9138-4a8b6b8b940d'}}
+2022-11-21 21:04:03,252 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 194aa09b-2ed3-4b67-9138-4a8b6b8b940d
+2022-11-21 21:04:03,857 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:04:01Z returns 7 results
+2022-11-21 21:04:06,154 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:04:01Z returns 0 results
+2022-11-21 21:04:08,863 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:04:06Z returns 0 results
+2022-11-21 21:04:11,157 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:04:06Z returns 0 results
+2022-11-21 21:04:13,867 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:04:11Z returns 0 results
+2022-11-21 21:04:16,166 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:04:11Z returns 0 results
+2022-11-21 21:04:18,852 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:04:16Z returns 0 results
+2022-11-21 21:04:21,145 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:04:16Z returns 0 results
+2022-11-21 21:04:23,858 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:04:21Z returns 0 results
+2022-11-21 21:04:26,155 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:04:21Z returns 0 results
+2022-11-21 21:04:28,862 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:04:26Z returns 0 results
+2022-11-21 21:04:31,164 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:04:26Z returns 0 results
+2022-11-21 21:04:33,863 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:04:31Z returns 0 results
+2022-11-21 21:04:36,149 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:04:31Z returns 0 results
+2022-11-21 21:04:38,868 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:04:36Z returns 0 results
+2022-11-21 21:04:41,158 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:04:36Z returns 0 results
+2022-11-21 21:04:43,855 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:04:41Z returns 0 results
+2022-11-21 21:04:46,144 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:04:41Z returns 0 results
+2022-11-21 21:04:48,858 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:04:46Z returns 0 results
+2022-11-21 21:04:51,147 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:04:46Z returns 0 results
+2022-11-21 21:04:53,858 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:04:51Z returns 0 results
+2022-11-21 21:04:56,149 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:04:51Z returns 0 results
+2022-11-21 21:04:58,862 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:04:56Z returns 0 results
+2022-11-21 21:05:01,148 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:04:56Z returns 0 results
+2022-11-21 21:05:03,860 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:05:01Z returns 0 results
+2022-11-21 21:05:06,151 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:05:01Z returns 0 results
+2022-11-21 21:05:08,861 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:05:06Z returns 0 results
+2022-11-21 21:05:11,156 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:05:06Z returns 0 results
+2022-11-21 21:05:13,867 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:05:11Z returns 0 results
+2022-11-21 21:05:16,155 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:05:11Z returns 0 results
+2022-11-21 21:05:18,858 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:05:16Z returns 0 results
+2022-11-21 21:06:32,531 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:06:29Z returns 0 results
+2022-11-21 21:06:33,109 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:33', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 2, 'expected_fine': 43.9, 'return_id': '3e9ffb2f-dbb9-4935-b1d3-b8801b72b4e1', 'timestamp': '21/11/2022', 'trace_id': '65f2911d-c253-4dfd-b5fb-7c96a24e9673'}}
+2022-11-21 21:06:34,210 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 65f2911d-c253-4dfd-b5fb-7c96a24e9673
+2022-11-21 21:06:34,290 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:33', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 0, 'expected_fine': 14.61, 'return_id': 'e3eea8fb-84e6-446f-850d-02809af88be2', 'timestamp': '21/11/2022', 'trace_id': 'd512bfa7-5ef2-48b5-8719-c613cbe7786e'}}
+2022-11-21 21:06:34,518 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of d512bfa7-5ef2-48b5-8719-c613cbe7786e
+2022-11-21 21:06:34,597 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:33', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 4, 'expected_fine': 35.91, 'return_id': 'e0941ffb-d5d4-4cfa-8995-e8ca229b847c', 'timestamp': '21/11/2022', 'trace_id': '60b0eac0-b4e4-4cc6-a18b-0342300bd575'}}
+2022-11-21 21:06:34,802 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:06:29Z returns 2 results
+2022-11-21 21:06:34,827 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 60b0eac0-b4e4-4cc6-a18b-0342300bd575
+2022-11-21 21:06:34,906 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:33', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 1, 'expected_fine': 38.48, 'return_id': '368d7999-1fbc-43d3-94de-b75720515df3', 'timestamp': '21/11/2022', 'trace_id': 'ff7ea1b0-704f-45a4-8c24-956eee0852d7'}}
+2022-11-21 21:06:35,138 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ff7ea1b0-704f-45a4-8c24-956eee0852d7
+2022-11-21 21:06:35,230 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:33', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 11, 'expected_fine': 7.18, 'return_id': 'f82a0ac0-f29b-4fc1-a03a-79c51168b212', 'timestamp': '21/11/2022', 'trace_id': '880fc584-6fa3-455c-9cd8-120b3faa5eec'}}
+2022-11-21 21:06:35,462 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 880fc584-6fa3-455c-9cd8-120b3faa5eec
+2022-11-21 21:06:35,545 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:33', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 11, 'expected_fine': 37.26, 'return_id': '0d96ac41-0507-4320-92fc-b63edfa2c33c', 'timestamp': '21/11/2022', 'trace_id': '67f300a9-6c98-4375-a98c-66531b6cfe4f'}}
+2022-11-21 21:06:35,778 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 67f300a9-6c98-4375-a98c-66531b6cfe4f
+2022-11-21 21:06:35,861 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:33', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 10, 'expected_fine': 10.7, 'return_id': 'f19f7c4f-7f46-4cd2-bbd5-73421a10db10', 'timestamp': '21/11/2022', 'trace_id': '556bdad7-d869-4677-ad6f-71fc7fe9e85e'}}
+2022-11-21 21:06:36,092 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 556bdad7-d869-4677-ad6f-71fc7fe9e85e
+2022-11-21 21:06:36,173 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:33', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 4, 'expected_fine': 46.36, 'return_id': 'cdb691e8-3368-4630-b7a9-0d5922f59e90', 'timestamp': '21/11/2022', 'trace_id': '3999e627-3534-4236-9274-838969743a06'}}
+2022-11-21 21:06:36,403 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 3999e627-3534-4236-9274-838969743a06
+2022-11-21 21:06:36,481 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:33', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 0, 'expected_fine': 2.2, 'return_id': '092b1e79-37c0-4c19-873c-b50c3732e4ff', 'timestamp': '21/11/2022', 'trace_id': 'ceb2ebb7-6eea-4d92-a5e1-d135e49a3245'}}
+2022-11-21 21:06:36,714 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ceb2ebb7-6eea-4d92-a5e1-d135e49a3245
+2022-11-21 21:06:36,790 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:33', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 3, 'expected_fine': 14.87, 'return_id': 'dfb3c0a2-edb9-4f88-8a0b-c0f1b3fcc689', 'timestamp': '21/11/2022', 'trace_id': '8a3dde56-60cc-4fac-a40d-9081afd4da13'}}
+2022-11-21 21:06:37,021 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 8a3dde56-60cc-4fac-a40d-9081afd4da13
+2022-11-21 21:06:38,756 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:38', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 16, 'genre': 'High Fantasy', 'num_of_pages': 1271, 'timestamp': '21/11/2022', 'withdrawal_id': 'fc336a35-875c-49cc-9e1d-bf746b39222c', 'trace_id': 'bbf02f6e-54e6-4381-9cf8-35381a3a8b3a'}}
+2022-11-21 21:06:38,989 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of bbf02f6e-54e6-4381-9cf8-35381a3a8b3a
+2022-11-21 21:06:39,071 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:38', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 4, 'genre': 'High Fantasy', 'num_of_pages': 3, 'timestamp': '21/11/2022', 'withdrawal_id': 'd64839b7-c9a9-458c-b99b-0650d61d98d4', 'trace_id': 'f3b79933-a9bb-428d-9aa5-2da74418c56f'}}
+2022-11-21 21:06:39,305 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of f3b79933-a9bb-428d-9aa5-2da74418c56f
+2022-11-21 21:06:39,383 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:38', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 12, 'genre': 'High Fantasy', 'num_of_pages': 1274, 'timestamp': '21/11/2022', 'withdrawal_id': '231b4e6e-9c97-466d-92a5-72b937cf63ca', 'trace_id': '345db701-048b-48dd-bcca-afac11134e9f'}}
+2022-11-21 21:06:39,610 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 345db701-048b-48dd-bcca-afac11134e9f
+2022-11-21 21:06:39,688 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:38', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 10, 'genre': 'High Fantasy', 'num_of_pages': 274, 'timestamp': '21/11/2022', 'withdrawal_id': '73d18153-c5dc-4db7-aa5e-d442ce816f19', 'trace_id': '8256626f-ade3-486a-bcf2-4e030bbf71a4'}}
+2022-11-21 21:06:39,921 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 8256626f-ade3-486a-bcf2-4e030bbf71a4
+2022-11-21 21:06:39,998 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:38', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 12, 'genre': 'High Fantasy', 'num_of_pages': 424, 'timestamp': '21/11/2022', 'withdrawal_id': '6194fb35-5f33-424d-8347-1b32b6b5308d', 'trace_id': '64ac0f8f-e867-4a84-9e98-53b1f202b009'}}
+2022-11-21 21:06:40,226 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 64ac0f8f-e867-4a84-9e98-53b1f202b009
+2022-11-21 21:06:40,308 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:39', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 9, 'genre': 'High Fantasy', 'num_of_pages': 914, 'timestamp': '21/11/2022', 'withdrawal_id': 'cbc4b617-4821-4412-b529-9d46307fa8c0', 'trace_id': '20ac2490-eab5-480d-a6b0-b901083ef279'}}
+2022-11-21 21:06:40,535 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 20ac2490-eab5-480d-a6b0-b901083ef279
+2022-11-21 21:06:40,611 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:39', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 6, 'genre': 'High Fantasy', 'num_of_pages': 971, 'timestamp': '21/11/2022', 'withdrawal_id': '9ac02fcd-c3ef-4bd0-a657-d83546dba21c', 'trace_id': '6b84983e-ad3d-4399-bdaa-a1fd2e6dfe98'}}
+2022-11-21 21:06:40,841 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 6b84983e-ad3d-4399-bdaa-a1fd2e6dfe98
+2022-11-21 21:06:40,917 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:39', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 3, 'genre': 'High Fantasy', 'num_of_pages': 44, 'timestamp': '21/11/2022', 'withdrawal_id': '5f05aa39-70d2-4753-8599-e7ff5593e69f', 'trace_id': '51fd4249-879a-48a5-9840-e48e56d63e9d'}}
+2022-11-21 21:06:41,143 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 51fd4249-879a-48a5-9840-e48e56d63e9d
+2022-11-21 21:06:41,218 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:39', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 25, 'genre': 'High Fantasy', 'num_of_pages': 150, 'timestamp': '21/11/2022', 'withdrawal_id': '0e5c9b91-904f-4f80-908b-2a48bbe48d01', 'trace_id': '2669347b-759b-498a-8088-e4449a034a7f'}}
+2022-11-21 21:06:41,451 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2669347b-759b-498a-8088-e4449a034a7f
+2022-11-21 21:06:41,527 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:39', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 21, 'genre': 'High Fantasy', 'num_of_pages': 116, 'timestamp': '21/11/2022', 'withdrawal_id': '52b1d015-b71d-410d-8777-ae734c1a71c8', 'trace_id': 'be7c2e8f-a1f6-4da9-a139-b116061c0774'}}
+2022-11-21 21:06:41,585 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:06:39Z returns 8 results
+2022-11-21 21:06:41,769 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of be7c2e8f-a1f6-4da9-a139-b116061c0774
+2022-11-21 21:06:43,859 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:06:39Z returns 0 results
+2022-11-21 21:06:44,290 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:44', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 2, 'expected_fine': 43.93, 'return_id': '1c74cc3b-0f48-4493-88cb-d91c891db030', 'timestamp': '21/11/2022', 'trace_id': 'dcd0c1f0-e5af-40d0-8aa2-24ddd909b20b'}}
+2022-11-21 21:06:44,526 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of dcd0c1f0-e5af-40d0-8aa2-24ddd909b20b
+2022-11-21 21:06:44,606 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:44', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 0, 'expected_fine': 48.27, 'return_id': 'e5911d4d-c686-4f26-87d2-be0c94e20d46', 'timestamp': '21/11/2022', 'trace_id': 'c38ace90-2818-483f-9147-e9fd68ee4f97'}}
+2022-11-21 21:06:44,844 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c38ace90-2818-483f-9147-e9fd68ee4f97
+2022-11-21 21:06:44,926 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:44', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 14, 'expected_fine': 47.47, 'return_id': '95ffc8d8-3013-46a3-a259-b48c7be59034', 'timestamp': '21/11/2022', 'trace_id': '83eb700b-a199-48ae-b454-46e8e8a709ba'}}
+2022-11-21 21:06:45,156 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 83eb700b-a199-48ae-b454-46e8e8a709ba
+2022-11-21 21:06:45,234 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:44', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 13, 'expected_fine': 31.69, 'return_id': '9f516432-3a55-4b26-ae5a-9c83cda3f7f7', 'timestamp': '21/11/2022', 'trace_id': '64066fb6-8866-458f-b8bf-c3bc6515f56f'}}
+2022-11-21 21:06:45,462 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 64066fb6-8866-458f-b8bf-c3bc6515f56f
+2022-11-21 21:06:45,537 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:44', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 7, 'expected_fine': 32.57, 'return_id': '25911a38-9c97-43d3-82f5-40f1bb1e3061', 'timestamp': '21/11/2022', 'trace_id': '12225499-e269-465f-a42c-1200b6688329'}}
+2022-11-21 21:06:45,777 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 12225499-e269-465f-a42c-1200b6688329
+2022-11-21 21:06:45,853 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:44', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 13, 'expected_fine': 44.93, 'return_id': '566b5ded-c55f-4342-b9fb-f7ef44c6700e', 'timestamp': '21/11/2022', 'trace_id': 'e5ffd16e-b7de-4ec6-9815-bdf62f1f6a74'}}
+2022-11-21 21:06:46,086 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of e5ffd16e-b7de-4ec6-9815-bdf62f1f6a74
+2022-11-21 21:06:46,162 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:44', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 12, 'expected_fine': 26.84, 'return_id': '92b7a009-973f-4968-9b09-c6431a894d9b', 'timestamp': '21/11/2022', 'trace_id': '5260fa73-6dcf-46c6-a985-a540ec2fe378'}}
+2022-11-21 21:06:46,388 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 5260fa73-6dcf-46c6-a985-a540ec2fe378
+2022-11-21 21:06:46,463 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:44', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 10, 'expected_fine': 0.78, 'return_id': 'de581828-e3bc-49cf-9aeb-d544c92aec68', 'timestamp': '21/11/2022', 'trace_id': 'fc9ad2e7-8526-4381-80ad-0f9e357e1241'}}
+2022-11-21 21:06:46,572 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:06:44Z returns 0 results
+2022-11-21 21:06:46,698 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of fc9ad2e7-8526-4381-80ad-0f9e357e1241
+2022-11-21 21:06:46,774 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:44', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 9, 'expected_fine': 40.64, 'return_id': '9e66f3ca-3a14-4233-8b3d-05e8f4173948', 'timestamp': '21/11/2022', 'trace_id': 'd684e388-a0d8-48fb-a4e4-d7034cd40e90'}}
+2022-11-21 21:06:47,000 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of d684e388-a0d8-48fb-a4e4-d7034cd40e90
+2022-11-21 21:06:47,075 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:06:45', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 11, 'expected_fine': 32.72, 'return_id': 'aaaaab9f-0dcf-4575-b4fd-043b6bf1511c', 'timestamp': '21/11/2022', 'trace_id': '9c47b131-b002-4191-bc3f-71bd6ece9000'}}
+2022-11-21 21:06:47,305 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 9c47b131-b002-4191-bc3f-71bd6ece9000
+2022-11-21 21:06:48,851 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:06:44Z returns 10 results
+2022-11-21 21:06:49,853 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:49', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 21, 'genre': 'High Fantasy', 'num_of_pages': 173, 'timestamp': '21/11/2022', 'withdrawal_id': '43e89658-3c25-4163-927e-cf269f65a107', 'trace_id': 'd5980ada-a726-4812-830e-6c644d004bbd'}}
+2022-11-21 21:06:50,092 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of d5980ada-a726-4812-830e-6c644d004bbd
+2022-11-21 21:06:50,169 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:49', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 5, 'genre': 'High Fantasy', 'num_of_pages': 358, 'timestamp': '21/11/2022', 'withdrawal_id': '2a37931f-6a61-4c31-a91d-e34fe9de1fef', 'trace_id': '4f57f745-ceb2-4817-bada-9f6d8ca5884b'}}
+2022-11-21 21:06:50,403 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 4f57f745-ceb2-4817-bada-9f6d8ca5884b
+2022-11-21 21:06:50,480 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:49', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 7, 'genre': 'High Fantasy', 'num_of_pages': 593, 'timestamp': '21/11/2022', 'withdrawal_id': '15c5a112-f9dc-4bba-80c4-a74f5d30f5e6', 'trace_id': 'cc58de1c-79a2-47db-8159-22c46357a2c4'}}
+2022-11-21 21:06:50,718 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of cc58de1c-79a2-47db-8159-22c46357a2c4
+2022-11-21 21:06:50,793 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:49', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 3, 'genre': 'High Fantasy', 'num_of_pages': 777, 'timestamp': '21/11/2022', 'withdrawal_id': '9161f610-c268-4773-b723-2aade367fc09', 'trace_id': 'c9b7ef68-661c-4949-a1b9-fb97e8fcf50a'}}
+2022-11-21 21:06:51,025 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c9b7ef68-661c-4949-a1b9-fb97e8fcf50a
+2022-11-21 21:06:51,101 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:50', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 18, 'genre': 'High Fantasy', 'num_of_pages': 259, 'timestamp': '21/11/2022', 'withdrawal_id': 'f7742c70-b99d-4288-bc0e-d40235464828', 'trace_id': '92a5a6e9-4edd-4f15-8b78-5757c8465aa3'}}
+2022-11-21 21:06:51,338 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 92a5a6e9-4edd-4f15-8b78-5757c8465aa3
+2022-11-21 21:06:51,419 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:50', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 18, 'genre': 'High Fantasy', 'num_of_pages': 1157, 'timestamp': '21/11/2022', 'withdrawal_id': '21684c71-c9ee-4eec-a3a9-7cf2db865b75', 'trace_id': 'ea22d928-bbd0-43cf-a5e3-1010bbce700f'}}
+2022-11-21 21:06:51,588 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:06:49Z returns 5 results
+2022-11-21 21:06:51,660 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ea22d928-bbd0-43cf-a5e3-1010bbce700f
+2022-11-21 21:06:51,745 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:50', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 26, 'genre': 'High Fantasy', 'num_of_pages': 126, 'timestamp': '21/11/2022', 'withdrawal_id': '6e1e5fb5-b358-4a95-b6ca-fc9b574b3dd0', 'trace_id': 'e0700c5c-4927-4226-814a-a59fdfa5cf87'}}
+2022-11-21 21:06:51,978 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of e0700c5c-4927-4226-814a-a59fdfa5cf87
+2022-11-21 21:06:52,054 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:50', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 16, 'genre': 'High Fantasy', 'num_of_pages': 485, 'timestamp': '21/11/2022', 'withdrawal_id': 'ff6ef8f6-1ea0-40f8-9821-876d3d65dd3a', 'trace_id': '97b652dd-06ed-4b04-9672-d4bc0a0f9e60'}}
+2022-11-21 21:06:52,283 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 97b652dd-06ed-4b04-9672-d4bc0a0f9e60
+2022-11-21 21:06:52,358 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:50', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 8, 'genre': 'High Fantasy', 'num_of_pages': 1086, 'timestamp': '21/11/2022', 'withdrawal_id': 'd60f92cd-827e-46d6-b80f-97c5472f46fc', 'trace_id': '5f5e4cfd-f37b-4b0e-aa72-432a4e1e3e52'}}
+2022-11-21 21:06:52,586 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 5f5e4cfd-f37b-4b0e-aa72-432a4e1e3e52
+2022-11-21 21:06:52,662 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:06:50', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 11, 'genre': 'High Fantasy', 'num_of_pages': 1159, 'timestamp': '21/11/2022', 'withdrawal_id': 'c6a1976a-0f0f-42a4-9de5-2ef15ac7e2eb', 'trace_id': 'fa204d06-8e7e-48ce-93c8-2d30b96d3eaa'}}
+2022-11-21 21:06:52,890 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of fa204d06-8e7e-48ce-93c8-2d30b96d3eaa
+2022-11-21 21:06:53,852 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:06:49Z returns 0 results
+2022-11-21 21:06:56,583 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:06:54Z returns 0 results
+2022-11-21 21:06:58,856 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:06:54Z returns 0 results
+2022-11-21 21:07:01,590 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:06:59Z returns 0 results
+2022-11-21 21:07:03,859 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:06:59Z returns 0 results
+2022-11-21 21:07:06,581 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:07:04Z returns 0 results
+2022-11-21 21:07:08,846 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:07:04Z returns 0 results
+2022-11-21 21:07:11,590 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:07:09Z returns 0 results
+2022-11-21 21:07:13,864 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:07:09Z returns 0 results
+2022-11-21 21:07:16,570 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:07:14Z returns 0 results
+2022-11-21 21:07:18,854 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:07:14Z returns 0 results
+2022-11-21 21:07:21,580 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:07:19Z returns 0 results
+2022-11-21 21:07:23,869 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:07:19Z returns 0 results
+2022-11-21 21:07:26,584 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:07:24Z returns 0 results
+2022-11-21 21:07:28,856 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:07:24Z returns 0 results
+2022-11-21 21:07:31,586 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:07:29Z returns 0 results
+2022-11-21 21:07:33,863 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:07:29Z returns 0 results
+2022-11-21 21:07:36,571 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:07:34Z returns 0 results
+2022-11-21 21:07:38,854 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:07:34Z returns 0 results
+2022-11-21 21:08:36,412 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:08:34Z returns 0 results
+2022-11-21 21:08:38,676 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:08:34Z returns 0 results
+2022-11-21 21:08:41,136 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:08:41', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 6, 'expected_fine': 17.31, 'return_id': 'c9f43a64-d286-48ad-8366-41c7b96aadab', 'timestamp': '21/11/2022', 'trace_id': 'e005fb7a-ae84-4de7-ac79-a1c5b1c1549c'}}
+2022-11-21 21:08:41,367 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of e005fb7a-ae84-4de7-ac79-a1c5b1c1549c
+2022-11-21 21:08:41,434 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:08:39Z returns 0 results
+2022-11-21 21:08:41,444 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:08:41', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 7, 'expected_fine': 33.15, 'return_id': '8e7724f3-4b4b-452f-af3f-301b307369b6', 'timestamp': '21/11/2022', 'trace_id': 'b36b8def-b1e3-4e4b-a9c3-99e5338eeffa'}}
+2022-11-21 21:08:41,676 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of b36b8def-b1e3-4e4b-a9c3-99e5338eeffa
+2022-11-21 21:08:41,759 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:08:41', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 3, 'expected_fine': 48.12, 'return_id': '577f9ad5-21bb-4925-a650-e4c44dabeabf', 'timestamp': '21/11/2022', 'trace_id': '4975f3e7-806b-44a0-a88f-db5b7d9a5367'}}
+2022-11-21 21:08:42,000 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 4975f3e7-806b-44a0-a88f-db5b7d9a5367
+2022-11-21 21:08:42,078 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:08:41', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 13, 'expected_fine': 36.49, 'return_id': 'ea580537-20fe-45f5-b13a-18c96ddfcad3', 'timestamp': '21/11/2022', 'trace_id': '7883fa85-c904-4097-bb77-c93a8526c9cc'}}
+2022-11-21 21:08:42,312 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 7883fa85-c904-4097-bb77-c93a8526c9cc
+2022-11-21 21:08:42,388 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:08:41', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 4, 'expected_fine': 3.28, 'return_id': 'fa9fce6d-58f7-47c7-a8e3-35b5b71be009', 'timestamp': '21/11/2022', 'trace_id': '31ab1ea2-32f4-4b61-9269-7bcbdcd1834d'}}
+2022-11-21 21:08:42,623 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 31ab1ea2-32f4-4b61-9269-7bcbdcd1834d
+2022-11-21 21:08:43,715 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:08:39Z returns 5 results
+2022-11-21 21:08:46,427 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:08:44Z returns 0 results
+2022-11-21 21:08:46,678 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:08:46', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 5, 'genre': 'High Fantasy', 'num_of_pages': 1237, 'timestamp': '21/11/2022', 'withdrawal_id': '531e0991-9ca7-48a2-8a70-d18615fdf404', 'trace_id': 'ec2964a1-0976-4140-bbe1-4738c2590fe1'}}
+2022-11-21 21:08:46,909 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of ec2964a1-0976-4140-bbe1-4738c2590fe1
+2022-11-21 21:08:46,984 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:08:46', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 21, 'genre': 'High Fantasy', 'num_of_pages': 258, 'timestamp': '21/11/2022', 'withdrawal_id': '826691e7-2d7b-4910-8399-8477742fa123', 'trace_id': '5ef5cc7f-0b2e-44de-a5f4-91c91680eba4'}}
+2022-11-21 21:08:47,220 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 5ef5cc7f-0b2e-44de-a5f4-91c91680eba4
+2022-11-21 21:08:47,297 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:08:46', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 4, 'genre': 'High Fantasy', 'num_of_pages': 970, 'timestamp': '21/11/2022', 'withdrawal_id': '0ec42c16-d072-4ab3-9367-6fdd94015c4f', 'trace_id': '2f204105-9235-4713-8858-9f9ee5ddc3af'}}
+2022-11-21 21:08:47,530 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2f204105-9235-4713-8858-9f9ee5ddc3af
+2022-11-21 21:08:47,606 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:08:47', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 17, 'genre': 'High Fantasy', 'num_of_pages': 232, 'timestamp': '21/11/2022', 'withdrawal_id': '9c943654-8487-44bf-b73e-3934d053ee0d', 'trace_id': '1b1adec6-008c-4825-8e59-00925dc25726'}}
+2022-11-21 21:08:47,836 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 1b1adec6-008c-4825-8e59-00925dc25726
+2022-11-21 21:08:47,912 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:08:47', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 10, 'genre': 'High Fantasy', 'num_of_pages': 866, 'timestamp': '21/11/2022', 'withdrawal_id': '31dd6f71-cf92-4204-aba4-436a03322efa', 'trace_id': 'a42584c7-d7f5-4985-aef1-ee9cbac5632d'}}
+2022-11-21 21:08:48,146 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of a42584c7-d7f5-4985-aef1-ee9cbac5632d
+2022-11-21 21:08:48,700 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:08:44Z returns 0 results
+2022-11-21 21:08:51,415 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:08:49Z returns 0 results
+2022-11-21 21:08:52,295 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:08:52', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 3, 'expected_fine': 21.6, 'return_id': '600db4a8-8b0d-481b-95a1-9477da7d29be', 'timestamp': '21/11/2022', 'trace_id': '13be869b-42f6-4231-9385-0c4ae0f539b8'}}
+2022-11-21 21:08:52,533 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 13be869b-42f6-4231-9385-0c4ae0f539b8
+2022-11-21 21:08:52,612 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:08:52', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 1, 'expected_fine': 19.5, 'return_id': '4db040b7-553e-4b13-8b68-ad05c29c59cd', 'timestamp': '21/11/2022', 'trace_id': '51462dcb-990e-46dc-b655-e4bf697cb33d'}}
+2022-11-21 21:08:52,848 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 51462dcb-990e-46dc-b655-e4bf697cb33d
+2022-11-21 21:08:52,925 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:08:52', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 2, 'expected_fine': 25.58, 'return_id': '58125113-7754-4309-819a-8c81771d1c09', 'timestamp': '21/11/2022', 'trace_id': '3269b83a-4020-4d26-a67a-2223ba0a1797'}}
+2022-11-21 21:08:53,153 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 3269b83a-4020-4d26-a67a-2223ba0a1797
+2022-11-21 21:08:53,228 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:08:52', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 5, 'expected_fine': 32.82, 'return_id': '42c9712e-3d31-4f5e-a5af-e44caaf649da', 'timestamp': '21/11/2022', 'trace_id': '5728ed9f-a4a8-41ed-9d3e-4d76ed4a0378'}}
+2022-11-21 21:08:53,469 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 5728ed9f-a4a8-41ed-9d3e-4d76ed4a0378
+2022-11-21 21:08:53,549 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:08:52', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 12, 'expected_fine': 25.52, 'return_id': 'b6083916-74fc-40f8-a7e4-10bb15a7f100', 'timestamp': '21/11/2022', 'trace_id': 'c91d7fbd-ea31-45e7-9a29-ee10c8f639f8'}}
+2022-11-21 21:08:53,699 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:08:49Z returns 4 results
+2022-11-21 21:08:53,779 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c91d7fbd-ea31-45e7-9a29-ee10c8f639f8
+2022-11-21 21:08:56,415 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:08:54Z returns 0 results
+2022-11-21 21:08:57,838 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:08:57', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 1, 'genre': 'High Fantasy', 'num_of_pages': 544, 'timestamp': '21/11/2022', 'withdrawal_id': '33c09c42-e47b-46f8-afc1-d3df59671842', 'trace_id': 'c5e38381-652e-42b5-9177-4d335e6dcd8d'}}
+2022-11-21 21:08:58,075 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c5e38381-652e-42b5-9177-4d335e6dcd8d
+2022-11-21 21:08:58,151 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:08:57', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 11, 'genre': 'High Fantasy', 'num_of_pages': 1006, 'timestamp': '21/11/2022', 'withdrawal_id': 'f9186b06-8b2d-4c6a-b171-3ad39d396285', 'trace_id': '2cd6dd81-ca0f-4ba6-91b2-7552bd7131f2'}}
+2022-11-21 21:08:58,384 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2cd6dd81-ca0f-4ba6-91b2-7552bd7131f2
+2022-11-21 21:08:58,464 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:08:57', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 19, 'genre': 'High Fantasy', 'num_of_pages': 873, 'timestamp': '21/11/2022', 'withdrawal_id': '54c0dac9-4cbb-4a3f-9660-381d5b366f0f', 'trace_id': '932ffc34-251c-4216-9280-51a1b738b582'}}
+2022-11-21 21:08:58,695 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 932ffc34-251c-4216-9280-51a1b738b582
+2022-11-21 21:08:58,695 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:08:54Z returns 0 results
+2022-11-21 21:08:58,770 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:08:58', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 22, 'genre': 'High Fantasy', 'num_of_pages': 176, 'timestamp': '21/11/2022', 'withdrawal_id': '6317359a-aa9c-4b6d-8d45-307a7165f088', 'trace_id': 'e2c51b7a-dbf5-4555-840b-ddf0f20a9c89'}}
+2022-11-21 21:08:59,000 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of e2c51b7a-dbf5-4555-840b-ddf0f20a9c89
+2022-11-21 21:08:59,075 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:08:58', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 5, 'genre': 'High Fantasy', 'num_of_pages': 647, 'timestamp': '21/11/2022', 'withdrawal_id': '7987e95f-b7c6-4aa1-ac55-886227555833', 'trace_id': '857aaef4-6c21-470c-a02e-9c6c88e89b5e'}}
+2022-11-21 21:08:59,314 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 857aaef4-6c21-470c-a02e-9c6c88e89b5e
+2022-11-21 21:09:01,417 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:08:59Z returns 1 results
+2022-11-21 21:09:03,695 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:08:59Z returns 0 results
+2022-11-21 21:09:06,421 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:09:04Z returns 0 results
+2022-11-21 21:09:08,699 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:09:04Z returns 0 results
+2022-11-21 21:09:11,405 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:09:09Z returns 0 results
+2022-11-21 21:09:13,670 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:09:09Z returns 0 results
+2022-11-21 21:09:16,413 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:09:14Z returns 0 results
+2022-11-21 21:09:18,692 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:09:14Z returns 0 results
+2022-11-21 21:09:21,419 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:09:19Z returns 0 results
+2022-11-21 21:09:23,693 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:09:19Z returns 0 results
+2022-11-21 21:11:39,456 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:11:39', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 13, 'expected_fine': 38.9, 'return_id': '5a824d8d-bc45-4228-aedf-fd2973378215', 'timestamp': '21/11/2022', 'trace_id': '8c744ff9-a95d-4ef8-92ea-c34561158565'}}
+2022-11-21 21:11:39,499 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:11:37Z returns 0 results
+2022-11-21 21:11:39,687 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 8c744ff9-a95d-4ef8-92ea-c34561158565
+2022-11-21 21:11:39,763 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:11:39', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 13, 'expected_fine': 6.3, 'return_id': '218c7dd0-a8fb-4b5b-abde-5664ecb32279', 'timestamp': '21/11/2022', 'trace_id': '85d7b40b-fc94-4ece-81ac-199442a4a63e'}}
+2022-11-21 21:11:39,995 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 85d7b40b-fc94-4ece-81ac-199442a4a63e
+2022-11-21 21:11:40,071 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:11:39', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 12, 'expected_fine': 1.92, 'return_id': '66fe2226-b262-488b-b76a-f1a6a05e7efb', 'timestamp': '21/11/2022', 'trace_id': 'd6ff83d0-353f-4401-aad6-feb8667ef640'}}
+2022-11-21 21:11:40,302 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of d6ff83d0-353f-4401-aad6-feb8667ef640
+2022-11-21 21:11:41,773 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:11:37Z returns 3 results
+2022-11-21 21:11:44,494 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:11:42Z returns 0 results
+2022-11-21 21:11:44,910 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:11:44', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 13, 'genre': 'High Fantasy', 'num_of_pages': 138, 'timestamp': '21/11/2022', 'withdrawal_id': '38c8201f-8888-463d-be8d-532b45890184', 'trace_id': '156174f3-830e-420d-902b-4a4e03a69a02'}}
+2022-11-21 21:11:45,146 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 156174f3-830e-420d-902b-4a4e03a69a02
+2022-11-21 21:11:45,221 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:11:45', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 6, 'genre': 'High Fantasy', 'num_of_pages': 148, 'timestamp': '21/11/2022', 'withdrawal_id': 'a357f0fb-d520-4367-981c-773dd8cd4100', 'trace_id': '429177af-74c9-4ea4-a42d-ccfdc8c2cef7'}}
+2022-11-21 21:11:45,450 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 429177af-74c9-4ea4-a42d-ccfdc8c2cef7
+2022-11-21 21:11:45,530 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:11:45', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 19, 'genre': 'High Fantasy', 'num_of_pages': 40, 'timestamp': '21/11/2022', 'withdrawal_id': '6347865f-7593-4b51-bbfb-a61ed908b4c9', 'trace_id': 'fb824470-eb2b-4574-969d-615a4f8841e3'}}
+2022-11-21 21:11:45,760 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of fb824470-eb2b-4574-969d-615a4f8841e3
+2022-11-21 21:11:46,763 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:11:42Z returns 0 results
+2022-11-21 21:11:49,498 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:11:47Z returns 0 results
+2022-11-21 21:11:50,518 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:11:50', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 6, 'expected_fine': 5.49, 'return_id': 'fc16de63-ecf4-416d-859b-8e05ad344bff', 'timestamp': '21/11/2022', 'trace_id': 'd4c96664-0c5e-4b4a-9e5c-43f4e679a70e'}}
+2022-11-21 21:11:50,761 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of d4c96664-0c5e-4b4a-9e5c-43f4e679a70e
+2022-11-21 21:11:50,841 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:11:50', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 5, 'expected_fine': 40.81, 'return_id': 'cd103abf-76f6-48cc-85ef-94d1ba2912f9', 'timestamp': '21/11/2022', 'trace_id': '4f61ad26-0aca-466b-92f4-6b1ed903230f'}}
+2022-11-21 21:11:51,065 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 4f61ad26-0aca-466b-92f4-6b1ed903230f
+2022-11-21 21:11:51,142 - basicLogger - INFO - Message: {'type': 'ReturnEvent', 'datetime': '2022-11-21T21:11:50', 'payload': {'book_name': 'A Game of Thrones', 'days_overdue': 13, 'expected_fine': 48.7, 'return_id': 'fd852a2e-3573-4401-b130-e6b149949bfb', 'timestamp': '21/11/2022', 'trace_id': '2cd29150-1587-4f7f-8f4e-dad64c556f68'}}
+2022-11-21 21:11:51,378 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 2cd29150-1587-4f7f-8f4e-dad64c556f68
+2022-11-21 21:11:51,773 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:11:47Z returns 3 results
+2022-11-21 21:11:54,487 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:11:52Z returns 0 results
+2022-11-21 21:11:56,034 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:11:55', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 11, 'genre': 'High Fantasy', 'num_of_pages': 990, 'timestamp': '21/11/2022', 'withdrawal_id': 'e81c568b-5156-4800-ba47-2c34c6052354', 'trace_id': 'da1cb635-e8d9-4230-8ddb-3c80d9270016'}}
+2022-11-21 21:11:56,266 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of da1cb635-e8d9-4230-8ddb-3c80d9270016
+2022-11-21 21:11:56,342 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:11:56', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 28, 'genre': 'High Fantasy', 'num_of_pages': 260, 'timestamp': '21/11/2022', 'withdrawal_id': 'ac8aaf4a-b413-4ecf-88a0-6c0bbe62f682', 'trace_id': 'c7928641-ed7c-42d1-afad-0a14aa91d3ac'}}
+2022-11-21 21:11:56,569 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of c7928641-ed7c-42d1-afad-0a14aa91d3ac
+2022-11-21 21:11:56,644 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-21T21:11:56', 'payload': {'book_name': 'A Game of Thrones', 'days_allowed': 16, 'genre': 'High Fantasy', 'num_of_pages': 299, 'timestamp': '21/11/2022', 'withdrawal_id': '50535f96-d9a3-4356-b5d8-0414aa696000', 'trace_id': '78a77d86-9f8a-4cd2-ac59-7aefca4c5c22'}}
+2022-11-21 21:11:56,758 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:11:52Z returns 0 results
+2022-11-21 21:11:56,870 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of 78a77d86-9f8a-4cd2-ac59-7aefca4c5c22
+2022-11-21 21:11:59,481 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:11:57Z returns 0 results
+2022-11-21 21:12:01,758 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:11:57Z returns 0 results
+2022-11-21 21:12:04,483 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:12:02Z returns 0 results
+2022-11-21 21:12:06,761 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:12:02Z returns 0 results
+2022-11-21 21:12:09,495 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:12:07Z returns 0 results
+2022-11-21 21:12:11,767 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:12:07Z returns 0 results
+2022-11-21 21:12:14,476 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:12:12Z returns 0 results
+2022-11-21 21:12:16,739 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:12:12Z returns 0 results
+2022-11-21 21:12:19,487 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:12:17Z returns 0 results
+2022-11-21 21:12:21,760 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:12:17Z returns 0 results
+2022-11-21 21:12:24,518 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:12:22Z returns 0 results
+2022-11-21 21:12:26,796 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:12:22Z returns 0 results
+2022-11-21 21:12:29,493 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:12:27Z returns 0 results
+2022-11-21 21:12:31,789 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:12:27Z returns 0 results
+2022-11-21 21:12:34,477 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:12:32Z returns 0 results
+2022-11-21 21:12:36,765 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:12:32Z returns 0 results
+2022-11-21 21:12:39,486 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:12:37Z returns 0 results
+2022-11-21 21:12:41,759 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:12:37Z returns 0 results
+2022-11-21 21:12:44,484 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-21T21:12:42Z returns 0 results
+2022-11-21 21:12:46,779 - basicLogger - INFO - Query for Book Return events after 2022-11-21T21:12:42Z returns 0 results

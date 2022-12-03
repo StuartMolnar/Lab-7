@@ -1,9 +1,9 @@
 openapi: 3.0.0
 servers: []
 info:
-  description: This API provides processed statistics
+  description: This API receives withdrawal related events from libraries
   version: "1.0.0"
-  title: Processing API
+  title: Library API
   contact:
     email: stuartmolnar@hotmail.com
 

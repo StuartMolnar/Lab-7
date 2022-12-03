@@ -2595,3 +2595,461 @@ FROM stats ORDER BY stats.last_updated DESC
 2022-10-26 22:11:29,031 - basicLogger - INFO - 2022-10-26 22:11:29.031526
 2022-10-26 22:11:34,051 - basicLogger - INFO - 2022-10-26 22:11:34.051202
 2022-10-26 22:11:39,014 - basicLogger - INFO - 2022-10-26 22:11:39.014115
+2022-11-08 11:19:32,279 - basicLogger - INFO - Periodic processing initiated
+2022-11-08 11:19:37,296 - basicLogger - INFO - 2022-11-08 11:19:37.296593
+2022-11-08 11:19:42,288 - basicLogger - INFO - 2022-11-08 11:19:42.288806
+2022-11-08 11:19:47,284 - basicLogger - INFO - 2022-11-08 11:19:47.284645
+2022-11-08 11:19:52,286 - basicLogger - INFO - 2022-11-08 11:19:52.286661
+2022-11-08 11:19:57,287 - basicLogger - INFO - 2022-11-08 11:19:57.287301
+2022-11-08 11:20:02,295 - basicLogger - INFO - 2022-11-08 11:20:02.295789
+2022-11-08 11:20:07,288 - basicLogger - INFO - 2022-11-08 11:20:07.288369
+2022-11-08 11:20:12,296 - basicLogger - INFO - 2022-11-08 11:20:12.296597
+2022-11-08 11:20:14,437 - basicLogger - INFO - GET request initiated
+2022-11-08 11:20:14,478 - basicLogger - INFO - GET request completed
+2022-11-08 11:20:14,480 - basicLogger - DEBUG - stats: {'num_bk_withdrawals': 2, 'num_bk_returns': 5, 'max_overdue_length': 13, 'max_overdue_fine': 45.23, 'longest_book_withdrawn': 926, 'last_updated': '2022-10-26T22:06:24'}
+2022-11-08 11:20:17,292 - basicLogger - INFO - 2022-11-08 11:20:17.292100
+2022-11-08 11:20:22,287 - basicLogger - INFO - 2022-11-08 11:20:22.287212
+2022-11-08 11:20:27,290 - basicLogger - INFO - 2022-11-08 11:20:27.289605
+2022-11-08 11:20:32,141 - basicLogger - INFO - GET request initiated
+2022-11-08 11:20:32,154 - basicLogger - INFO - GET request completed
+2022-11-08 11:20:32,156 - basicLogger - DEBUG - stats: {'num_bk_withdrawals': 9, 'num_bk_returns': 6, 'max_overdue_length': 11, 'max_overdue_fine': 33.52, 'longest_book_withdrawn': 1388, 'last_updated': '2022-11-08T11:20:31'}
+2022-11-08 11:20:32,296 - basicLogger - INFO - 2022-11-08 11:20:32.296612
+2022-11-08 11:20:35,082 - basicLogger - INFO - GET request initiated
+2022-11-08 11:20:35,085 - basicLogger - INFO - GET request completed
+2022-11-08 11:20:35,086 - basicLogger - DEBUG - stats: {'num_bk_withdrawals': 9, 'num_bk_returns': 6, 'max_overdue_length': 11, 'max_overdue_fine': 33.52, 'longest_book_withdrawn': 1388, 'last_updated': '2022-11-08T11:20:31'}
+2022-11-08 11:20:37,294 - basicLogger - INFO - 2022-11-08 11:20:37.294457
+2022-11-08 11:20:42,304 - basicLogger - INFO - 2022-11-08 11:20:42.304239
+2022-11-08 11:20:47,297 - basicLogger - INFO - 2022-11-08 11:20:47.297954
+2022-11-08 11:20:51,612 - basicLogger - INFO - GET request initiated
+2022-11-08 11:20:51,629 - basicLogger - INFO - GET request completed
+2022-11-08 11:20:51,630 - basicLogger - DEBUG - stats: {'num_bk_withdrawals': 19, 'num_bk_returns': 13, 'max_overdue_length': 13, 'max_overdue_fine': 37.99, 'longest_book_withdrawn': 1388, 'last_updated': '2022-11-08T11:20:51'}
+2022-11-08 11:20:52,295 - basicLogger - INFO - 2022-11-08 11:20:52.295885
+2022-11-08 11:20:57,287 - basicLogger - INFO - 2022-11-08 11:20:57.287382
+2022-11-08 11:21:42,679 - basicLogger - INFO - Periodic processing initiated
+2022-11-08 11:21:43,969 - basicLogger - INFO - GET request initiated
+2022-11-08 11:21:47,704 - basicLogger - INFO - 2022-11-08 11:21:47.704692
+2022-11-08 11:21:52,702 - basicLogger - INFO - 2022-11-08 11:21:52.702385
+2022-11-08 11:21:57,699 - basicLogger - INFO - 2022-11-08 11:21:57.699746
+2022-11-08 11:21:58,282 - basicLogger - INFO - GET request initiated
+2022-11-08 11:21:58,303 - basicLogger - INFO - GET request completed
+2022-11-08 11:21:58,305 - basicLogger - DEBUG - stats: {'num_bk_withdrawals': 5, 'num_bk_returns': 10, 'max_overdue_length': 14, 'max_overdue_fine': 45.99, 'longest_book_withdrawn': 1277, 'last_updated': '2022-11-08T11:21:56'}
+2022-11-08 11:22:01,451 - basicLogger - INFO - GET request initiated
+2022-11-08 11:22:01,454 - basicLogger - INFO - GET request completed
+2022-11-08 11:22:01,455 - basicLogger - DEBUG - stats: {'num_bk_withdrawals': 5, 'num_bk_returns': 10, 'max_overdue_length': 14, 'max_overdue_fine': 45.99, 'longest_book_withdrawn': 1277, 'last_updated': '2022-11-08T11:21:56'}
+2022-11-08 11:22:02,696 - basicLogger - INFO - 2022-11-08 11:22:02.696413
+2022-11-08 11:22:04,431 - basicLogger - INFO - GET request initiated
+2022-11-08 11:22:04,437 - basicLogger - INFO - GET request completed
+2022-11-08 11:22:04,438 - basicLogger - DEBUG - stats: {'num_bk_withdrawals': 5, 'num_bk_returns': 10, 'max_overdue_length': 14, 'max_overdue_fine': 45.99, 'longest_book_withdrawn': 1277, 'last_updated': '2022-11-08T11:21:56'}
+2022-11-08 11:22:07,340 - basicLogger - INFO - GET request initiated
+2022-11-08 11:22:07,346 - basicLogger - INFO - GET request completed
+2022-11-08 11:22:07,347 - basicLogger - DEBUG - stats: {'num_bk_withdrawals': 5, 'num_bk_returns': 10, 'max_overdue_length': 14, 'max_overdue_fine': 45.99, 'longest_book_withdrawn': 1277, 'last_updated': '2022-11-08T11:21:56'}
+2022-11-08 11:22:07,698 - basicLogger - INFO - 2022-11-08 11:22:07.697850
+2022-11-08 11:22:12,703 - basicLogger - INFO - 2022-11-08 11:22:12.703646
+2022-11-08 11:22:17,698 - basicLogger - INFO - 2022-11-08 11:22:17.697986
+2022-11-08 11:22:22,698 - basicLogger - INFO - 2022-11-08 11:22:22.698778
+2022-11-08 11:22:27,685 - basicLogger - INFO - 2022-11-08 11:22:27.685833
+2022-11-08 11:22:32,691 - basicLogger - INFO - 2022-11-08 11:22:32.691523
+2022-11-08 11:22:37,704 - basicLogger - INFO - 2022-11-08 11:22:37.704614
+2022-11-08 11:22:42,701 - basicLogger - INFO - 2022-11-08 11:22:42.701221
+2022-11-08 11:22:47,696 - basicLogger - INFO - 2022-11-08 11:22:47.696448
+2022-11-08 11:22:52,700 - basicLogger - INFO - 2022-11-08 11:22:52.700453
+2022-11-08 11:22:57,693 - basicLogger - INFO - 2022-11-08 11:22:57.693434
+2022-11-08 11:23:02,704 - basicLogger - INFO - 2022-11-08 11:23:02.704170
+2022-11-08 11:23:07,690 - basicLogger - INFO - 2022-11-08 11:23:07.690202
+2022-11-08 11:23:12,699 - basicLogger - INFO - 2022-11-08 11:23:12.699103
+2022-11-08 11:23:17,687 - basicLogger - INFO - 2022-11-08 11:23:17.687424
+2022-11-08 11:23:22,691 - basicLogger - INFO - 2022-11-08 11:23:22.691493
+2022-11-08 11:23:27,698 - basicLogger - INFO - 2022-11-08 11:23:27.698973
+2022-11-08 11:23:32,687 - basicLogger - INFO - 2022-11-08 11:23:32.687893
+2022-11-08 11:23:37,692 - basicLogger - INFO - 2022-11-08 11:23:37.692127
+2022-11-08 11:23:42,694 - basicLogger - INFO - 2022-11-08 11:23:42.694851
+2022-11-08 11:23:47,701 - basicLogger - INFO - 2022-11-08 11:23:47.701955
+2022-11-08 11:23:52,692 - basicLogger - INFO - 2022-11-08 11:23:52.692659
+2022-11-08 11:23:57,695 - basicLogger - INFO - 2022-11-08 11:23:57.695625
+2022-11-08 11:24:02,700 - basicLogger - INFO - 2022-11-08 11:24:02.700655
+2022-11-08 11:24:07,690 - basicLogger - INFO - 2022-11-08 11:24:07.690657
+2022-11-08 11:24:12,693 - basicLogger - INFO - 2022-11-08 11:24:12.692923
+2022-11-08 11:24:17,698 - basicLogger - INFO - 2022-11-08 11:24:17.698501
+2022-11-08 11:24:22,688 - basicLogger - INFO - 2022-11-08 11:24:22.688771
+2022-11-08 11:24:27,694 - basicLogger - INFO - 2022-11-08 11:24:27.694057
+2022-11-08 11:24:32,698 - basicLogger - INFO - 2022-11-08 11:24:32.698510
+2022-11-08 11:24:37,688 - basicLogger - INFO - 2022-11-08 11:24:37.688860
+2022-11-08 11:24:42,693 - basicLogger - INFO - 2022-11-08 11:24:42.693847
+2022-11-08 11:24:47,696 - basicLogger - INFO - 2022-11-08 11:24:47.696776
+2022-11-08 11:24:52,691 - basicLogger - INFO - 2022-11-08 11:24:52.691602
+2022-11-08 11:24:57,693 - basicLogger - INFO - 2022-11-08 11:24:57.693379
+2022-11-08 11:25:02,699 - basicLogger - INFO - 2022-11-08 11:25:02.699412
+2022-11-08 11:25:07,688 - basicLogger - INFO - 2022-11-08 11:25:07.688925
+2022-11-08 11:25:09,041 - basicLogger - INFO - GET request initiated
+2022-11-08 11:25:09,048 - basicLogger - INFO - GET request completed
+2022-11-08 11:25:09,050 - basicLogger - DEBUG - stats: {'num_bk_withdrawals': 5, 'num_bk_returns': 10, 'max_overdue_length': 14, 'max_overdue_fine': 45.99, 'longest_book_withdrawn': 1277, 'last_updated': '2022-11-08T11:21:56'}
+2022-11-08 11:25:12,696 - basicLogger - INFO - 2022-11-08 11:25:12.696804
+2022-11-08 11:27:46,853 - basicLogger - INFO - Periodic processing initiated
+2022-11-08 11:27:51,875 - basicLogger - INFO - 2022-11-08 11:27:51.875820
+2022-11-08 11:27:56,876 - basicLogger - INFO - 2022-11-08 11:27:56.876901
+2022-11-08 11:28:01,872 - basicLogger - INFO - 2022-11-08 11:28:01.872738
+2022-11-08 11:28:06,872 - basicLogger - INFO - 2022-11-08 11:28:06.872903
+2022-11-08 11:28:11,869 - basicLogger - INFO - 2022-11-08 11:28:11.869763
+2022-11-08 11:28:16,871 - basicLogger - INFO - 2022-11-08 11:28:16.871205
+2022-11-08 11:28:21,864 - basicLogger - INFO - 2022-11-08 11:28:21.864845
+2022-11-08 11:28:25,568 - basicLogger - INFO - GET request initiated
+2022-11-08 11:28:25,600 - basicLogger - INFO - GET request completed
+2022-11-08 11:28:25,601 - basicLogger - DEBUG - stats: {'num_bk_withdrawals': 7, 'num_bk_returns': 10, 'max_overdue_length': 11, 'max_overdue_fine': 45.72, 'longest_book_withdrawn': 916, 'last_updated': '2022-11-08T11:28:06'}
+2022-11-08 11:28:26,873 - basicLogger - INFO - 2022-11-08 11:28:26.873973
+2022-11-08 11:28:31,874 - basicLogger - INFO - 2022-11-08 11:28:31.874212
+2022-11-08 11:28:36,868 - basicLogger - INFO - 2022-11-08 11:28:36.868320
+2022-11-08 11:28:41,867 - basicLogger - INFO - 2022-11-08 11:28:41.867970
+2022-11-08 11:28:46,869 - basicLogger - INFO - 2022-11-08 11:28:46.869614
+2022-11-08 11:28:51,871 - basicLogger - INFO - 2022-11-08 11:28:51.871634
+2022-11-08 11:28:56,862 - basicLogger - INFO - 2022-11-08 11:28:56.862609
+2022-11-08 11:29:01,875 - basicLogger - INFO - 2022-11-08 11:29:01.875077
+2022-11-08 11:29:06,859 - basicLogger - INFO - 2022-11-08 11:29:06.859211
+2022-11-08 11:29:11,872 - basicLogger - INFO - 2022-11-08 11:29:11.872780
+2022-11-08 11:29:16,868 - basicLogger - INFO - 2022-11-08 11:29:16.868245
+2022-11-08 11:29:21,872 - basicLogger - INFO - 2022-11-08 11:29:21.872841
+2022-11-08 11:29:26,869 - basicLogger - INFO - 2022-11-08 11:29:26.869932
+2022-11-08 11:29:31,859 - basicLogger - INFO - 2022-11-08 11:29:31.859982
+2022-11-08 11:29:36,862 - basicLogger - INFO - 2022-11-08 11:29:36.862515
+2022-11-08 11:29:41,871 - basicLogger - INFO - 2022-11-08 11:29:41.871728
+2022-11-08 11:29:46,860 - basicLogger - INFO - 2022-11-08 11:29:46.860231
+2022-11-08 11:29:51,863 - basicLogger - INFO - 2022-11-08 11:29:51.863443
+2022-11-08 11:29:56,867 - basicLogger - INFO - 2022-11-08 11:29:56.867006
+2022-11-08 11:30:01,870 - basicLogger - INFO - 2022-11-08 11:30:01.870981
+2022-11-08 11:30:06,861 - basicLogger - INFO - 2022-11-08 11:30:06.861486
+2022-11-08 11:30:11,865 - basicLogger - INFO - 2022-11-08 11:30:11.865186
+2022-11-08 11:30:16,871 - basicLogger - INFO - 2022-11-08 11:30:16.871104
+2022-11-08 11:30:21,861 - basicLogger - INFO - 2022-11-08 11:30:21.861320
+2022-11-08 11:30:26,865 - basicLogger - INFO - 2022-11-08 11:30:26.865209
+2022-11-08 11:30:31,869 - basicLogger - INFO - 2022-11-08 11:30:31.869822
+2022-11-08 11:30:36,873 - basicLogger - INFO - 2022-11-08 11:30:36.873141
+2022-11-08 11:30:41,859 - basicLogger - INFO - 2022-11-08 11:30:41.859086
+2022-11-08 11:30:46,863 - basicLogger - INFO - 2022-11-08 11:30:46.862706
+2022-11-08 11:30:51,869 - basicLogger - INFO - 2022-11-08 11:30:51.869362
+2022-11-08 11:30:56,871 - basicLogger - INFO - 2022-11-08 11:30:56.871459
+2022-11-08 11:31:01,864 - basicLogger - INFO - 2022-11-08 11:31:01.864520
+2022-11-08 11:31:06,871 - basicLogger - INFO - 2022-11-08 11:31:06.871188
+2022-11-08 11:31:11,873 - basicLogger - INFO - 2022-11-08 11:31:11.873186
+2022-11-08 11:31:16,859 - basicLogger - INFO - 2022-11-08 11:31:16.859214
+2022-11-08 11:31:21,863 - basicLogger - INFO - 2022-11-08 11:31:21.863886
+2022-11-08 11:31:26,869 - basicLogger - INFO - 2022-11-08 11:31:26.869246
+2022-11-08 11:31:31,874 - basicLogger - INFO - 2022-11-08 11:31:31.873854
+2022-11-08 11:31:36,863 - basicLogger - INFO - 2022-11-08 11:31:36.863400
+2022-11-08 11:31:41,872 - basicLogger - INFO - 2022-11-08 11:31:41.872706
+2022-11-08 11:31:46,861 - basicLogger - INFO - 2022-11-08 11:31:46.861595
+2022-11-08 11:31:51,865 - basicLogger - INFO - 2022-11-08 11:31:51.864987
+2022-11-08 11:31:56,873 - basicLogger - INFO - 2022-11-08 11:31:56.873283
+2022-11-08 11:32:01,858 - basicLogger - INFO - 2022-11-08 11:32:01.858389
+2022-11-08 11:32:06,861 - basicLogger - INFO - 2022-11-08 11:32:06.861734
+2022-11-08 11:32:11,877 - basicLogger - INFO - 2022-11-08 11:32:11.877889
+2022-11-08 11:32:16,867 - basicLogger - INFO - 2022-11-08 11:32:16.867687
+2022-11-08 11:32:21,870 - basicLogger - INFO - 2022-11-08 11:32:21.870843
+2022-11-08 11:32:26,859 - basicLogger - INFO - 2022-11-08 11:32:26.859231
+2022-11-08 11:32:31,866 - basicLogger - INFO - 2022-11-08 11:32:31.866811
+2022-11-08 11:32:36,872 - basicLogger - INFO - 2022-11-08 11:32:36.872161
+2022-11-08 11:32:41,859 - basicLogger - INFO - 2022-11-08 11:32:41.859018
+2022-11-08 11:32:46,865 - basicLogger - INFO - 2022-11-08 11:32:46.865016
+2022-11-08 11:32:51,868 - basicLogger - INFO - 2022-11-08 11:32:51.868048
+2022-11-08 11:32:56,870 - basicLogger - INFO - 2022-11-08 11:32:56.870686
+2022-11-08 11:33:01,864 - basicLogger - INFO - 2022-11-08 11:33:01.864961
+2022-11-08 11:33:06,863 - basicLogger - INFO - 2022-11-08 11:33:06.863258
+2022-11-08 11:33:11,866 - basicLogger - INFO - 2022-11-08 11:33:11.866970
+2022-11-08 11:33:16,870 - basicLogger - INFO - 2022-11-08 11:33:16.870729
+2022-11-08 11:33:21,873 - basicLogger - INFO - 2022-11-08 11:33:21.873382
+2022-11-08 11:33:26,861 - basicLogger - INFO - 2022-11-08 11:33:26.861724
+2022-11-08 11:33:31,863 - basicLogger - INFO - 2022-11-08 11:33:31.863325
+2022-11-08 11:33:36,866 - basicLogger - INFO - 2022-11-08 11:33:36.866897
+2022-11-08 11:33:41,872 - basicLogger - INFO - 2022-11-08 11:33:41.871753
+2022-11-08 11:33:46,874 - basicLogger - INFO - 2022-11-08 11:33:46.874687
+2022-11-08 11:33:51,862 - basicLogger - INFO - 2022-11-08 11:33:51.862023
+2022-11-08 11:33:56,866 - basicLogger - INFO - 2022-11-08 11:33:56.866266
+2022-11-08 11:34:01,870 - basicLogger - INFO - 2022-11-08 11:34:01.870689
+2022-11-08 11:34:06,862 - basicLogger - INFO - 2022-11-08 11:34:06.861694
+2022-11-08 11:34:11,865 - basicLogger - INFO - 2022-11-08 11:34:11.865071
+2022-11-08 11:34:16,870 - basicLogger - INFO - 2022-11-08 11:34:16.870071
+2022-11-08 11:34:21,871 - basicLogger - INFO - 2022-11-08 11:34:21.871570
+2022-11-08 11:34:26,873 - basicLogger - INFO - 2022-11-08 11:34:26.873488
+2022-11-08 11:34:31,863 - basicLogger - INFO - 2022-11-08 11:34:31.863809
+2022-11-08 11:34:36,863 - basicLogger - INFO - 2022-11-08 11:34:36.863983
+2022-11-08 11:34:41,868 - basicLogger - INFO - 2022-11-08 11:34:41.868186
+2022-11-08 11:34:46,873 - basicLogger - INFO - 2022-11-08 11:34:46.873648
+2022-11-21 17:15:19,530 - basicLogger - INFO - Periodic processing initiated
+2022-11-21 17:15:24,532 - basicLogger - INFO - 2022-11-21 17:15:24.532647
+2022-11-21 17:15:26,626 - basicLogger - INFO - Status code is not 200
+2022-11-21 17:15:28,729 - basicLogger - INFO - Status code is not 200
+2022-11-21 17:15:29,541 - basicLogger - INFO - 2022-11-21 17:15:29.541593
+2022-11-21 17:15:31,615 - basicLogger - INFO - Status code is not 200
+2022-11-21 17:15:33,684 - basicLogger - INFO - Status code is not 200
+2022-11-21 17:15:34,542 - basicLogger - INFO - 2022-11-21 17:15:34.542639
+2022-11-21 17:15:36,611 - basicLogger - INFO - Status code is not 200
+2022-11-21 17:16:51,176 - basicLogger - INFO - Periodic processing initiated
+2022-11-21 17:16:56,189 - basicLogger - INFO - 2022-11-21 17:16:56.189960
+2022-11-21 17:17:01,193 - basicLogger - INFO - 2022-11-21 17:17:01.193447
+2022-11-21 17:17:06,195 - basicLogger - INFO - 2022-11-21 17:17:06.195914
+2022-11-21 17:17:11,189 - basicLogger - INFO - 2022-11-21 17:17:11.189308
+2022-11-21 17:17:16,193 - basicLogger - INFO - 2022-11-21 17:17:16.193926
+2022-11-21 17:17:21,200 - basicLogger - INFO - 2022-11-21 17:17:21.200122
+2022-11-21 17:17:26,194 - basicLogger - INFO - 2022-11-21 17:17:26.194026
+2022-11-21 17:17:31,196 - basicLogger - INFO - 2022-11-21 17:17:31.196133
+2022-11-21 17:17:36,192 - basicLogger - INFO - 2022-11-21 17:17:36.192817
+2022-11-21 17:17:41,200 - basicLogger - INFO - 2022-11-21 17:17:41.200610
+2022-11-21 17:17:59,911 - basicLogger - INFO - Periodic processing initiated
+2022-11-21 17:18:04,930 - basicLogger - INFO - 2022-11-21 17:18:04.929992
+2022-11-21 17:18:09,932 - basicLogger - INFO - 2022-11-21 17:18:09.932112
+2022-11-21 17:18:14,918 - basicLogger - INFO - 2022-11-21 17:18:14.918612
+2022-11-21 17:18:19,922 - basicLogger - INFO - 2022-11-21 17:18:19.922557
+2022-11-21 17:18:24,925 - basicLogger - INFO - 2022-11-21 17:18:24.925205
+2022-11-21 17:18:29,928 - basicLogger - INFO - 2022-11-21 17:18:29.928203
+2022-11-21 17:18:34,917 - basicLogger - INFO - 2022-11-21 17:18:34.917982
+2022-11-21 17:18:39,924 - basicLogger - INFO - 2022-11-21 17:18:39.924049
+2022-11-21 17:18:44,927 - basicLogger - INFO - 2022-11-21 17:18:44.927477
+2022-11-21 17:18:49,932 - basicLogger - INFO - 2022-11-21 17:18:49.932222
+2022-11-21 17:18:54,922 - basicLogger - INFO - 2022-11-21 17:18:54.922040
+2022-11-21 17:18:59,925 - basicLogger - INFO - 2022-11-21 17:18:59.925540
+2022-11-21 17:19:04,927 - basicLogger - INFO - 2022-11-21 17:19:04.927555
+2022-11-21 17:19:09,931 - basicLogger - INFO - 2022-11-21 17:19:09.931206
+2022-11-21 17:19:14,921 - basicLogger - INFO - 2022-11-21 17:19:14.921710
+2022-11-21 17:19:19,924 - basicLogger - INFO - 2022-11-21 17:19:19.924464
+2022-11-21 17:19:24,928 - basicLogger - INFO - 2022-11-21 17:19:24.928008
+2022-11-21 17:19:29,932 - basicLogger - INFO - 2022-11-21 17:19:29.932944
+2022-11-21 17:19:34,926 - basicLogger - INFO - 2022-11-21 17:19:34.925614
+2022-11-21 17:19:39,928 - basicLogger - INFO - 2022-11-21 17:19:39.928128
+2022-11-21 17:19:44,931 - basicLogger - INFO - 2022-11-21 17:19:44.931115
+2022-11-21 17:19:49,918 - basicLogger - INFO - 2022-11-21 17:19:49.918180
+2022-11-21 17:19:54,922 - basicLogger - INFO - 2022-11-21 17:19:54.922049
+2022-11-21 17:19:59,924 - basicLogger - INFO - 2022-11-21 17:19:59.924442
+2022-11-21 17:20:04,927 - basicLogger - INFO - 2022-11-21 17:20:04.927912
+2022-11-21 17:20:09,931 - basicLogger - INFO - 2022-11-21 17:20:09.931976
+2022-11-21 17:20:14,917 - basicLogger - INFO - 2022-11-21 17:20:14.917882
+2022-11-21 17:20:19,921 - basicLogger - INFO - 2022-11-21 17:20:19.921384
+2022-11-21 17:20:24,925 - basicLogger - INFO - 2022-11-21 17:20:24.925183
+2022-11-21 17:20:29,927 - basicLogger - INFO - 2022-11-21 17:20:29.927542
+2022-11-21 17:20:34,931 - basicLogger - INFO - 2022-11-21 17:20:34.931673
+2022-11-21 17:20:39,920 - basicLogger - INFO - 2022-11-21 17:20:39.920029
+2022-11-21 17:20:44,924 - basicLogger - INFO - 2022-11-21 17:20:44.924527
+2022-11-21 17:20:49,928 - basicLogger - INFO - 2022-11-21 17:20:49.928052
+2022-11-21 17:20:54,929 - basicLogger - INFO - 2022-11-21 17:20:54.929795
+2022-11-21 17:20:59,917 - basicLogger - INFO - 2022-11-21 17:20:59.917035
+2022-11-21 17:21:04,921 - basicLogger - INFO - 2022-11-21 17:21:04.921355
+2022-11-21 17:21:09,924 - basicLogger - INFO - 2022-11-21 17:21:09.924280
+2022-11-21 17:21:14,927 - basicLogger - INFO - 2022-11-21 17:21:14.927227
+2022-11-21 17:21:19,931 - basicLogger - INFO - 2022-11-21 17:21:19.931823
+2022-11-21 17:21:20,621 - basicLogger - INFO - GET request initiated
+2022-11-21 17:21:20,637 - basicLogger - INFO - GET request completed
+2022-11-21 17:21:20,638 - basicLogger - DEBUG - stats: {'num_bk_withdrawals': 13, 'num_bk_returns': 21, 'max_overdue_length': 14, 'max_overdue_fine': 50.44, 'longest_book_withdrawn': 1294, 'last_updated': '2022-11-21T17:21:09'}
+2022-11-21 17:21:24,918 - basicLogger - INFO - 2022-11-21 17:21:24.918854
+2022-11-21 17:21:29,921 - basicLogger - INFO - 2022-11-21 17:21:29.921982
+2022-11-21 17:21:34,925 - basicLogger - INFO - 2022-11-21 17:21:34.925822
+2022-11-21 17:21:39,929 - basicLogger - INFO - 2022-11-21 17:21:39.929819
+2022-11-21 17:21:44,917 - basicLogger - INFO - 2022-11-21 17:21:44.916827
+2022-11-21 17:21:49,922 - basicLogger - INFO - 2022-11-21 17:21:49.922327
+2022-11-21 17:21:54,924 - basicLogger - INFO - 2022-11-21 17:21:54.924870
+2022-11-21 17:21:59,924 - basicLogger - INFO - 2022-11-21 17:21:59.924650
+2022-11-21 17:22:04,926 - basicLogger - INFO - 2022-11-21 17:22:04.926588
+2022-11-21 17:22:09,930 - basicLogger - INFO - 2022-11-21 17:22:09.930229
+2022-11-21 17:22:14,917 - basicLogger - INFO - 2022-11-21 17:22:14.917297
+2022-11-21 17:22:19,920 - basicLogger - INFO - 2022-11-21 17:22:19.920293
+2022-11-21 17:22:24,923 - basicLogger - INFO - 2022-11-21 17:22:24.923834
+2022-11-21 17:22:29,925 - basicLogger - INFO - 2022-11-21 17:22:29.925833
+2022-11-21 17:22:34,928 - basicLogger - INFO - 2022-11-21 17:22:34.928849
+2022-11-21 17:22:39,931 - basicLogger - INFO - 2022-11-21 17:22:39.931540
+2022-11-21 17:22:44,919 - basicLogger - INFO - 2022-11-21 17:22:44.918804
+2022-11-21 17:22:49,921 - basicLogger - INFO - 2022-11-21 17:22:49.921305
+2022-11-21 17:22:54,924 - basicLogger - INFO - 2022-11-21 17:22:54.924929
+2022-11-21 17:22:59,926 - basicLogger - INFO - 2022-11-21 17:22:59.926429
+2022-11-21 17:23:04,929 - basicLogger - INFO - 2022-11-21 17:23:04.929565
+2022-11-21 17:23:09,916 - basicLogger - INFO - 2022-11-21 17:23:09.916565
+2022-11-21 17:23:14,920 - basicLogger - INFO - 2022-11-21 17:23:14.920067
+2022-11-21 17:23:19,921 - basicLogger - INFO - 2022-11-21 17:23:19.921998
+2022-11-21 17:23:24,927 - basicLogger - INFO - 2022-11-21 17:23:24.927215
+2022-11-21 17:23:29,930 - basicLogger - INFO - 2022-11-21 17:23:29.929812
+2022-11-21 17:23:34,916 - basicLogger - INFO - 2022-11-21 17:23:34.916682
+2022-11-21 17:23:39,920 - basicLogger - INFO - 2022-11-21 17:23:39.920156
+2022-11-21 17:23:44,923 - basicLogger - INFO - 2022-11-21 17:23:44.923245
+2022-11-21 17:23:49,926 - basicLogger - INFO - 2022-11-21 17:23:49.925664
+2022-11-21 17:23:54,931 - basicLogger - INFO - 2022-11-21 17:23:54.931345
+2022-11-21 17:23:59,920 - basicLogger - INFO - 2022-11-21 17:23:59.920659
+2022-11-21 17:24:04,933 - basicLogger - INFO - 2022-11-21 17:24:04.933843
+2022-11-21 17:24:09,919 - basicLogger - INFO - 2022-11-21 17:24:09.919011
+2022-11-21 17:24:14,932 - basicLogger - INFO - 2022-11-21 17:24:14.932830
+2022-11-21 17:24:19,920 - basicLogger - INFO - 2022-11-21 17:24:19.920283
+2022-11-21 17:24:24,928 - basicLogger - INFO - 2022-11-21 17:24:24.928287
+2022-11-21 17:24:29,924 - basicLogger - INFO - 2022-11-21 17:24:29.924411
+2022-11-21 17:24:34,937 - basicLogger - INFO - 2022-11-21 17:24:34.937245
+2022-11-21 17:24:39,926 - basicLogger - INFO - 2022-11-21 17:24:39.926714
+2022-11-21 17:24:44,937 - basicLogger - INFO - 2022-11-21 17:24:44.937616
+2022-11-21 17:24:49,923 - basicLogger - INFO - 2022-11-21 17:24:49.923102
+2022-11-21 17:24:54,934 - basicLogger - INFO - 2022-11-21 17:24:54.934723
+2022-11-21 17:24:59,930 - basicLogger - INFO - 2022-11-21 17:24:59.930014
+2022-11-21 17:25:04,927 - basicLogger - INFO - 2022-11-21 17:25:04.927454
+2022-11-21 20:12:47,579 - basicLogger - INFO - Periodic processing initiated
+2022-11-21 20:12:52,589 - basicLogger - INFO - 2022-11-21 20:12:52.589858
+2022-11-21 20:13:02,597 - basicLogger - INFO - 2022-11-21 20:13:02.597055
+2022-11-21 20:13:07,615 - basicLogger - INFO - 2022-11-21 20:13:07.615554
+2022-11-21 20:13:12,607 - basicLogger - INFO - 2022-11-21 20:13:12.607411
+2022-11-21 20:13:17,593 - basicLogger - INFO - 2022-11-21 20:13:17.593409
+2022-11-21 20:13:22,597 - basicLogger - INFO - 2022-11-21 20:13:22.597014
+2022-11-21 20:13:27,587 - basicLogger - INFO - 2022-11-21 20:13:27.587247
+2022-11-21 20:13:32,592 - basicLogger - INFO - 2022-11-21 20:13:32.592003
+2022-11-21 20:13:37,593 - basicLogger - INFO - 2022-11-21 20:13:37.593861
+2022-11-21 20:13:42,598 - basicLogger - INFO - 2022-11-21 20:13:42.598249
+2022-11-21 20:13:47,585 - basicLogger - INFO - 2022-11-21 20:13:47.585748
+2022-11-21 20:13:52,587 - basicLogger - INFO - 2022-11-21 20:13:52.587747
+2022-11-21 20:13:57,585 - basicLogger - INFO - 2022-11-21 20:13:57.585137
+2022-11-21 20:14:02,588 - basicLogger - INFO - 2022-11-21 20:14:02.588415
+2022-11-21 20:14:07,590 - basicLogger - INFO - 2022-11-21 20:14:07.590914
+2022-11-21 20:14:12,593 - basicLogger - INFO - 2022-11-21 20:14:12.593717
+2022-11-21 20:14:17,596 - basicLogger - INFO - 2022-11-21 20:14:17.596715
+2022-11-21 20:14:22,597 - basicLogger - INFO - 2022-11-21 20:14:22.597686
+2022-11-21 20:14:27,585 - basicLogger - INFO - 2022-11-21 20:14:27.585189
+2022-11-21 20:14:32,587 - basicLogger - INFO - 2022-11-21 20:14:32.587742
+2022-11-21 20:14:37,590 - basicLogger - INFO - 2022-11-21 20:14:37.590968
+2022-11-21 20:14:42,593 - basicLogger - INFO - 2022-11-21 20:14:42.593971
+2022-11-21 20:14:47,597 - basicLogger - INFO - 2022-11-21 20:14:47.597966
+2022-11-21 20:14:52,585 - basicLogger - INFO - 2022-11-21 20:14:52.585602
+2022-11-21 20:14:57,588 - basicLogger - INFO - 2022-11-21 20:14:57.588104
+2022-11-21 20:15:02,591 - basicLogger - INFO - 2022-11-21 20:15:02.591077
+2022-11-21 20:15:07,593 - basicLogger - INFO - 2022-11-21 20:15:07.592831
+2022-11-21 20:15:12,595 - basicLogger - INFO - 2022-11-21 20:15:12.595124
+2022-11-21 20:15:17,599 - basicLogger - INFO - 2022-11-21 20:15:17.599438
+2022-11-21 20:15:22,587 - basicLogger - INFO - 2022-11-21 20:15:22.587045
+2022-11-21 20:15:27,591 - basicLogger - INFO - 2022-11-21 20:15:27.591934
+2022-11-21 20:15:32,595 - basicLogger - INFO - 2022-11-21 20:15:32.595636
+2022-11-21 20:15:37,582 - basicLogger - INFO - 2022-11-21 20:15:37.582632
+2022-11-21 20:15:42,585 - basicLogger - INFO - 2022-11-21 20:15:42.585131
+2022-11-21 20:15:47,589 - basicLogger - INFO - 2022-11-21 20:15:47.589268
+2022-11-21 20:15:52,593 - basicLogger - INFO - 2022-11-21 20:15:52.593771
+2022-11-21 20:15:57,596 - basicLogger - INFO - 2022-11-21 20:15:57.596588
+2022-11-21 20:16:02,589 - basicLogger - INFO - 2022-11-21 20:16:02.589757
+2022-11-21 20:16:07,591 - basicLogger - INFO - 2022-11-21 20:16:07.590914
+2022-11-21 20:16:12,593 - basicLogger - INFO - 2022-11-21 20:16:12.593413
+2022-11-21 20:16:17,597 - basicLogger - INFO - 2022-11-21 20:16:17.597001
+2022-11-21 21:03:26,566 - basicLogger - INFO - Periodic processing initiated
+2022-11-21 21:03:31,583 - basicLogger - INFO - 2022-11-21 21:03:31.583210
+2022-11-21 21:03:41,576 - basicLogger - INFO - 2022-11-21 21:03:41.575790
+2022-11-21 21:03:46,580 - basicLogger - INFO - 2022-11-21 21:03:46.580646
+2022-11-21 21:03:51,584 - basicLogger - INFO - 2022-11-21 21:03:51.584758
+2022-11-21 21:03:56,571 - basicLogger - INFO - 2022-11-21 21:03:56.571762
+2022-11-21 21:04:01,575 - basicLogger - INFO - 2022-11-21 21:04:01.575267
+2022-11-21 21:04:06,580 - basicLogger - INFO - 2022-11-21 21:04:06.580762
+2022-11-21 21:04:11,585 - basicLogger - INFO - 2022-11-21 21:04:11.585032
+2022-11-21 21:04:16,572 - basicLogger - INFO - 2022-11-21 21:04:16.572030
+2022-11-21 21:04:21,574 - basicLogger - INFO - 2022-11-21 21:04:21.574674
+2022-11-21 21:04:26,580 - basicLogger - INFO - 2022-11-21 21:04:26.580173
+2022-11-21 21:04:30,315 - basicLogger - INFO - GET request initiated
+2022-11-21 21:04:30,351 - basicLogger - INFO - GET request completed
+2022-11-21 21:04:30,352 - basicLogger - DEBUG - stats: {'num_bk_withdrawals': 10, 'num_bk_returns': 18, 'max_overdue_length': 12, 'max_overdue_fine': 50.27, 'longest_book_withdrawn': 1327, 'last_updated': '2022-11-21T21:04:06'}
+2022-11-21 21:04:31,583 - basicLogger - INFO - 2022-11-21 21:04:31.582674
+2022-11-21 21:04:36,098 - basicLogger - INFO - GET request initiated
+2022-11-21 21:04:36,101 - basicLogger - INFO - GET request completed
+2022-11-21 21:04:36,102 - basicLogger - DEBUG - stats: {'num_bk_withdrawals': 10, 'num_bk_returns': 18, 'max_overdue_length': 12, 'max_overdue_fine': 50.27, 'longest_book_withdrawn': 1327, 'last_updated': '2022-11-21T21:04:06'}
+2022-11-21 21:04:36,586 - basicLogger - INFO - 2022-11-21 21:04:36.586024
+2022-11-21 21:04:41,573 - basicLogger - INFO - 2022-11-21 21:04:41.573419
+2022-11-21 21:04:46,575 - basicLogger - INFO - 2022-11-21 21:04:46.575423
+2022-11-21 21:04:51,578 - basicLogger - INFO - 2022-11-21 21:04:51.578246
+2022-11-21 21:04:56,581 - basicLogger - INFO - 2022-11-21 21:04:56.581156
+2022-11-21 21:05:01,576 - basicLogger - INFO - 2022-11-21 21:05:01.576656
+2022-11-21 21:05:06,580 - basicLogger - INFO - 2022-11-21 21:05:06.580969
+2022-11-21 21:05:11,585 - basicLogger - INFO - 2022-11-21 21:05:11.585967
+2022-11-21 21:05:16,572 - basicLogger - INFO - 2022-11-21 21:05:16.572990
+2022-11-21 21:06:24,300 - basicLogger - INFO - Periodic processing initiated
+2022-11-21 21:06:29,308 - basicLogger - INFO - 2022-11-21 21:06:29.308497
+2022-11-21 21:06:39,317 - basicLogger - INFO - 2022-11-21 21:06:39.317359
+2022-11-21 21:06:44,306 - basicLogger - INFO - 2022-11-21 21:06:44.306827
+2022-11-21 21:06:49,310 - basicLogger - INFO - 2022-11-21 21:06:49.310814
+2022-11-21 21:06:54,313 - basicLogger - INFO - 2022-11-21 21:06:54.313425
+2022-11-21 21:06:59,316 - basicLogger - INFO - 2022-11-21 21:06:59.316479
+2022-11-21 21:07:04,303 - basicLogger - INFO - 2022-11-21 21:07:04.303707
+2022-11-21 21:07:09,317 - basicLogger - INFO - 2022-11-21 21:07:09.317830
+2022-11-21 21:07:14,306 - basicLogger - INFO - 2022-11-21 21:07:14.306002
+2022-11-21 21:07:19,309 - basicLogger - INFO - 2022-11-21 21:07:19.309676
+2022-11-21 21:07:24,315 - basicLogger - INFO - 2022-11-21 21:07:24.315679
+2022-11-21 21:07:29,318 - basicLogger - INFO - 2022-11-21 21:07:29.318831
+2022-11-21 21:07:34,307 - basicLogger - INFO - 2022-11-21 21:07:34.307149
+2022-11-21 21:08:29,138 - basicLogger - INFO - Periodic processing initiated
+2022-11-21 21:08:34,147 - basicLogger - INFO - 2022-11-21 21:08:34.147737
+2022-11-21 21:08:38,681 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:08:38,682 - basicLogger - DEBUG - returns_data: []
+2022-11-21 21:08:39,152 - basicLogger - INFO - 2022-11-21 21:08:39.152741
+2022-11-21 21:08:43,719 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:08:43,720 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.138239', 'days_overdue': 6, 'expected_fine': 17.31, 'return_id': 'c9f43a64-d286-48ad-8366-41c7b96aadab', 'timestamp': '21/11/2022', 'trace_id': 'e005fb7a-ae84-4de7-ac79-a1c5b1c1549c'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.445737', 'days_overdue': 7, 'expected_fine': 33.15, 'return_id': '8e7724f3-4b4b-452f-af3f-301b307369b6', 'timestamp': '21/11/2022', 'trace_id': 'b36b8def-b1e3-4e4b-a9c3-99e5338eeffa'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.762739', 'days_overdue': 3, 'expected_fine': 48.12, 'return_id': '577f9ad5-21bb-4925-a650-e4c44dabeabf', 'timestamp': '21/11/2022', 'trace_id': '4975f3e7-806b-44a0-a88f-db5b7d9a5367'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.080743', 'days_overdue': 13, 'expected_fine': 36.49, 'return_id': 'ea580537-20fe-45f5-b13a-18c96ddfcad3', 'timestamp': '21/11/2022', 'trace_id': '7883fa85-c904-4097-bb77-c93a8526c9cc'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.390737', 'days_overdue': 4, 'expected_fine': 3.28, 'return_id': 'fa9fce6d-58f7-47c7-a8e3-35b5b71be009', 'timestamp': '21/11/2022', 'trace_id': '31ab1ea2-32f4-4b61-9269-7bcbdcd1834d'}]
+2022-11-21 21:08:44,158 - basicLogger - INFO - 2022-11-21 21:08:44.158238
+2022-11-21 21:08:48,704 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:08:48,705 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.138239', 'days_overdue': 6, 'expected_fine': 17.31, 'return_id': 'c9f43a64-d286-48ad-8366-41c7b96aadab', 'timestamp': '21/11/2022', 'trace_id': 'e005fb7a-ae84-4de7-ac79-a1c5b1c1549c'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.445737', 'days_overdue': 7, 'expected_fine': 33.15, 'return_id': '8e7724f3-4b4b-452f-af3f-301b307369b6', 'timestamp': '21/11/2022', 'trace_id': 'b36b8def-b1e3-4e4b-a9c3-99e5338eeffa'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.762739', 'days_overdue': 3, 'expected_fine': 48.12, 'return_id': '577f9ad5-21bb-4925-a650-e4c44dabeabf', 'timestamp': '21/11/2022', 'trace_id': '4975f3e7-806b-44a0-a88f-db5b7d9a5367'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.080743', 'days_overdue': 13, 'expected_fine': 36.49, 'return_id': 'ea580537-20fe-45f5-b13a-18c96ddfcad3', 'timestamp': '21/11/2022', 'trace_id': '7883fa85-c904-4097-bb77-c93a8526c9cc'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.390737', 'days_overdue': 4, 'expected_fine': 3.28, 'return_id': 'fa9fce6d-58f7-47c7-a8e3-35b5b71be009', 'timestamp': '21/11/2022', 'trace_id': '31ab1ea2-32f4-4b61-9269-7bcbdcd1834d'}]
+2022-11-21 21:08:49,146 - basicLogger - INFO - 2022-11-21 21:08:49.146170
+2022-11-21 21:08:53,703 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:08:53,704 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.138239', 'days_overdue': 6, 'expected_fine': 17.31, 'return_id': 'c9f43a64-d286-48ad-8366-41c7b96aadab', 'timestamp': '21/11/2022', 'trace_id': 'e005fb7a-ae84-4de7-ac79-a1c5b1c1549c'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.445737', 'days_overdue': 7, 'expected_fine': 33.15, 'return_id': '8e7724f3-4b4b-452f-af3f-301b307369b6', 'timestamp': '21/11/2022', 'trace_id': 'b36b8def-b1e3-4e4b-a9c3-99e5338eeffa'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.762739', 'days_overdue': 3, 'expected_fine': 48.12, 'return_id': '577f9ad5-21bb-4925-a650-e4c44dabeabf', 'timestamp': '21/11/2022', 'trace_id': '4975f3e7-806b-44a0-a88f-db5b7d9a5367'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.080743', 'days_overdue': 13, 'expected_fine': 36.49, 'return_id': 'ea580537-20fe-45f5-b13a-18c96ddfcad3', 'timestamp': '21/11/2022', 'trace_id': '7883fa85-c904-4097-bb77-c93a8526c9cc'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.390737', 'days_overdue': 4, 'expected_fine': 3.28, 'return_id': 'fa9fce6d-58f7-47c7-a8e3-35b5b71be009', 'timestamp': '21/11/2022', 'trace_id': '31ab1ea2-32f4-4b61-9269-7bcbdcd1834d'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.296506', 'days_overdue': 3, 'expected_fine': 21.6, 'return_id': '600db4a8-8b0d-481b-95a1-9477da7d29be', 'timestamp': '21/11/2022', 'trace_id': '13be869b-42f6-4231-9385-0c4ae0f539b8'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.614505', 'days_overdue': 1, 'expected_fine': 19.5, 'return_id': '4db040b7-553e-4b13-8b68-ad05c29c59cd', 'timestamp': '21/11/2022', 'trace_id': '51462dcb-990e-46dc-b655-e4bf697cb33d'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.926505', 'days_overdue': 2, 'expected_fine': 25.58, 'return_id': '58125113-7754-4309-819a-8c81771d1c09', 'timestamp': '21/11/2022', 'trace_id': '3269b83a-4020-4d26-a67a-2223ba0a1797'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:53.230006', 'days_overdue': 5, 'expected_fine': 32.82, 'return_id': '42c9712e-3d31-4f5e-a5af-e44caaf649da', 'timestamp': '21/11/2022', 'trace_id': '5728ed9f-a4a8-41ed-9d3e-4d76ed4a0378'}]
+2022-11-21 21:08:54,150 - basicLogger - INFO - 2022-11-21 21:08:54.150006
+2022-11-21 21:08:58,699 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:08:58,700 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.138239', 'days_overdue': 6, 'expected_fine': 17.31, 'return_id': 'c9f43a64-d286-48ad-8366-41c7b96aadab', 'timestamp': '21/11/2022', 'trace_id': 'e005fb7a-ae84-4de7-ac79-a1c5b1c1549c'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.445737', 'days_overdue': 7, 'expected_fine': 33.15, 'return_id': '8e7724f3-4b4b-452f-af3f-301b307369b6', 'timestamp': '21/11/2022', 'trace_id': 'b36b8def-b1e3-4e4b-a9c3-99e5338eeffa'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.762739', 'days_overdue': 3, 'expected_fine': 48.12, 'return_id': '577f9ad5-21bb-4925-a650-e4c44dabeabf', 'timestamp': '21/11/2022', 'trace_id': '4975f3e7-806b-44a0-a88f-db5b7d9a5367'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.080743', 'days_overdue': 13, 'expected_fine': 36.49, 'return_id': 'ea580537-20fe-45f5-b13a-18c96ddfcad3', 'timestamp': '21/11/2022', 'trace_id': '7883fa85-c904-4097-bb77-c93a8526c9cc'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.390737', 'days_overdue': 4, 'expected_fine': 3.28, 'return_id': 'fa9fce6d-58f7-47c7-a8e3-35b5b71be009', 'timestamp': '21/11/2022', 'trace_id': '31ab1ea2-32f4-4b61-9269-7bcbdcd1834d'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.296506', 'days_overdue': 3, 'expected_fine': 21.6, 'return_id': '600db4a8-8b0d-481b-95a1-9477da7d29be', 'timestamp': '21/11/2022', 'trace_id': '13be869b-42f6-4231-9385-0c4ae0f539b8'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.614505', 'days_overdue': 1, 'expected_fine': 19.5, 'return_id': '4db040b7-553e-4b13-8b68-ad05c29c59cd', 'timestamp': '21/11/2022', 'trace_id': '51462dcb-990e-46dc-b655-e4bf697cb33d'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.926505', 'days_overdue': 2, 'expected_fine': 25.58, 'return_id': '58125113-7754-4309-819a-8c81771d1c09', 'timestamp': '21/11/2022', 'trace_id': '3269b83a-4020-4d26-a67a-2223ba0a1797'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:53.230006', 'days_overdue': 5, 'expected_fine': 32.82, 'return_id': '42c9712e-3d31-4f5e-a5af-e44caaf649da', 'timestamp': '21/11/2022', 'trace_id': '5728ed9f-a4a8-41ed-9d3e-4d76ed4a0378'}]
+2022-11-21 21:08:59,153 - basicLogger - INFO - 2022-11-21 21:08:59.153050
+2022-11-21 21:09:03,701 - basicLogger - DEBUG - withdrawalsdata: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:59.077048', 'days_allowed': 5, 'genre': 'High Fantasy', 'num_of_pages': 647, 'timestamp': '21/11/2022', 'trace_id': '857aaef4-6c21-470c-a02e-9c6c88e89b5e', 'withdrawal_id': '7987e95f-b7c6-4aa1-ac55-886227555833'}]
+2022-11-21 21:09:03,702 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.138239', 'days_overdue': 6, 'expected_fine': 17.31, 'return_id': 'c9f43a64-d286-48ad-8366-41c7b96aadab', 'timestamp': '21/11/2022', 'trace_id': 'e005fb7a-ae84-4de7-ac79-a1c5b1c1549c'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.445737', 'days_overdue': 7, 'expected_fine': 33.15, 'return_id': '8e7724f3-4b4b-452f-af3f-301b307369b6', 'timestamp': '21/11/2022', 'trace_id': 'b36b8def-b1e3-4e4b-a9c3-99e5338eeffa'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.762739', 'days_overdue': 3, 'expected_fine': 48.12, 'return_id': '577f9ad5-21bb-4925-a650-e4c44dabeabf', 'timestamp': '21/11/2022', 'trace_id': '4975f3e7-806b-44a0-a88f-db5b7d9a5367'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.080743', 'days_overdue': 13, 'expected_fine': 36.49, 'return_id': 'ea580537-20fe-45f5-b13a-18c96ddfcad3', 'timestamp': '21/11/2022', 'trace_id': '7883fa85-c904-4097-bb77-c93a8526c9cc'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.390737', 'days_overdue': 4, 'expected_fine': 3.28, 'return_id': 'fa9fce6d-58f7-47c7-a8e3-35b5b71be009', 'timestamp': '21/11/2022', 'trace_id': '31ab1ea2-32f4-4b61-9269-7bcbdcd1834d'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.296506', 'days_overdue': 3, 'expected_fine': 21.6, 'return_id': '600db4a8-8b0d-481b-95a1-9477da7d29be', 'timestamp': '21/11/2022', 'trace_id': '13be869b-42f6-4231-9385-0c4ae0f539b8'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.614505', 'days_overdue': 1, 'expected_fine': 19.5, 'return_id': '4db040b7-553e-4b13-8b68-ad05c29c59cd', 'timestamp': '21/11/2022', 'trace_id': '51462dcb-990e-46dc-b655-e4bf697cb33d'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.926505', 'days_overdue': 2, 'expected_fine': 25.58, 'return_id': '58125113-7754-4309-819a-8c81771d1c09', 'timestamp': '21/11/2022', 'trace_id': '3269b83a-4020-4d26-a67a-2223ba0a1797'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:53.230006', 'days_overdue': 5, 'expected_fine': 32.82, 'return_id': '42c9712e-3d31-4f5e-a5af-e44caaf649da', 'timestamp': '21/11/2022', 'trace_id': '5728ed9f-a4a8-41ed-9d3e-4d76ed4a0378'}]
+2022-11-21 21:09:04,155 - basicLogger - INFO - 2022-11-21 21:09:04.155036
+2022-11-21 21:09:08,702 - basicLogger - DEBUG - withdrawalsdata: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:59.077048', 'days_allowed': 5, 'genre': 'High Fantasy', 'num_of_pages': 647, 'timestamp': '21/11/2022', 'trace_id': '857aaef4-6c21-470c-a02e-9c6c88e89b5e', 'withdrawal_id': '7987e95f-b7c6-4aa1-ac55-886227555833'}]
+2022-11-21 21:09:08,704 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.138239', 'days_overdue': 6, 'expected_fine': 17.31, 'return_id': 'c9f43a64-d286-48ad-8366-41c7b96aadab', 'timestamp': '21/11/2022', 'trace_id': 'e005fb7a-ae84-4de7-ac79-a1c5b1c1549c'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.445737', 'days_overdue': 7, 'expected_fine': 33.15, 'return_id': '8e7724f3-4b4b-452f-af3f-301b307369b6', 'timestamp': '21/11/2022', 'trace_id': 'b36b8def-b1e3-4e4b-a9c3-99e5338eeffa'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.762739', 'days_overdue': 3, 'expected_fine': 48.12, 'return_id': '577f9ad5-21bb-4925-a650-e4c44dabeabf', 'timestamp': '21/11/2022', 'trace_id': '4975f3e7-806b-44a0-a88f-db5b7d9a5367'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.080743', 'days_overdue': 13, 'expected_fine': 36.49, 'return_id': 'ea580537-20fe-45f5-b13a-18c96ddfcad3', 'timestamp': '21/11/2022', 'trace_id': '7883fa85-c904-4097-bb77-c93a8526c9cc'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.390737', 'days_overdue': 4, 'expected_fine': 3.28, 'return_id': 'fa9fce6d-58f7-47c7-a8e3-35b5b71be009', 'timestamp': '21/11/2022', 'trace_id': '31ab1ea2-32f4-4b61-9269-7bcbdcd1834d'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.296506', 'days_overdue': 3, 'expected_fine': 21.6, 'return_id': '600db4a8-8b0d-481b-95a1-9477da7d29be', 'timestamp': '21/11/2022', 'trace_id': '13be869b-42f6-4231-9385-0c4ae0f539b8'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.614505', 'days_overdue': 1, 'expected_fine': 19.5, 'return_id': '4db040b7-553e-4b13-8b68-ad05c29c59cd', 'timestamp': '21/11/2022', 'trace_id': '51462dcb-990e-46dc-b655-e4bf697cb33d'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.926505', 'days_overdue': 2, 'expected_fine': 25.58, 'return_id': '58125113-7754-4309-819a-8c81771d1c09', 'timestamp': '21/11/2022', 'trace_id': '3269b83a-4020-4d26-a67a-2223ba0a1797'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:53.230006', 'days_overdue': 5, 'expected_fine': 32.82, 'return_id': '42c9712e-3d31-4f5e-a5af-e44caaf649da', 'timestamp': '21/11/2022', 'trace_id': '5728ed9f-a4a8-41ed-9d3e-4d76ed4a0378'}]
+2022-11-21 21:09:09,143 - basicLogger - INFO - 2022-11-21 21:09:09.143749
+2022-11-21 21:09:13,674 - basicLogger - DEBUG - withdrawalsdata: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:59.077048', 'days_allowed': 5, 'genre': 'High Fantasy', 'num_of_pages': 647, 'timestamp': '21/11/2022', 'trace_id': '857aaef4-6c21-470c-a02e-9c6c88e89b5e', 'withdrawal_id': '7987e95f-b7c6-4aa1-ac55-886227555833'}]
+2022-11-21 21:09:13,675 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.138239', 'days_overdue': 6, 'expected_fine': 17.31, 'return_id': 'c9f43a64-d286-48ad-8366-41c7b96aadab', 'timestamp': '21/11/2022', 'trace_id': 'e005fb7a-ae84-4de7-ac79-a1c5b1c1549c'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.445737', 'days_overdue': 7, 'expected_fine': 33.15, 'return_id': '8e7724f3-4b4b-452f-af3f-301b307369b6', 'timestamp': '21/11/2022', 'trace_id': 'b36b8def-b1e3-4e4b-a9c3-99e5338eeffa'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.762739', 'days_overdue': 3, 'expected_fine': 48.12, 'return_id': '577f9ad5-21bb-4925-a650-e4c44dabeabf', 'timestamp': '21/11/2022', 'trace_id': '4975f3e7-806b-44a0-a88f-db5b7d9a5367'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.080743', 'days_overdue': 13, 'expected_fine': 36.49, 'return_id': 'ea580537-20fe-45f5-b13a-18c96ddfcad3', 'timestamp': '21/11/2022', 'trace_id': '7883fa85-c904-4097-bb77-c93a8526c9cc'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.390737', 'days_overdue': 4, 'expected_fine': 3.28, 'return_id': 'fa9fce6d-58f7-47c7-a8e3-35b5b71be009', 'timestamp': '21/11/2022', 'trace_id': '31ab1ea2-32f4-4b61-9269-7bcbdcd1834d'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.296506', 'days_overdue': 3, 'expected_fine': 21.6, 'return_id': '600db4a8-8b0d-481b-95a1-9477da7d29be', 'timestamp': '21/11/2022', 'trace_id': '13be869b-42f6-4231-9385-0c4ae0f539b8'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.614505', 'days_overdue': 1, 'expected_fine': 19.5, 'return_id': '4db040b7-553e-4b13-8b68-ad05c29c59cd', 'timestamp': '21/11/2022', 'trace_id': '51462dcb-990e-46dc-b655-e4bf697cb33d'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.926505', 'days_overdue': 2, 'expected_fine': 25.58, 'return_id': '58125113-7754-4309-819a-8c81771d1c09', 'timestamp': '21/11/2022', 'trace_id': '3269b83a-4020-4d26-a67a-2223ba0a1797'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:53.230006', 'days_overdue': 5, 'expected_fine': 32.82, 'return_id': '42c9712e-3d31-4f5e-a5af-e44caaf649da', 'timestamp': '21/11/2022', 'trace_id': '5728ed9f-a4a8-41ed-9d3e-4d76ed4a0378'}]
+2022-11-21 21:09:14,146 - basicLogger - INFO - 2022-11-21 21:09:14.146566
+2022-11-21 21:09:18,695 - basicLogger - DEBUG - withdrawalsdata: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:59.077048', 'days_allowed': 5, 'genre': 'High Fantasy', 'num_of_pages': 647, 'timestamp': '21/11/2022', 'trace_id': '857aaef4-6c21-470c-a02e-9c6c88e89b5e', 'withdrawal_id': '7987e95f-b7c6-4aa1-ac55-886227555833'}]
+2022-11-21 21:09:18,697 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.138239', 'days_overdue': 6, 'expected_fine': 17.31, 'return_id': 'c9f43a64-d286-48ad-8366-41c7b96aadab', 'timestamp': '21/11/2022', 'trace_id': 'e005fb7a-ae84-4de7-ac79-a1c5b1c1549c'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.445737', 'days_overdue': 7, 'expected_fine': 33.15, 'return_id': '8e7724f3-4b4b-452f-af3f-301b307369b6', 'timestamp': '21/11/2022', 'trace_id': 'b36b8def-b1e3-4e4b-a9c3-99e5338eeffa'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.762739', 'days_overdue': 3, 'expected_fine': 48.12, 'return_id': '577f9ad5-21bb-4925-a650-e4c44dabeabf', 'timestamp': '21/11/2022', 'trace_id': '4975f3e7-806b-44a0-a88f-db5b7d9a5367'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.080743', 'days_overdue': 13, 'expected_fine': 36.49, 'return_id': 'ea580537-20fe-45f5-b13a-18c96ddfcad3', 'timestamp': '21/11/2022', 'trace_id': '7883fa85-c904-4097-bb77-c93a8526c9cc'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.390737', 'days_overdue': 4, 'expected_fine': 3.28, 'return_id': 'fa9fce6d-58f7-47c7-a8e3-35b5b71be009', 'timestamp': '21/11/2022', 'trace_id': '31ab1ea2-32f4-4b61-9269-7bcbdcd1834d'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.296506', 'days_overdue': 3, 'expected_fine': 21.6, 'return_id': '600db4a8-8b0d-481b-95a1-9477da7d29be', 'timestamp': '21/11/2022', 'trace_id': '13be869b-42f6-4231-9385-0c4ae0f539b8'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.614505', 'days_overdue': 1, 'expected_fine': 19.5, 'return_id': '4db040b7-553e-4b13-8b68-ad05c29c59cd', 'timestamp': '21/11/2022', 'trace_id': '51462dcb-990e-46dc-b655-e4bf697cb33d'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.926505', 'days_overdue': 2, 'expected_fine': 25.58, 'return_id': '58125113-7754-4309-819a-8c81771d1c09', 'timestamp': '21/11/2022', 'trace_id': '3269b83a-4020-4d26-a67a-2223ba0a1797'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:53.230006', 'days_overdue': 5, 'expected_fine': 32.82, 'return_id': '42c9712e-3d31-4f5e-a5af-e44caaf649da', 'timestamp': '21/11/2022', 'trace_id': '5728ed9f-a4a8-41ed-9d3e-4d76ed4a0378'}]
+2022-11-21 21:09:19,150 - basicLogger - INFO - 2022-11-21 21:09:19.150340
+2022-11-21 21:09:23,697 - basicLogger - DEBUG - withdrawalsdata: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:59.077048', 'days_allowed': 5, 'genre': 'High Fantasy', 'num_of_pages': 647, 'timestamp': '21/11/2022', 'trace_id': '857aaef4-6c21-470c-a02e-9c6c88e89b5e', 'withdrawal_id': '7987e95f-b7c6-4aa1-ac55-886227555833'}]
+2022-11-21 21:09:23,698 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.138239', 'days_overdue': 6, 'expected_fine': 17.31, 'return_id': 'c9f43a64-d286-48ad-8366-41c7b96aadab', 'timestamp': '21/11/2022', 'trace_id': 'e005fb7a-ae84-4de7-ac79-a1c5b1c1549c'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.445737', 'days_overdue': 7, 'expected_fine': 33.15, 'return_id': '8e7724f3-4b4b-452f-af3f-301b307369b6', 'timestamp': '21/11/2022', 'trace_id': 'b36b8def-b1e3-4e4b-a9c3-99e5338eeffa'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:41.762739', 'days_overdue': 3, 'expected_fine': 48.12, 'return_id': '577f9ad5-21bb-4925-a650-e4c44dabeabf', 'timestamp': '21/11/2022', 'trace_id': '4975f3e7-806b-44a0-a88f-db5b7d9a5367'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.080743', 'days_overdue': 13, 'expected_fine': 36.49, 'return_id': 'ea580537-20fe-45f5-b13a-18c96ddfcad3', 'timestamp': '21/11/2022', 'trace_id': '7883fa85-c904-4097-bb77-c93a8526c9cc'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:42.390737', 'days_overdue': 4, 'expected_fine': 3.28, 'return_id': 'fa9fce6d-58f7-47c7-a8e3-35b5b71be009', 'timestamp': '21/11/2022', 'trace_id': '31ab1ea2-32f4-4b61-9269-7bcbdcd1834d'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.296506', 'days_overdue': 3, 'expected_fine': 21.6, 'return_id': '600db4a8-8b0d-481b-95a1-9477da7d29be', 'timestamp': '21/11/2022', 'trace_id': '13be869b-42f6-4231-9385-0c4ae0f539b8'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.614505', 'days_overdue': 1, 'expected_fine': 19.5, 'return_id': '4db040b7-553e-4b13-8b68-ad05c29c59cd', 'timestamp': '21/11/2022', 'trace_id': '51462dcb-990e-46dc-b655-e4bf697cb33d'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:52.926505', 'days_overdue': 2, 'expected_fine': 25.58, 'return_id': '58125113-7754-4309-819a-8c81771d1c09', 'timestamp': '21/11/2022', 'trace_id': '3269b83a-4020-4d26-a67a-2223ba0a1797'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:08:53.230006', 'days_overdue': 5, 'expected_fine': 32.82, 'return_id': '42c9712e-3d31-4f5e-a5af-e44caaf649da', 'timestamp': '21/11/2022', 'trace_id': '5728ed9f-a4a8-41ed-9d3e-4d76ed4a0378'}]
+2022-11-21 21:11:32,205 - basicLogger - INFO - Periodic processing initiated
+2022-11-21 21:11:37,230 - basicLogger - INFO - 2022-11-21 21:11:37.230055
+2022-11-21 21:11:39,503 - basicLogger - DEBUG - withdrawals_response.json(): []
+2022-11-21 21:11:41,777 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:11:41,778 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.458053', 'days_overdue': 13, 'expected_fine': 38.9, 'return_id': '5a824d8d-bc45-4228-aedf-fd2973378215', 'timestamp': '21/11/2022', 'trace_id': '8c744ff9-a95d-4ef8-92ea-c34561158565'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.765052', 'days_overdue': 13, 'expected_fine': 6.3, 'return_id': '218c7dd0-a8fb-4b5b-abde-5664ecb32279', 'timestamp': '21/11/2022', 'trace_id': '85d7b40b-fc94-4ece-81ac-199442a4a63e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:40.073054', 'days_overdue': 12, 'expected_fine': 1.92, 'return_id': '66fe2226-b262-488b-b76a-f1a6a05e7efb', 'timestamp': '21/11/2022', 'trace_id': 'd6ff83d0-353f-4401-aad6-feb8667ef640'}]
+2022-11-21 21:11:42,220 - basicLogger - INFO - 2022-11-21 21:11:42.220554
+2022-11-21 21:11:44,498 - basicLogger - DEBUG - withdrawals_response.json(): []
+2022-11-21 21:11:46,767 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:11:46,768 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.458053', 'days_overdue': 13, 'expected_fine': 38.9, 'return_id': '5a824d8d-bc45-4228-aedf-fd2973378215', 'timestamp': '21/11/2022', 'trace_id': '8c744ff9-a95d-4ef8-92ea-c34561158565'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.765052', 'days_overdue': 13, 'expected_fine': 6.3, 'return_id': '218c7dd0-a8fb-4b5b-abde-5664ecb32279', 'timestamp': '21/11/2022', 'trace_id': '85d7b40b-fc94-4ece-81ac-199442a4a63e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:40.073054', 'days_overdue': 12, 'expected_fine': 1.92, 'return_id': '66fe2226-b262-488b-b76a-f1a6a05e7efb', 'timestamp': '21/11/2022', 'trace_id': 'd6ff83d0-353f-4401-aad6-feb8667ef640'}]
+2022-11-21 21:11:47,224 - basicLogger - INFO - 2022-11-21 21:11:47.224166
+2022-11-21 21:11:49,501 - basicLogger - DEBUG - withdrawals_response.json(): []
+2022-11-21 21:11:51,777 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:11:51,778 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.458053', 'days_overdue': 13, 'expected_fine': 38.9, 'return_id': '5a824d8d-bc45-4228-aedf-fd2973378215', 'timestamp': '21/11/2022', 'trace_id': '8c744ff9-a95d-4ef8-92ea-c34561158565'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.765052', 'days_overdue': 13, 'expected_fine': 6.3, 'return_id': '218c7dd0-a8fb-4b5b-abde-5664ecb32279', 'timestamp': '21/11/2022', 'trace_id': '85d7b40b-fc94-4ece-81ac-199442a4a63e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:40.073054', 'days_overdue': 12, 'expected_fine': 1.92, 'return_id': '66fe2226-b262-488b-b76a-f1a6a05e7efb', 'timestamp': '21/11/2022', 'trace_id': 'd6ff83d0-353f-4401-aad6-feb8667ef640'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.520265', 'days_overdue': 6, 'expected_fine': 5.49, 'return_id': 'fc16de63-ecf4-416d-859b-8e05ad344bff', 'timestamp': '21/11/2022', 'trace_id': 'd4c96664-0c5e-4b4a-9e5c-43f4e679a70e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.843266', 'days_overdue': 5, 'expected_fine': 40.81, 'return_id': 'cd103abf-76f6-48cc-85ef-94d1ba2912f9', 'timestamp': '21/11/2022', 'trace_id': '4f61ad26-0aca-466b-92f4-6b1ed903230f'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:51.143766', 'days_overdue': 13, 'expected_fine': 48.7, 'return_id': 'fd852a2e-3573-4401-b130-e6b149949bfb', 'timestamp': '21/11/2022', 'trace_id': '2cd29150-1587-4f7f-8f4e-dad64c556f68'}]
+2022-11-21 21:11:52,213 - basicLogger - INFO - 2022-11-21 21:11:52.213056
+2022-11-21 21:11:54,490 - basicLogger - DEBUG - withdrawals_response.json(): []
+2022-11-21 21:11:56,761 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:11:56,762 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.458053', 'days_overdue': 13, 'expected_fine': 38.9, 'return_id': '5a824d8d-bc45-4228-aedf-fd2973378215', 'timestamp': '21/11/2022', 'trace_id': '8c744ff9-a95d-4ef8-92ea-c34561158565'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.765052', 'days_overdue': 13, 'expected_fine': 6.3, 'return_id': '218c7dd0-a8fb-4b5b-abde-5664ecb32279', 'timestamp': '21/11/2022', 'trace_id': '85d7b40b-fc94-4ece-81ac-199442a4a63e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:40.073054', 'days_overdue': 12, 'expected_fine': 1.92, 'return_id': '66fe2226-b262-488b-b76a-f1a6a05e7efb', 'timestamp': '21/11/2022', 'trace_id': 'd6ff83d0-353f-4401-aad6-feb8667ef640'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.520265', 'days_overdue': 6, 'expected_fine': 5.49, 'return_id': 'fc16de63-ecf4-416d-859b-8e05ad344bff', 'timestamp': '21/11/2022', 'trace_id': 'd4c96664-0c5e-4b4a-9e5c-43f4e679a70e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.843266', 'days_overdue': 5, 'expected_fine': 40.81, 'return_id': 'cd103abf-76f6-48cc-85ef-94d1ba2912f9', 'timestamp': '21/11/2022', 'trace_id': '4f61ad26-0aca-466b-92f4-6b1ed903230f'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:51.143766', 'days_overdue': 13, 'expected_fine': 48.7, 'return_id': 'fd852a2e-3573-4401-b130-e6b149949bfb', 'timestamp': '21/11/2022', 'trace_id': '2cd29150-1587-4f7f-8f4e-dad64c556f68'}]
+2022-11-21 21:11:57,214 - basicLogger - INFO - 2022-11-21 21:11:57.214567
+2022-11-21 21:11:59,484 - basicLogger - DEBUG - withdrawals_response.json(): []
+2022-11-21 21:12:01,762 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:12:01,762 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.458053', 'days_overdue': 13, 'expected_fine': 38.9, 'return_id': '5a824d8d-bc45-4228-aedf-fd2973378215', 'timestamp': '21/11/2022', 'trace_id': '8c744ff9-a95d-4ef8-92ea-c34561158565'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.765052', 'days_overdue': 13, 'expected_fine': 6.3, 'return_id': '218c7dd0-a8fb-4b5b-abde-5664ecb32279', 'timestamp': '21/11/2022', 'trace_id': '85d7b40b-fc94-4ece-81ac-199442a4a63e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:40.073054', 'days_overdue': 12, 'expected_fine': 1.92, 'return_id': '66fe2226-b262-488b-b76a-f1a6a05e7efb', 'timestamp': '21/11/2022', 'trace_id': 'd6ff83d0-353f-4401-aad6-feb8667ef640'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.520265', 'days_overdue': 6, 'expected_fine': 5.49, 'return_id': 'fc16de63-ecf4-416d-859b-8e05ad344bff', 'timestamp': '21/11/2022', 'trace_id': 'd4c96664-0c5e-4b4a-9e5c-43f4e679a70e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.843266', 'days_overdue': 5, 'expected_fine': 40.81, 'return_id': 'cd103abf-76f6-48cc-85ef-94d1ba2912f9', 'timestamp': '21/11/2022', 'trace_id': '4f61ad26-0aca-466b-92f4-6b1ed903230f'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:51.143766', 'days_overdue': 13, 'expected_fine': 48.7, 'return_id': 'fd852a2e-3573-4401-b130-e6b149949bfb', 'timestamp': '21/11/2022', 'trace_id': '2cd29150-1587-4f7f-8f4e-dad64c556f68'}]
+2022-11-21 21:12:02,218 - basicLogger - INFO - 2022-11-21 21:12:02.218770
+2022-11-21 21:12:04,487 - basicLogger - DEBUG - withdrawals_response.json(): []
+2022-11-21 21:12:06,765 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:12:06,765 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.458053', 'days_overdue': 13, 'expected_fine': 38.9, 'return_id': '5a824d8d-bc45-4228-aedf-fd2973378215', 'timestamp': '21/11/2022', 'trace_id': '8c744ff9-a95d-4ef8-92ea-c34561158565'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.765052', 'days_overdue': 13, 'expected_fine': 6.3, 'return_id': '218c7dd0-a8fb-4b5b-abde-5664ecb32279', 'timestamp': '21/11/2022', 'trace_id': '85d7b40b-fc94-4ece-81ac-199442a4a63e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:40.073054', 'days_overdue': 12, 'expected_fine': 1.92, 'return_id': '66fe2226-b262-488b-b76a-f1a6a05e7efb', 'timestamp': '21/11/2022', 'trace_id': 'd6ff83d0-353f-4401-aad6-feb8667ef640'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.520265', 'days_overdue': 6, 'expected_fine': 5.49, 'return_id': 'fc16de63-ecf4-416d-859b-8e05ad344bff', 'timestamp': '21/11/2022', 'trace_id': 'd4c96664-0c5e-4b4a-9e5c-43f4e679a70e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.843266', 'days_overdue': 5, 'expected_fine': 40.81, 'return_id': 'cd103abf-76f6-48cc-85ef-94d1ba2912f9', 'timestamp': '21/11/2022', 'trace_id': '4f61ad26-0aca-466b-92f4-6b1ed903230f'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:51.143766', 'days_overdue': 13, 'expected_fine': 48.7, 'return_id': 'fd852a2e-3573-4401-b130-e6b149949bfb', 'timestamp': '21/11/2022', 'trace_id': '2cd29150-1587-4f7f-8f4e-dad64c556f68'}]
+2022-11-21 21:12:07,222 - basicLogger - INFO - 2022-11-21 21:12:07.222772
+2022-11-21 21:12:09,499 - basicLogger - DEBUG - withdrawals_response.json(): []
+2022-11-21 21:12:11,771 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:12:11,772 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.458053', 'days_overdue': 13, 'expected_fine': 38.9, 'return_id': '5a824d8d-bc45-4228-aedf-fd2973378215', 'timestamp': '21/11/2022', 'trace_id': '8c744ff9-a95d-4ef8-92ea-c34561158565'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.765052', 'days_overdue': 13, 'expected_fine': 6.3, 'return_id': '218c7dd0-a8fb-4b5b-abde-5664ecb32279', 'timestamp': '21/11/2022', 'trace_id': '85d7b40b-fc94-4ece-81ac-199442a4a63e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:40.073054', 'days_overdue': 12, 'expected_fine': 1.92, 'return_id': '66fe2226-b262-488b-b76a-f1a6a05e7efb', 'timestamp': '21/11/2022', 'trace_id': 'd6ff83d0-353f-4401-aad6-feb8667ef640'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.520265', 'days_overdue': 6, 'expected_fine': 5.49, 'return_id': 'fc16de63-ecf4-416d-859b-8e05ad344bff', 'timestamp': '21/11/2022', 'trace_id': 'd4c96664-0c5e-4b4a-9e5c-43f4e679a70e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.843266', 'days_overdue': 5, 'expected_fine': 40.81, 'return_id': 'cd103abf-76f6-48cc-85ef-94d1ba2912f9', 'timestamp': '21/11/2022', 'trace_id': '4f61ad26-0aca-466b-92f4-6b1ed903230f'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:51.143766', 'days_overdue': 13, 'expected_fine': 48.7, 'return_id': 'fd852a2e-3573-4401-b130-e6b149949bfb', 'timestamp': '21/11/2022', 'trace_id': '2cd29150-1587-4f7f-8f4e-dad64c556f68'}]
+2022-11-21 21:12:12,213 - basicLogger - INFO - 2022-11-21 21:12:12.213271
+2022-11-21 21:12:14,479 - basicLogger - DEBUG - withdrawals_response.json(): []
+2022-11-21 21:12:16,743 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:12:16,743 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.458053', 'days_overdue': 13, 'expected_fine': 38.9, 'return_id': '5a824d8d-bc45-4228-aedf-fd2973378215', 'timestamp': '21/11/2022', 'trace_id': '8c744ff9-a95d-4ef8-92ea-c34561158565'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.765052', 'days_overdue': 13, 'expected_fine': 6.3, 'return_id': '218c7dd0-a8fb-4b5b-abde-5664ecb32279', 'timestamp': '21/11/2022', 'trace_id': '85d7b40b-fc94-4ece-81ac-199442a4a63e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:40.073054', 'days_overdue': 12, 'expected_fine': 1.92, 'return_id': '66fe2226-b262-488b-b76a-f1a6a05e7efb', 'timestamp': '21/11/2022', 'trace_id': 'd6ff83d0-353f-4401-aad6-feb8667ef640'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.520265', 'days_overdue': 6, 'expected_fine': 5.49, 'return_id': 'fc16de63-ecf4-416d-859b-8e05ad344bff', 'timestamp': '21/11/2022', 'trace_id': 'd4c96664-0c5e-4b4a-9e5c-43f4e679a70e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.843266', 'days_overdue': 5, 'expected_fine': 40.81, 'return_id': 'cd103abf-76f6-48cc-85ef-94d1ba2912f9', 'timestamp': '21/11/2022', 'trace_id': '4f61ad26-0aca-466b-92f4-6b1ed903230f'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:51.143766', 'days_overdue': 13, 'expected_fine': 48.7, 'return_id': 'fd852a2e-3573-4401-b130-e6b149949bfb', 'timestamp': '21/11/2022', 'trace_id': '2cd29150-1587-4f7f-8f4e-dad64c556f68'}]
+2022-11-21 21:12:17,215 - basicLogger - INFO - 2022-11-21 21:12:17.215772
+2022-11-21 21:12:19,490 - basicLogger - DEBUG - withdrawals_response.json(): []
+2022-11-21 21:12:21,763 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:12:21,764 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.458053', 'days_overdue': 13, 'expected_fine': 38.9, 'return_id': '5a824d8d-bc45-4228-aedf-fd2973378215', 'timestamp': '21/11/2022', 'trace_id': '8c744ff9-a95d-4ef8-92ea-c34561158565'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.765052', 'days_overdue': 13, 'expected_fine': 6.3, 'return_id': '218c7dd0-a8fb-4b5b-abde-5664ecb32279', 'timestamp': '21/11/2022', 'trace_id': '85d7b40b-fc94-4ece-81ac-199442a4a63e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:40.073054', 'days_overdue': 12, 'expected_fine': 1.92, 'return_id': '66fe2226-b262-488b-b76a-f1a6a05e7efb', 'timestamp': '21/11/2022', 'trace_id': 'd6ff83d0-353f-4401-aad6-feb8667ef640'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.520265', 'days_overdue': 6, 'expected_fine': 5.49, 'return_id': 'fc16de63-ecf4-416d-859b-8e05ad344bff', 'timestamp': '21/11/2022', 'trace_id': 'd4c96664-0c5e-4b4a-9e5c-43f4e679a70e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.843266', 'days_overdue': 5, 'expected_fine': 40.81, 'return_id': 'cd103abf-76f6-48cc-85ef-94d1ba2912f9', 'timestamp': '21/11/2022', 'trace_id': '4f61ad26-0aca-466b-92f4-6b1ed903230f'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:51.143766', 'days_overdue': 13, 'expected_fine': 48.7, 'return_id': 'fd852a2e-3573-4401-b130-e6b149949bfb', 'timestamp': '21/11/2022', 'trace_id': '2cd29150-1587-4f7f-8f4e-dad64c556f68'}]
+2022-11-21 21:12:22,223 - basicLogger - INFO - 2022-11-21 21:12:22.223030
+2022-11-21 21:12:24,522 - basicLogger - DEBUG - withdrawals_response.json(): []
+2022-11-21 21:12:26,799 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:12:26,800 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.458053', 'days_overdue': 13, 'expected_fine': 38.9, 'return_id': '5a824d8d-bc45-4228-aedf-fd2973378215', 'timestamp': '21/11/2022', 'trace_id': '8c744ff9-a95d-4ef8-92ea-c34561158565'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.765052', 'days_overdue': 13, 'expected_fine': 6.3, 'return_id': '218c7dd0-a8fb-4b5b-abde-5664ecb32279', 'timestamp': '21/11/2022', 'trace_id': '85d7b40b-fc94-4ece-81ac-199442a4a63e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:40.073054', 'days_overdue': 12, 'expected_fine': 1.92, 'return_id': '66fe2226-b262-488b-b76a-f1a6a05e7efb', 'timestamp': '21/11/2022', 'trace_id': 'd6ff83d0-353f-4401-aad6-feb8667ef640'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.520265', 'days_overdue': 6, 'expected_fine': 5.49, 'return_id': 'fc16de63-ecf4-416d-859b-8e05ad344bff', 'timestamp': '21/11/2022', 'trace_id': 'd4c96664-0c5e-4b4a-9e5c-43f4e679a70e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.843266', 'days_overdue': 5, 'expected_fine': 40.81, 'return_id': 'cd103abf-76f6-48cc-85ef-94d1ba2912f9', 'timestamp': '21/11/2022', 'trace_id': '4f61ad26-0aca-466b-92f4-6b1ed903230f'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:51.143766', 'days_overdue': 13, 'expected_fine': 48.7, 'return_id': 'fd852a2e-3573-4401-b130-e6b149949bfb', 'timestamp': '21/11/2022', 'trace_id': '2cd29150-1587-4f7f-8f4e-dad64c556f68'}]
+2022-11-21 21:12:27,225 - basicLogger - INFO - 2022-11-21 21:12:27.225263
+2022-11-21 21:12:29,497 - basicLogger - DEBUG - withdrawals_response.json(): []
+2022-11-21 21:12:31,793 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:12:31,794 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.458053', 'days_overdue': 13, 'expected_fine': 38.9, 'return_id': '5a824d8d-bc45-4228-aedf-fd2973378215', 'timestamp': '21/11/2022', 'trace_id': '8c744ff9-a95d-4ef8-92ea-c34561158565'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.765052', 'days_overdue': 13, 'expected_fine': 6.3, 'return_id': '218c7dd0-a8fb-4b5b-abde-5664ecb32279', 'timestamp': '21/11/2022', 'trace_id': '85d7b40b-fc94-4ece-81ac-199442a4a63e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:40.073054', 'days_overdue': 12, 'expected_fine': 1.92, 'return_id': '66fe2226-b262-488b-b76a-f1a6a05e7efb', 'timestamp': '21/11/2022', 'trace_id': 'd6ff83d0-353f-4401-aad6-feb8667ef640'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.520265', 'days_overdue': 6, 'expected_fine': 5.49, 'return_id': 'fc16de63-ecf4-416d-859b-8e05ad344bff', 'timestamp': '21/11/2022', 'trace_id': 'd4c96664-0c5e-4b4a-9e5c-43f4e679a70e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.843266', 'days_overdue': 5, 'expected_fine': 40.81, 'return_id': 'cd103abf-76f6-48cc-85ef-94d1ba2912f9', 'timestamp': '21/11/2022', 'trace_id': '4f61ad26-0aca-466b-92f4-6b1ed903230f'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:51.143766', 'days_overdue': 13, 'expected_fine': 48.7, 'return_id': 'fd852a2e-3573-4401-b130-e6b149949bfb', 'timestamp': '21/11/2022', 'trace_id': '2cd29150-1587-4f7f-8f4e-dad64c556f68'}]
+2022-11-21 21:12:32,212 - basicLogger - INFO - 2022-11-21 21:12:32.212764
+2022-11-21 21:12:34,480 - basicLogger - DEBUG - withdrawals_response.json(): []
+2022-11-21 21:12:36,768 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:12:36,769 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.458053', 'days_overdue': 13, 'expected_fine': 38.9, 'return_id': '5a824d8d-bc45-4228-aedf-fd2973378215', 'timestamp': '21/11/2022', 'trace_id': '8c744ff9-a95d-4ef8-92ea-c34561158565'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.765052', 'days_overdue': 13, 'expected_fine': 6.3, 'return_id': '218c7dd0-a8fb-4b5b-abde-5664ecb32279', 'timestamp': '21/11/2022', 'trace_id': '85d7b40b-fc94-4ece-81ac-199442a4a63e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:40.073054', 'days_overdue': 12, 'expected_fine': 1.92, 'return_id': '66fe2226-b262-488b-b76a-f1a6a05e7efb', 'timestamp': '21/11/2022', 'trace_id': 'd6ff83d0-353f-4401-aad6-feb8667ef640'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.520265', 'days_overdue': 6, 'expected_fine': 5.49, 'return_id': 'fc16de63-ecf4-416d-859b-8e05ad344bff', 'timestamp': '21/11/2022', 'trace_id': 'd4c96664-0c5e-4b4a-9e5c-43f4e679a70e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.843266', 'days_overdue': 5, 'expected_fine': 40.81, 'return_id': 'cd103abf-76f6-48cc-85ef-94d1ba2912f9', 'timestamp': '21/11/2022', 'trace_id': '4f61ad26-0aca-466b-92f4-6b1ed903230f'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:51.143766', 'days_overdue': 13, 'expected_fine': 48.7, 'return_id': 'fd852a2e-3573-4401-b130-e6b149949bfb', 'timestamp': '21/11/2022', 'trace_id': '2cd29150-1587-4f7f-8f4e-dad64c556f68'}]
+2022-11-21 21:12:37,215 - basicLogger - INFO - 2022-11-21 21:12:37.215911
+2022-11-21 21:12:39,489 - basicLogger - DEBUG - withdrawals_response.json(): []
+2022-11-21 21:12:41,763 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:12:41,763 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.458053', 'days_overdue': 13, 'expected_fine': 38.9, 'return_id': '5a824d8d-bc45-4228-aedf-fd2973378215', 'timestamp': '21/11/2022', 'trace_id': '8c744ff9-a95d-4ef8-92ea-c34561158565'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.765052', 'days_overdue': 13, 'expected_fine': 6.3, 'return_id': '218c7dd0-a8fb-4b5b-abde-5664ecb32279', 'timestamp': '21/11/2022', 'trace_id': '85d7b40b-fc94-4ece-81ac-199442a4a63e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:40.073054', 'days_overdue': 12, 'expected_fine': 1.92, 'return_id': '66fe2226-b262-488b-b76a-f1a6a05e7efb', 'timestamp': '21/11/2022', 'trace_id': 'd6ff83d0-353f-4401-aad6-feb8667ef640'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.520265', 'days_overdue': 6, 'expected_fine': 5.49, 'return_id': 'fc16de63-ecf4-416d-859b-8e05ad344bff', 'timestamp': '21/11/2022', 'trace_id': 'd4c96664-0c5e-4b4a-9e5c-43f4e679a70e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.843266', 'days_overdue': 5, 'expected_fine': 40.81, 'return_id': 'cd103abf-76f6-48cc-85ef-94d1ba2912f9', 'timestamp': '21/11/2022', 'trace_id': '4f61ad26-0aca-466b-92f4-6b1ed903230f'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:51.143766', 'days_overdue': 13, 'expected_fine': 48.7, 'return_id': 'fd852a2e-3573-4401-b130-e6b149949bfb', 'timestamp': '21/11/2022', 'trace_id': '2cd29150-1587-4f7f-8f4e-dad64c556f68'}]
+2022-11-21 21:12:42,218 - basicLogger - INFO - 2022-11-21 21:12:42.218270
+2022-11-21 21:12:44,509 - basicLogger - DEBUG - withdrawals_response.json(): []
+2022-11-21 21:12:46,784 - basicLogger - DEBUG - withdrawalsdata: []
+2022-11-21 21:12:46,784 - basicLogger - DEBUG - returns_data: [{'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.458053', 'days_overdue': 13, 'expected_fine': 38.9, 'return_id': '5a824d8d-bc45-4228-aedf-fd2973378215', 'timestamp': '21/11/2022', 'trace_id': '8c744ff9-a95d-4ef8-92ea-c34561158565'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:39.765052', 'days_overdue': 13, 'expected_fine': 6.3, 'return_id': '218c7dd0-a8fb-4b5b-abde-5664ecb32279', 'timestamp': '21/11/2022', 'trace_id': '85d7b40b-fc94-4ece-81ac-199442a4a63e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:40.073054', 'days_overdue': 12, 'expected_fine': 1.92, 'return_id': '66fe2226-b262-488b-b76a-f1a6a05e7efb', 'timestamp': '21/11/2022', 'trace_id': 'd6ff83d0-353f-4401-aad6-feb8667ef640'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.520265', 'days_overdue': 6, 'expected_fine': 5.49, 'return_id': 'fc16de63-ecf4-416d-859b-8e05ad344bff', 'timestamp': '21/11/2022', 'trace_id': 'd4c96664-0c5e-4b4a-9e5c-43f4e679a70e'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:50.843266', 'days_overdue': 5, 'expected_fine': 40.81, 'return_id': 'cd103abf-76f6-48cc-85ef-94d1ba2912f9', 'timestamp': '21/11/2022', 'trace_id': '4f61ad26-0aca-466b-92f4-6b1ed903230f'}, {'book_name': 'A Game of Thrones', 'date_created': '2022-11-21 21:11:51.143766', 'days_overdue': 13, 'expected_fine': 48.7, 'return_id': 'fd852a2e-3573-4401-b130-e6b149949bfb', 'timestamp': '21/11/2022', 'trace_id': '2cd29150-1587-4f7f-8f4e-dad64c556f68'}]
